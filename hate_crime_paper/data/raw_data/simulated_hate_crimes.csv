@@ -1,0 +1,1001 @@
+id,EVENT_UNIQUE_ID,OCCURRENCE_DATE,OCCURRENCE_YEAR,LOCATION_TYPE,AGE_BIAS,MENTAL_OR_PHYSICAL_DISABILITY,RACE_BIAS,ETHNICITY_BIAS,LANGUAGE_BIAS,RELIGION_BIAS,SEXUAL_ORIENTATION_BIAS,GENDER_BIAS,PRIMARY_OFFENCE,HOOD_158,ARREST_MADE,MULTIPLE_BIAS
+1,783694,2018-05-06,2018,Other,TRUE,TRUE,Black,Latino,Spanish,Buddhist,2SLGBT,Female,Assault,12,FALSE,TRUE
+2,880728,2023-04-15,2023,Residential,TRUE,TRUE,None,Arab,Mandarin,Other,None,Transgender,Vandalism,114,TRUE,TRUE
+3,602438,2019-08-14,2019,Other,TRUE,TRUE,South Asian,Chinese,Mandarin,Christian,None,None,Vandalism,136,TRUE,TRUE
+4,227284,2021-01-02,2021,Commercial,FALSE,TRUE,White,Latino,English,Christian,None,Female,Assault,68,FALSE,TRUE
+5,779441,2023-05-01,2023,Other,TRUE,FALSE,South Asian,Chinese,None,Jewish,None,Transgender,Vandalism,52,FALSE,TRUE
+6,315126,2021-11-11,2021,Other,FALSE,FALSE,Asian/Southeast Asian,Arab,Arabic,None,Gay,Female,Harassment,11,FALSE,TRUE
+7,117144,2020-10-10,2020,Other,TRUE,TRUE,South Asian,Arab,None,Buddhist,Gay,Male,Threat,85,TRUE,TRUE
+8,206370,2023-05-18,2023,Public,FALSE,FALSE,Black,African,Hindi,Christian,Gay,Transgender,Threat,132,FALSE,TRUE
+9,501878,2023-08-30,2023,Other,FALSE,TRUE,None,Arab,Mandarin,Christian,2SLGBT,Male,Vandalism,99,FALSE,TRUE
+10,654903,2021-11-13,2021,Public,FALSE,FALSE,Black,Chinese,Arabic,Other,Gay,Transgender,Harassment,12,FALSE,TRUE
+11,283739,2018-12-30,2018,Public,TRUE,FALSE,White,Japanese,None,Jewish,None,Male,Harassment,152,TRUE,TRUE
+12,643613,2023-08-22,2023,Public,TRUE,FALSE,Asian/Southeast Asian,Arab,Arabic,None,Gay,Female,Vandalism,27,FALSE,TRUE
+13,703741,2018-07-29,2018,Residential,FALSE,FALSE,Black,Afghan,Mandarin,Christian,2SLGBT,Female,Harassment,53,TRUE,TRUE
+14,575661,2023-05-24,2023,Other,TRUE,TRUE,South Asian,Afghan,Mandarin,Buddhist,None,None,Harassment,38,TRUE,TRUE
+15,661269,2019-04-25,2019,Commercial,FALSE,FALSE,Asian/Southeast Asian,Afghan,English,Jewish,Gay,Transgender,Assault,14,FALSE,TRUE
+16,896138,2022-07-30,2022,Residential,FALSE,TRUE,South Asian,African,None,None,2SLGBT,Male,Harassment,118,FALSE,TRUE
+17,629296,2019-07-27,2019,Residential,TRUE,TRUE,Black,African,Mandarin,Buddhist,2SLGBT,Male,Harassment,64,FALSE,TRUE
+18,293943,2019-06-24,2019,Public,FALSE,FALSE,None,Japanese,English,Christian,None,Female,Harassment,121,TRUE,TRUE
+19,795312,2020-06-22,2020,Other,FALSE,FALSE,White,None,None,None,2SLGBT,Female,Vandalism,158,TRUE,TRUE
+20,510356,2023-09-14,2023,Other,TRUE,FALSE,Black,African,Spanish,Jewish,None,Female,Assault,11,TRUE,TRUE
+21,568422,2020-12-15,2020,Public,TRUE,FALSE,Black,None,Mandarin,Muslim,Gay,Transgender,Harassment,127,TRUE,TRUE
+22,201861,2022-01-26,2022,Other,FALSE,FALSE,White,Chinese,None,Muslim,2SLGBT,Transgender,Vandalism,73,FALSE,TRUE
+23,803169,2022-06-30,2022,Public,TRUE,FALSE,White,African,English,Other,Gay,Male,Vandalism,144,FALSE,TRUE
+24,818952,2019-12-12,2019,Commercial,TRUE,TRUE,South Asian,Arab,Arabic,Muslim,None,Male,Vandalism,122,FALSE,TRUE
+25,508623,2018-12-31,2018,Other,TRUE,TRUE,White,Israeli,Arabic,Buddhist,2SLGBT,Transgender,Vandalism,121,TRUE,TRUE
+26,877962,2019-11-29,2019,Public,TRUE,FALSE,None,Latino,English,Jewish,2SLGBT,Female,Assault,128,TRUE,TRUE
+27,320432,2022-03-29,2022,Residential,TRUE,FALSE,White,Japanese,English,Muslim,Gay,Female,Assault,20,FALSE,TRUE
+28,520871,2019-03-31,2019,Public,FALSE,TRUE,Asian/Southeast Asian,African,Spanish,Buddhist,2SLGBT,Transgender,Harassment,91,FALSE,TRUE
+29,805261,2020-12-05,2020,Commercial,TRUE,FALSE,None,None,Spanish,Jewish,2SLGBT,Male,Harassment,116,FALSE,TRUE
+30,703907,2023-08-28,2023,Public,TRUE,FALSE,White,Arab,Spanish,Christian,None,Transgender,Vandalism,60,TRUE,TRUE
+31,566350,2018-12-20,2018,Other,FALSE,FALSE,Black,Arab,Mandarin,Other,Gay,Male,Vandalism,67,FALSE,TRUE
+32,547698,2019-04-08,2019,Other,FALSE,FALSE,Asian/Southeast Asian,None,None,None,Gay,Male,Harassment,92,FALSE,TRUE
+33,396798,2022-06-07,2022,Other,FALSE,FALSE,None,Japanese,Mandarin,Muslim,2SLGBT,Female,Vandalism,146,FALSE,TRUE
+34,205690,2020-01-01,2020,Public,TRUE,FALSE,South Asian,Latino,Spanish,None,Gay,None,Assault,37,TRUE,TRUE
+35,596437,2023-10-25,2023,Commercial,TRUE,FALSE,Black,Afghan,None,Christian,Gay,None,Assault,123,TRUE,TRUE
+36,342020,2023-08-09,2023,Public,TRUE,FALSE,White,None,Mandarin,Jewish,None,Male,Harassment,106,FALSE,TRUE
+37,764105,2021-06-02,2021,Commercial,FALSE,TRUE,White,None,Hindi,Other,Gay,None,Assault,44,FALSE,TRUE
+38,934239,2021-05-13,2021,Commercial,FALSE,TRUE,South Asian,Israeli,English,Christian,Gay,None,Assault,35,TRUE,TRUE
+39,544995,2022-07-13,2022,Other,FALSE,FALSE,Asian/Southeast Asian,Chinese,Hindi,Jewish,Gay,None,Vandalism,101,TRUE,TRUE
+40,489771,2020-07-13,2020,Residential,FALSE,FALSE,None,Japanese,None,Jewish,2SLGBT,Transgender,Threat,47,TRUE,TRUE
+41,405951,2020-08-15,2020,Other,TRUE,FALSE,White,Latino,None,Buddhist,Gay,Transgender,Vandalism,51,FALSE,TRUE
+42,206908,2019-08-26,2019,Other,TRUE,FALSE,South Asian,Latino,None,Buddhist,None,Male,Assault,90,TRUE,TRUE
+43,105620,2021-04-26,2021,Commercial,TRUE,FALSE,South Asian,None,Mandarin,Other,Gay,None,Threat,96,FALSE,TRUE
+44,798818,2019-08-11,2019,Residential,TRUE,FALSE,South Asian,None,Arabic,Buddhist,2SLGBT,None,Threat,77,FALSE,TRUE
+45,109999,2019-08-10,2019,Other,FALSE,FALSE,South Asian,African,None,Jewish,2SLGBT,Transgender,Threat,134,TRUE,TRUE
+46,407995,2019-12-03,2019,Other,TRUE,FALSE,None,Latino,English,None,None,None,Vandalism,25,FALSE,TRUE
+47,492785,2021-09-10,2021,Public,TRUE,TRUE,South Asian,Arab,Spanish,Other,None,Transgender,Vandalism,70,FALSE,TRUE
+48,625063,2022-03-25,2022,Public,TRUE,FALSE,Black,Afghan,Spanish,Christian,2SLGBT,None,Threat,81,TRUE,TRUE
+49,366615,2023-03-10,2023,Residential,FALSE,FALSE,Black,Latino,Arabic,None,2SLGBT,Male,Harassment,58,FALSE,TRUE
+50,170322,2023-11-07,2023,Other,TRUE,FALSE,Asian/Southeast Asian,Afghan,None,Jewish,Gay,Transgender,Vandalism,130,FALSE,TRUE
+51,294892,2018-07-31,2018,Commercial,TRUE,TRUE,South Asian,Chinese,English,Muslim,2SLGBT,Female,Assault,1,FALSE,TRUE
+52,450109,2020-05-14,2020,Public,TRUE,TRUE,White,None,None,Muslim,Gay,Transgender,Threat,2,FALSE,TRUE
+53,804486,2022-11-15,2022,Other,TRUE,FALSE,Black,Chinese,English,Muslim,Gay,Female,Assault,91,FALSE,TRUE
+54,160024,2020-11-24,2020,Commercial,FALSE,FALSE,Black,Israeli,English,None,None,Male,Assault,46,TRUE,TRUE
+55,774948,2023-10-30,2023,Commercial,TRUE,FALSE,Asian/Southeast Asian,Chinese,Mandarin,Other,2SLGBT,Transgender,Assault,88,FALSE,TRUE
+56,740987,2021-09-03,2021,Public,TRUE,FALSE,Asian/Southeast Asian,None,Arabic,None,2SLGBT,Female,Vandalism,83,FALSE,TRUE
+57,217261,2019-05-30,2019,Other,FALSE,FALSE,None,None,Arabic,Jewish,None,Female,Vandalism,75,FALSE,TRUE
+58,410596,2022-04-16,2022,Other,TRUE,FALSE,Asian/Southeast Asian,Israeli,Hindi,Buddhist,None,Female,Threat,55,TRUE,TRUE
+59,293253,2022-02-15,2022,Public,TRUE,TRUE,South Asian,Chinese,Hindi,Other,Gay,Female,Harassment,111,TRUE,TRUE
+60,671717,2021-12-30,2021,Public,TRUE,TRUE,Asian/Southeast Asian,Chinese,Arabic,Christian,2SLGBT,Female,Vandalism,71,FALSE,TRUE
+61,540029,2023-08-03,2023,Commercial,FALSE,TRUE,White,Japanese,None,Muslim,2SLGBT,None,Threat,157,FALSE,TRUE
+62,746989,2023-03-02,2023,Other,FALSE,FALSE,Asian/Southeast Asian,Arab,Mandarin,Other,None,None,Harassment,133,FALSE,TRUE
+63,616749,2018-07-03,2018,Residential,TRUE,TRUE,White,African,Spanish,Christian,Gay,Transgender,Assault,105,FALSE,TRUE
+64,391192,2019-09-25,2019,Commercial,FALSE,TRUE,White,Chinese,None,Muslim,Gay,Male,Vandalism,39,TRUE,TRUE
+65,776698,2023-05-17,2023,Commercial,TRUE,FALSE,White,Israeli,English,Muslim,None,Transgender,Threat,43,TRUE,TRUE
+66,188710,2022-12-17,2022,Commercial,TRUE,TRUE,Asian/Southeast Asian,Israeli,Mandarin,Buddhist,Gay,None,Harassment,124,TRUE,TRUE
+67,168730,2023-03-31,2023,Other,TRUE,FALSE,White,Chinese,Spanish,Buddhist,Gay,None,Harassment,153,FALSE,TRUE
+68,574581,2019-04-19,2019,Other,FALSE,FALSE,South Asian,Israeli,Spanish,Jewish,None,None,Threat,28,FALSE,TRUE
+69,610411,2018-07-21,2018,Commercial,FALSE,FALSE,South Asian,Latino,Hindi,Buddhist,None,Transgender,Assault,97,FALSE,TRUE
+70,737582,2018-02-21,2018,Residential,TRUE,TRUE,South Asian,Chinese,English,Muslim,None,Transgender,Threat,44,TRUE,TRUE
+71,605305,2020-10-19,2020,Residential,TRUE,FALSE,White,Israeli,Mandarin,Muslim,2SLGBT,None,Threat,13,FALSE,TRUE
+72,981681,2021-05-08,2021,Residential,TRUE,TRUE,Black,African,None,Muslim,2SLGBT,None,Harassment,35,FALSE,TRUE
+73,968108,2018-05-23,2018,Commercial,TRUE,FALSE,White,Afghan,None,Jewish,Gay,Transgender,Harassment,146,TRUE,TRUE
+74,151106,2021-04-16,2021,Residential,TRUE,TRUE,South Asian,Arab,Mandarin,None,None,Male,Threat,96,FALSE,TRUE
+75,370370,2021-07-06,2021,Commercial,FALSE,FALSE,Black,Israeli,None,Muslim,2SLGBT,Male,Assault,138,TRUE,TRUE
+76,840614,2023-06-09,2023,Other,TRUE,TRUE,White,African,Mandarin,Other,2SLGBT,Male,Assault,61,FALSE,TRUE
+77,737375,2022-01-12,2022,Residential,TRUE,FALSE,Black,Arab,English,Christian,2SLGBT,None,Threat,105,TRUE,TRUE
+78,275766,2022-12-25,2022,Other,TRUE,TRUE,Asian/Southeast Asian,Japanese,Spanish,Jewish,2SLGBT,Female,Vandalism,112,TRUE,TRUE
+79,431703,2019-06-03,2019,Commercial,FALSE,TRUE,Asian/Southeast Asian,Afghan,Mandarin,Jewish,2SLGBT,Male,Harassment,144,FALSE,TRUE
+80,298302,2020-05-22,2020,Commercial,TRUE,TRUE,None,Afghan,Spanish,Buddhist,None,Male,Vandalism,17,TRUE,TRUE
+81,235068,2018-12-13,2018,Public,TRUE,FALSE,South Asian,African,Hindi,Buddhist,2SLGBT,Female,Assault,98,FALSE,TRUE
+82,845225,2020-06-21,2020,Public,FALSE,TRUE,None,None,English,Jewish,Gay,Male,Harassment,97,FALSE,TRUE
+83,445333,2019-03-06,2019,Residential,FALSE,FALSE,South Asian,African,Arabic,Other,2SLGBT,Male,Threat,94,TRUE,TRUE
+84,911417,2020-11-07,2020,Residential,TRUE,TRUE,South Asian,Japanese,Arabic,Jewish,None,None,Threat,59,TRUE,TRUE
+85,935439,2021-05-21,2021,Residential,TRUE,TRUE,None,None,Spanish,Other,2SLGBT,Transgender,Threat,34,FALSE,TRUE
+86,229436,2018-12-12,2018,Public,TRUE,FALSE,Asian/Southeast Asian,None,English,Christian,2SLGBT,None,Assault,82,FALSE,TRUE
+87,978379,2022-02-26,2022,Residential,FALSE,FALSE,White,Afghan,None,Muslim,2SLGBT,Transgender,Threat,91,TRUE,TRUE
+88,143411,2021-10-08,2021,Residential,FALSE,TRUE,Asian/Southeast Asian,Arab,None,Buddhist,Gay,None,Vandalism,97,TRUE,TRUE
+89,248003,2018-06-16,2018,Commercial,TRUE,TRUE,None,Israeli,Arabic,Jewish,None,Female,Vandalism,90,FALSE,TRUE
+90,242883,2018-09-12,2018,Public,FALSE,FALSE,None,Afghan,None,Jewish,Gay,Female,Vandalism,114,FALSE,TRUE
+91,806010,2018-07-25,2018,Public,FALSE,TRUE,South Asian,Japanese,None,Christian,Gay,Transgender,Threat,156,FALSE,TRUE
+92,441705,2020-02-29,2020,Commercial,TRUE,TRUE,White,Arab,Hindi,Jewish,Gay,Transgender,Harassment,153,TRUE,TRUE
+93,417922,2018-11-06,2018,Commercial,TRUE,FALSE,None,Japanese,Arabic,None,None,Female,Threat,147,TRUE,TRUE
+94,124519,2022-07-29,2022,Commercial,FALSE,TRUE,White,Arab,English,None,2SLGBT,None,Threat,135,TRUE,TRUE
+95,150465,2022-09-04,2022,Public,FALSE,TRUE,White,Arab,Mandarin,Buddhist,2SLGBT,None,Vandalism,70,FALSE,TRUE
+96,946825,2023-08-20,2023,Public,FALSE,FALSE,None,Afghan,English,Muslim,2SLGBT,None,Vandalism,127,TRUE,TRUE
+97,551849,2020-04-15,2020,Public,FALSE,TRUE,White,African,English,Other,Gay,None,Vandalism,87,TRUE,TRUE
+98,266458,2018-04-07,2018,Commercial,FALSE,TRUE,Asian/Southeast Asian,Israeli,English,Buddhist,Gay,Transgender,Vandalism,115,FALSE,TRUE
+99,858986,2021-11-24,2021,Other,FALSE,FALSE,South Asian,Israeli,Spanish,Christian,Gay,Transgender,Assault,49,FALSE,TRUE
+100,857353,2021-10-01,2021,Commercial,FALSE,TRUE,Asian/Southeast Asian,Latino,English,Other,Gay,Female,Threat,37,TRUE,TRUE
+101,380297,2023-08-22,2023,Other,TRUE,FALSE,White,None,English,Christian,2SLGBT,Male,Vandalism,63,TRUE,TRUE
+102,839189,2020-05-04,2020,Other,TRUE,FALSE,None,None,Hindi,Buddhist,Gay,Female,Assault,122,TRUE,TRUE
+103,113456,2022-05-15,2022,Residential,FALSE,TRUE,None,Japanese,Arabic,Other,2SLGBT,None,Harassment,105,FALSE,TRUE
+104,546338,2022-05-24,2022,Public,TRUE,FALSE,South Asian,Latino,English,Muslim,None,Transgender,Harassment,76,FALSE,TRUE
+105,934591,2023-02-22,2023,Other,FALSE,TRUE,None,Chinese,Arabic,Buddhist,Gay,Female,Harassment,105,FALSE,TRUE
+106,912921,2020-07-01,2020,Other,FALSE,TRUE,White,None,Arabic,None,None,Transgender,Assault,127,FALSE,TRUE
+107,520125,2022-08-24,2022,Other,FALSE,TRUE,Asian/Southeast Asian,Chinese,English,Muslim,Gay,Male,Harassment,118,TRUE,TRUE
+108,909151,2022-06-11,2022,Commercial,TRUE,FALSE,None,Latino,Hindi,Muslim,Gay,Male,Threat,54,TRUE,TRUE
+109,509139,2018-09-18,2018,Public,TRUE,FALSE,None,Japanese,Mandarin,Jewish,None,Female,Harassment,15,FALSE,TRUE
+110,974908,2021-03-07,2021,Commercial,FALSE,FALSE,Black,Arab,None,Other,Gay,None,Assault,13,FALSE,TRUE
+111,132136,2020-09-19,2020,Other,FALSE,TRUE,None,Latino,Hindi,Jewish,Gay,None,Vandalism,44,FALSE,TRUE
+112,347126,2023-04-11,2023,Other,FALSE,FALSE,South Asian,Latino,English,Buddhist,Gay,Female,Harassment,43,TRUE,TRUE
+113,321409,2022-07-14,2022,Other,FALSE,TRUE,Asian/Southeast Asian,Afghan,None,Jewish,Gay,Male,Vandalism,133,TRUE,TRUE
+114,474076,2021-09-12,2021,Public,FALSE,TRUE,None,Japanese,English,None,None,Female,Vandalism,82,TRUE,TRUE
+115,167720,2021-07-10,2021,Commercial,TRUE,TRUE,South Asian,Chinese,Spanish,None,2SLGBT,Male,Harassment,125,TRUE,TRUE
+116,673771,2020-06-17,2020,Residential,TRUE,FALSE,South Asian,None,Hindi,Jewish,Gay,Male,Harassment,149,FALSE,TRUE
+117,501429,2020-04-04,2020,Other,FALSE,TRUE,None,None,English,None,None,Transgender,Assault,7,FALSE,TRUE
+118,707783,2022-03-13,2022,Public,TRUE,TRUE,Black,African,English,Other,2SLGBT,Male,Threat,91,FALSE,TRUE
+119,504562,2023-02-15,2023,Other,TRUE,TRUE,None,Arab,Arabic,None,Gay,Male,Vandalism,25,TRUE,TRUE
+120,990338,2020-11-19,2020,Commercial,FALSE,FALSE,Asian/Southeast Asian,Latino,Arabic,Muslim,2SLGBT,Transgender,Threat,18,TRUE,TRUE
+121,481390,2020-03-05,2020,Other,FALSE,TRUE,White,Arab,English,Christian,2SLGBT,None,Assault,51,FALSE,TRUE
+122,173498,2018-07-29,2018,Other,FALSE,TRUE,Black,Afghan,English,None,2SLGBT,Male,Assault,137,TRUE,TRUE
+123,563520,2022-09-07,2022,Residential,FALSE,FALSE,Black,Arab,Hindi,Buddhist,2SLGBT,Male,Assault,66,TRUE,TRUE
+124,297742,2023-10-31,2023,Other,TRUE,FALSE,South Asian,Chinese,Arabic,Christian,Gay,Female,Assault,53,TRUE,TRUE
+125,988905,2023-03-23,2023,Public,FALSE,FALSE,Asian/Southeast Asian,Japanese,English,Other,Gay,None,Harassment,157,FALSE,TRUE
+126,791259,2023-06-17,2023,Other,FALSE,FALSE,Black,Japanese,Spanish,Christian,Gay,Female,Threat,30,TRUE,TRUE
+127,483206,2022-11-25,2022,Other,FALSE,TRUE,Black,Afghan,None,Other,Gay,None,Threat,152,FALSE,TRUE
+128,361331,2018-09-10,2018,Public,TRUE,TRUE,White,Japanese,Spanish,Other,Gay,Male,Threat,67,TRUE,TRUE
+129,854289,2019-12-28,2019,Public,TRUE,FALSE,South Asian,Afghan,None,Muslim,2SLGBT,Transgender,Harassment,82,TRUE,TRUE
+130,325269,2020-11-29,2020,Commercial,TRUE,TRUE,South Asian,Arab,Spanish,Buddhist,2SLGBT,Female,Harassment,54,TRUE,TRUE
+131,146459,2022-08-28,2022,Other,TRUE,TRUE,South Asian,None,Hindi,None,Gay,Male,Threat,70,TRUE,TRUE
+132,820503,2021-04-08,2021,Public,TRUE,TRUE,None,Latino,Mandarin,Other,None,Transgender,Threat,81,FALSE,TRUE
+133,122268,2022-03-05,2022,Commercial,TRUE,FALSE,South Asian,Afghan,Arabic,Jewish,None,Transgender,Vandalism,13,FALSE,TRUE
+134,885572,2018-09-05,2018,Other,TRUE,FALSE,None,Latino,English,Jewish,None,None,Threat,17,FALSE,TRUE
+135,353936,2023-10-23,2023,Commercial,TRUE,TRUE,Asian/Southeast Asian,Arab,Arabic,None,None,Transgender,Harassment,60,TRUE,TRUE
+136,310458,2022-06-01,2022,Residential,TRUE,TRUE,Black,Arab,Mandarin,None,2SLGBT,Female,Threat,67,TRUE,TRUE
+137,587182,2023-01-17,2023,Residential,TRUE,TRUE,None,Chinese,None,Buddhist,2SLGBT,None,Threat,113,FALSE,TRUE
+138,257159,2020-01-17,2020,Commercial,TRUE,FALSE,Asian/Southeast Asian,Arab,Hindi,Christian,Gay,Transgender,Assault,139,FALSE,TRUE
+139,555446,2019-06-02,2019,Other,TRUE,FALSE,South Asian,Chinese,Hindi,Jewish,2SLGBT,Female,Vandalism,7,TRUE,TRUE
+140,839513,2021-05-26,2021,Public,TRUE,TRUE,South Asian,Israeli,Spanish,Other,Gay,Transgender,Harassment,12,TRUE,TRUE
+141,429915,2022-06-03,2022,Other,TRUE,TRUE,Black,Latino,English,None,2SLGBT,Male,Harassment,144,FALSE,TRUE
+142,411316,2023-08-14,2023,Commercial,FALSE,TRUE,Black,Afghan,Spanish,Buddhist,2SLGBT,Female,Threat,32,TRUE,TRUE
+143,942538,2022-01-02,2022,Commercial,TRUE,TRUE,White,African,None,Other,None,Transgender,Threat,137,FALSE,TRUE
+144,138079,2019-08-22,2019,Residential,FALSE,FALSE,White,Latino,Arabic,None,Gay,None,Harassment,92,TRUE,TRUE
+145,768160,2018-01-20,2018,Residential,TRUE,FALSE,Asian/Southeast Asian,Chinese,English,Muslim,Gay,Female,Threat,130,FALSE,TRUE
+146,999773,2019-03-08,2019,Other,FALSE,TRUE,South Asian,Chinese,Hindi,Christian,None,None,Vandalism,14,FALSE,TRUE
+147,636570,2020-10-17,2020,Public,FALSE,FALSE,Black,African,Arabic,Other,2SLGBT,Transgender,Vandalism,44,FALSE,TRUE
+148,231286,2019-04-28,2019,Commercial,TRUE,FALSE,None,Arab,English,Buddhist,2SLGBT,Male,Harassment,56,FALSE,TRUE
+149,488119,2023-10-27,2023,Public,FALSE,FALSE,Asian/Southeast Asian,Arab,Mandarin,Jewish,None,None,Threat,46,FALSE,TRUE
+150,779325,2022-07-06,2022,Residential,TRUE,TRUE,Black,Japanese,Mandarin,None,2SLGBT,Male,Harassment,39,TRUE,TRUE
+151,772439,2018-03-17,2018,Residential,FALSE,TRUE,Black,None,English,Other,Gay,Transgender,Threat,48,FALSE,TRUE
+152,217698,2023-12-06,2023,Commercial,FALSE,TRUE,Asian/Southeast Asian,Latino,Arabic,Christian,2SLGBT,Female,Assault,129,TRUE,TRUE
+153,855316,2022-05-18,2022,Commercial,FALSE,FALSE,South Asian,Chinese,Hindi,None,None,Transgender,Harassment,114,FALSE,TRUE
+154,795357,2019-11-05,2019,Commercial,FALSE,FALSE,White,Chinese,English,Muslim,None,None,Harassment,9,TRUE,TRUE
+155,738471,2022-10-08,2022,Commercial,TRUE,TRUE,South Asian,Israeli,None,Muslim,None,None,Vandalism,116,TRUE,TRUE
+156,713595,2023-10-18,2023,Other,TRUE,FALSE,None,African,Hindi,Other,Gay,None,Harassment,14,FALSE,TRUE
+157,894839,2022-04-16,2022,Commercial,FALSE,TRUE,Asian/Southeast Asian,Arab,Arabic,Other,2SLGBT,Female,Harassment,50,TRUE,TRUE
+158,427736,2022-11-19,2022,Public,TRUE,TRUE,Black,African,Hindi,Muslim,Gay,Transgender,Assault,58,FALSE,TRUE
+159,601464,2021-08-01,2021,Public,TRUE,TRUE,White,Japanese,Hindi,Buddhist,None,None,Vandalism,154,TRUE,TRUE
+160,443545,2021-05-28,2021,Residential,TRUE,TRUE,Black,Chinese,None,Other,2SLGBT,None,Threat,19,TRUE,TRUE
+161,859901,2023-11-27,2023,Commercial,FALSE,TRUE,Asian/Southeast Asian,Israeli,Spanish,Muslim,2SLGBT,None,Threat,40,TRUE,TRUE
+162,929454,2022-04-28,2022,Other,FALSE,FALSE,None,Chinese,English,Muslim,Gay,Transgender,Assault,87,TRUE,TRUE
+163,334014,2022-06-21,2022,Public,TRUE,TRUE,Asian/Southeast Asian,Chinese,None,Jewish,Gay,Male,Threat,99,TRUE,TRUE
+164,297564,2020-09-23,2020,Other,FALSE,TRUE,White,Japanese,English,Other,None,Male,Vandalism,34,FALSE,TRUE
+165,658413,2023-03-22,2023,Other,TRUE,TRUE,Asian/Southeast Asian,Arab,Spanish,Muslim,Gay,Female,Assault,26,TRUE,TRUE
+166,645570,2020-11-06,2020,Residential,FALSE,FALSE,None,Japanese,Spanish,Buddhist,None,Male,Assault,137,TRUE,TRUE
+167,795044,2021-10-01,2021,Commercial,TRUE,FALSE,None,None,Mandarin,Other,Gay,Female,Threat,24,FALSE,TRUE
+168,781804,2018-01-06,2018,Commercial,TRUE,FALSE,South Asian,Japanese,Mandarin,Buddhist,None,Transgender,Harassment,80,TRUE,TRUE
+169,528832,2019-08-21,2019,Commercial,FALSE,FALSE,White,African,Spanish,Jewish,None,Transgender,Assault,21,FALSE,TRUE
+170,231845,2021-06-24,2021,Public,TRUE,TRUE,Black,Israeli,Hindi,Muslim,2SLGBT,Male,Vandalism,58,TRUE,TRUE
+171,586052,2022-06-22,2022,Commercial,TRUE,FALSE,Black,Latino,None,Christian,None,Male,Vandalism,60,TRUE,TRUE
+172,320325,2021-02-19,2021,Residential,FALSE,TRUE,Asian/Southeast Asian,Afghan,Spanish,Muslim,None,None,Threat,141,TRUE,TRUE
+173,921999,2018-12-07,2018,Other,TRUE,TRUE,Asian/Southeast Asian,Israeli,Mandarin,Muslim,2SLGBT,None,Assault,105,TRUE,TRUE
+174,960698,2021-03-08,2021,Residential,FALSE,TRUE,Black,Japanese,None,Buddhist,Gay,None,Vandalism,70,TRUE,TRUE
+175,919850,2023-05-14,2023,Public,TRUE,FALSE,White,Chinese,English,Christian,2SLGBT,None,Threat,107,FALSE,TRUE
+176,208794,2018-10-23,2018,Commercial,FALSE,FALSE,None,Chinese,Hindi,None,2SLGBT,None,Assault,124,FALSE,TRUE
+177,359282,2023-04-26,2023,Other,FALSE,TRUE,South Asian,African,Mandarin,Muslim,Gay,None,Threat,152,TRUE,TRUE
+178,266747,2020-03-29,2020,Commercial,FALSE,TRUE,White,None,Arabic,None,Gay,Male,Harassment,17,FALSE,TRUE
+179,222839,2022-05-27,2022,Public,FALSE,TRUE,Black,Israeli,None,Muslim,2SLGBT,Transgender,Vandalism,52,FALSE,TRUE
+180,808671,2018-06-05,2018,Public,FALSE,TRUE,White,Japanese,Hindi,Jewish,None,Transgender,Threat,32,FALSE,TRUE
+181,564013,2021-11-25,2021,Commercial,FALSE,TRUE,Asian/Southeast Asian,Chinese,Mandarin,Muslim,None,None,Threat,94,TRUE,TRUE
+182,585374,2021-07-06,2021,Commercial,FALSE,FALSE,Black,Latino,Hindi,None,Gay,Transgender,Threat,53,TRUE,TRUE
+183,112172,2021-03-22,2021,Other,FALSE,TRUE,None,Israeli,Arabic,Jewish,Gay,Transgender,Vandalism,147,FALSE,TRUE
+184,897865,2021-11-04,2021,Other,FALSE,TRUE,Asian/Southeast Asian,Chinese,English,Buddhist,2SLGBT,Male,Vandalism,30,FALSE,TRUE
+185,183263,2022-10-13,2022,Residential,FALSE,TRUE,Asian/Southeast Asian,Afghan,Hindi,Jewish,2SLGBT,Male,Vandalism,11,FALSE,TRUE
+186,537551,2022-10-09,2022,Public,FALSE,FALSE,South Asian,Japanese,Spanish,Buddhist,None,None,Assault,92,TRUE,TRUE
+187,274454,2019-04-05,2019,Commercial,TRUE,FALSE,White,Afghan,None,None,Gay,Transgender,Harassment,73,TRUE,TRUE
+188,408139,2018-03-24,2018,Other,TRUE,TRUE,Black,Afghan,Spanish,Jewish,Gay,Transgender,Harassment,122,TRUE,TRUE
+189,406861,2018-12-06,2018,Commercial,FALSE,FALSE,None,Japanese,Mandarin,Other,2SLGBT,Transgender,Threat,36,FALSE,TRUE
+190,237484,2023-12-25,2023,Other,FALSE,TRUE,Asian/Southeast Asian,Arab,Arabic,Buddhist,Gay,Female,Assault,1,TRUE,TRUE
+191,861218,2021-08-08,2021,Other,TRUE,TRUE,Black,Afghan,Hindi,Christian,None,Male,Harassment,126,TRUE,TRUE
+192,737426,2020-08-15,2020,Commercial,FALSE,FALSE,Asian/Southeast Asian,African,Hindi,Buddhist,2SLGBT,None,Assault,89,FALSE,TRUE
+193,920892,2022-02-22,2022,Other,FALSE,TRUE,Asian/Southeast Asian,Arab,Mandarin,Jewish,Gay,None,Harassment,57,FALSE,TRUE
+194,668852,2023-03-02,2023,Residential,FALSE,FALSE,None,Chinese,Hindi,Christian,None,Female,Assault,126,FALSE,TRUE
+195,433694,2018-04-12,2018,Commercial,TRUE,FALSE,Black,Chinese,Hindi,Christian,None,Male,Harassment,86,FALSE,TRUE
+196,598723,2020-08-31,2020,Public,FALSE,TRUE,White,Afghan,None,Jewish,2SLGBT,Male,Assault,46,FALSE,TRUE
+197,873597,2022-08-24,2022,Commercial,TRUE,FALSE,Asian/Southeast Asian,Chinese,Mandarin,Muslim,None,None,Assault,39,TRUE,TRUE
+198,903458,2020-10-09,2020,Commercial,TRUE,TRUE,White,Chinese,None,Jewish,Gay,None,Harassment,128,TRUE,TRUE
+199,911732,2020-04-29,2020,Other,FALSE,FALSE,Black,African,Arabic,Muslim,None,None,Harassment,107,TRUE,TRUE
+200,746555,2020-09-07,2020,Residential,TRUE,FALSE,Black,African,Arabic,Jewish,Gay,None,Threat,105,TRUE,TRUE
+201,940487,2019-02-07,2019,Residential,TRUE,TRUE,White,Afghan,Spanish,Christian,Gay,Female,Threat,53,TRUE,TRUE
+202,195489,2021-09-18,2021,Residential,FALSE,TRUE,Asian/Southeast Asian,Latino,Mandarin,Muslim,Gay,Male,Harassment,98,FALSE,TRUE
+203,539615,2022-06-01,2022,Other,FALSE,TRUE,South Asian,Japanese,Mandarin,Muslim,Gay,None,Harassment,141,TRUE,TRUE
+204,816681,2018-09-09,2018,Commercial,TRUE,FALSE,White,Afghan,Hindi,Christian,None,None,Vandalism,34,FALSE,TRUE
+205,694268,2023-05-20,2023,Commercial,TRUE,FALSE,South Asian,Arab,Hindi,Christian,Gay,None,Threat,97,TRUE,TRUE
+206,484018,2018-04-03,2018,Other,TRUE,TRUE,White,African,Mandarin,None,None,None,Vandalism,137,TRUE,TRUE
+207,959850,2022-01-23,2022,Residential,FALSE,TRUE,White,Japanese,Hindi,Other,Gay,Female,Assault,154,TRUE,TRUE
+208,506692,2020-09-23,2020,Public,FALSE,FALSE,Asian/Southeast Asian,Japanese,Mandarin,Buddhist,2SLGBT,Transgender,Vandalism,44,TRUE,TRUE
+209,133599,2021-03-24,2021,Public,FALSE,FALSE,Asian/Southeast Asian,Arab,English,Jewish,2SLGBT,None,Threat,15,TRUE,TRUE
+210,396953,2023-03-25,2023,Commercial,FALSE,TRUE,Asian/Southeast Asian,Latino,Hindi,Jewish,None,Transgender,Assault,126,TRUE,TRUE
+211,308979,2023-08-07,2023,Commercial,FALSE,FALSE,White,Japanese,Spanish,Christian,2SLGBT,None,Threat,34,TRUE,TRUE
+212,813287,2021-05-12,2021,Commercial,TRUE,TRUE,South Asian,Israeli,Spanish,None,2SLGBT,Female,Vandalism,54,TRUE,TRUE
+213,723491,2019-08-02,2019,Residential,TRUE,TRUE,South Asian,Afghan,None,Jewish,2SLGBT,Transgender,Threat,109,TRUE,TRUE
+214,531233,2019-05-15,2019,Public,FALSE,FALSE,White,Arab,Hindi,Muslim,2SLGBT,Female,Threat,115,FALSE,TRUE
+215,973295,2021-03-24,2021,Residential,TRUE,TRUE,White,Japanese,None,Christian,2SLGBT,None,Vandalism,90,TRUE,TRUE
+216,552196,2020-03-16,2020,Other,TRUE,FALSE,South Asian,None,English,Muslim,Gay,None,Assault,52,FALSE,TRUE
+217,438270,2023-05-31,2023,Other,FALSE,FALSE,None,Arab,Hindi,Jewish,Gay,Female,Threat,125,FALSE,TRUE
+218,243197,2021-07-16,2021,Commercial,TRUE,FALSE,White,Afghan,English,Muslim,Gay,Male,Threat,53,FALSE,TRUE
+219,332148,2018-12-26,2018,Public,TRUE,TRUE,South Asian,Afghan,Arabic,Buddhist,Gay,None,Harassment,148,TRUE,TRUE
+220,931680,2021-03-19,2021,Other,TRUE,TRUE,None,Chinese,Hindi,Muslim,None,Male,Vandalism,51,TRUE,TRUE
+221,826091,2023-09-29,2023,Public,FALSE,TRUE,White,African,Hindi,Buddhist,2SLGBT,Transgender,Assault,99,FALSE,TRUE
+222,808513,2022-08-03,2022,Residential,FALSE,FALSE,Asian/Southeast Asian,Japanese,Hindi,Other,Gay,None,Assault,70,FALSE,TRUE
+223,438577,2020-09-23,2020,Other,TRUE,FALSE,Asian/Southeast Asian,None,English,Christian,2SLGBT,Transgender,Harassment,62,TRUE,TRUE
+224,131742,2021-10-15,2021,Residential,FALSE,TRUE,South Asian,Latino,Arabic,Jewish,2SLGBT,Transgender,Harassment,11,FALSE,TRUE
+225,799289,2022-05-07,2022,Other,FALSE,TRUE,White,Chinese,None,Christian,Gay,Transgender,Vandalism,30,FALSE,TRUE
+226,620459,2023-04-04,2023,Other,FALSE,FALSE,Black,Israeli,Mandarin,Jewish,None,None,Harassment,154,FALSE,TRUE
+227,341683,2019-06-03,2019,Other,FALSE,FALSE,White,Chinese,Arabic,Jewish,Gay,Male,Harassment,106,TRUE,TRUE
+228,734447,2021-01-01,2021,Public,FALSE,FALSE,None,Arab,Mandarin,Other,Gay,Female,Vandalism,79,TRUE,TRUE
+229,468420,2022-10-19,2022,Public,TRUE,TRUE,South Asian,None,None,Jewish,None,None,Assault,102,TRUE,TRUE
+230,779480,2019-06-27,2019,Commercial,TRUE,TRUE,None,Latino,None,Christian,2SLGBT,None,Threat,99,TRUE,TRUE
+231,586369,2020-04-23,2020,Public,TRUE,TRUE,White,African,Arabic,Jewish,None,Female,Assault,86,FALSE,TRUE
+232,861431,2020-09-05,2020,Commercial,FALSE,FALSE,Black,Chinese,English,Other,2SLGBT,Male,Vandalism,25,TRUE,TRUE
+233,651714,2020-01-21,2020,Public,TRUE,TRUE,None,Arab,Mandarin,None,Gay,Transgender,Vandalism,62,FALSE,TRUE
+234,768898,2022-05-14,2022,Other,TRUE,FALSE,None,Afghan,Hindi,Jewish,2SLGBT,Male,Threat,96,TRUE,TRUE
+235,339040,2019-11-16,2019,Other,FALSE,TRUE,Asian/Southeast Asian,African,None,Other,None,Female,Threat,77,TRUE,TRUE
+236,692930,2021-07-15,2021,Other,FALSE,FALSE,Black,Latino,Hindi,Christian,None,None,Threat,39,TRUE,TRUE
+237,409113,2019-03-17,2019,Residential,TRUE,FALSE,Black,African,Spanish,Other,2SLGBT,None,Harassment,22,FALSE,TRUE
+238,245272,2019-05-05,2019,Public,FALSE,FALSE,Asian/Southeast Asian,Japanese,Mandarin,Buddhist,2SLGBT,Transgender,Harassment,125,FALSE,TRUE
+239,595527,2019-11-29,2019,Public,TRUE,TRUE,None,Afghan,Hindi,None,Gay,Transgender,Vandalism,115,FALSE,TRUE
+240,301646,2021-02-25,2021,Commercial,FALSE,FALSE,Black,African,Mandarin,Christian,2SLGBT,Transgender,Vandalism,126,TRUE,TRUE
+241,396041,2020-03-27,2020,Commercial,FALSE,FALSE,None,African,None,Christian,None,Transgender,Assault,68,TRUE,TRUE
+242,382789,2018-06-28,2018,Commercial,TRUE,FALSE,Black,Latino,Mandarin,Christian,Gay,Transgender,Vandalism,133,TRUE,TRUE
+243,986656,2020-02-28,2020,Commercial,TRUE,FALSE,Asian/Southeast Asian,Chinese,Hindi,Muslim,2SLGBT,Transgender,Vandalism,150,TRUE,TRUE
+244,885468,2020-04-28,2020,Other,FALSE,TRUE,Asian/Southeast Asian,Chinese,None,None,Gay,Female,Assault,34,TRUE,TRUE
+245,465168,2021-02-15,2021,Public,TRUE,TRUE,None,None,Mandarin,None,2SLGBT,Transgender,Vandalism,31,FALSE,TRUE
+246,144629,2018-12-29,2018,Commercial,FALSE,FALSE,White,Israeli,Mandarin,None,2SLGBT,Female,Assault,149,TRUE,TRUE
+247,118417,2020-06-18,2020,Commercial,FALSE,TRUE,South Asian,Latino,Spanish,Other,None,Male,Vandalism,14,FALSE,TRUE
+248,295949,2018-01-01,2018,Commercial,TRUE,FALSE,White,African,Hindi,Muslim,Gay,Transgender,Assault,48,TRUE,TRUE
+249,481730,2018-04-05,2018,Public,FALSE,TRUE,White,None,Spanish,Jewish,Gay,None,Threat,45,FALSE,TRUE
+250,723704,2022-11-13,2022,Commercial,FALSE,FALSE,South Asian,None,Mandarin,Christian,None,None,Threat,88,TRUE,TRUE
+251,331906,2018-08-21,2018,Commercial,TRUE,TRUE,White,None,None,Christian,2SLGBT,Female,Vandalism,24,TRUE,TRUE
+252,920554,2023-11-10,2023,Public,FALSE,TRUE,None,African,Spanish,Christian,2SLGBT,Transgender,Harassment,30,TRUE,TRUE
+253,345188,2020-05-28,2020,Public,TRUE,FALSE,South Asian,Latino,Arabic,None,Gay,None,Threat,149,FALSE,TRUE
+254,758329,2021-04-23,2021,Other,FALSE,TRUE,None,Arab,Spanish,Buddhist,None,Male,Threat,149,FALSE,TRUE
+255,258882,2021-09-19,2021,Residential,TRUE,FALSE,White,African,Arabic,Christian,None,Male,Assault,35,TRUE,TRUE
+256,838858,2021-12-30,2021,Residential,FALSE,FALSE,South Asian,Afghan,Spanish,Other,2SLGBT,None,Threat,144,FALSE,TRUE
+257,651445,2021-09-20,2021,Commercial,FALSE,TRUE,South Asian,African,Arabic,Christian,Gay,Transgender,Harassment,136,TRUE,TRUE
+258,132073,2022-10-12,2022,Public,TRUE,FALSE,White,African,English,Other,None,Female,Assault,106,FALSE,TRUE
+259,293600,2019-02-14,2019,Residential,TRUE,TRUE,Asian/Southeast Asian,Latino,Spanish,Christian,2SLGBT,Transgender,Assault,26,FALSE,TRUE
+260,653736,2022-02-14,2022,Residential,FALSE,TRUE,Asian/Southeast Asian,Arab,Arabic,Muslim,2SLGBT,Female,Threat,80,TRUE,TRUE
+261,861713,2020-08-25,2020,Residential,FALSE,FALSE,White,African,English,Buddhist,2SLGBT,None,Vandalism,141,FALSE,TRUE
+262,291119,2019-07-04,2019,Other,FALSE,FALSE,Asian/Southeast Asian,None,Hindi,Other,Gay,None,Vandalism,107,FALSE,TRUE
+263,782284,2020-05-09,2020,Other,TRUE,FALSE,South Asian,Afghan,Arabic,Jewish,None,Female,Assault,128,FALSE,TRUE
+264,588133,2023-01-20,2023,Commercial,FALSE,TRUE,None,Japanese,English,Christian,None,Male,Threat,1,FALSE,TRUE
+265,463088,2022-10-08,2022,Residential,TRUE,TRUE,None,Afghan,Spanish,Christian,2SLGBT,None,Threat,62,TRUE,TRUE
+266,479937,2023-04-24,2023,Public,FALSE,FALSE,Asian/Southeast Asian,Chinese,English,Christian,2SLGBT,Female,Harassment,95,FALSE,TRUE
+267,790773,2023-10-04,2023,Residential,FALSE,FALSE,Black,Chinese,Hindi,Other,2SLGBT,Transgender,Harassment,50,FALSE,TRUE
+268,599223,2021-07-07,2021,Residential,TRUE,FALSE,White,Japanese,English,Other,2SLGBT,Transgender,Assault,4,FALSE,TRUE
+269,811848,2022-09-05,2022,Public,TRUE,TRUE,White,Afghan,Hindi,Other,None,Transgender,Threat,84,FALSE,TRUE
+270,646003,2023-12-21,2023,Public,TRUE,TRUE,Black,Japanese,None,Muslim,Gay,Female,Harassment,15,TRUE,TRUE
+271,688713,2022-02-07,2022,Commercial,TRUE,FALSE,Black,Arab,English,Other,2SLGBT,Male,Vandalism,139,TRUE,TRUE
+272,520214,2021-11-02,2021,Public,FALSE,TRUE,None,Latino,English,Jewish,2SLGBT,Transgender,Threat,16,TRUE,TRUE
+273,445676,2018-12-11,2018,Commercial,FALSE,FALSE,White,Latino,Spanish,Christian,2SLGBT,None,Vandalism,124,TRUE,TRUE
+274,768932,2020-08-15,2020,Residential,FALSE,FALSE,White,Chinese,None,None,Gay,Transgender,Threat,60,TRUE,TRUE
+275,954421,2022-04-21,2022,Commercial,TRUE,FALSE,Black,Latino,None,Muslim,Gay,Transgender,Vandalism,54,TRUE,TRUE
+276,896011,2020-01-20,2020,Public,FALSE,FALSE,Black,African,Arabic,Christian,2SLGBT,None,Harassment,152,FALSE,TRUE
+277,515556,2021-02-08,2021,Public,TRUE,FALSE,None,Arab,Spanish,Other,Gay,Male,Assault,84,TRUE,TRUE
+278,389657,2023-07-03,2023,Commercial,FALSE,TRUE,Black,None,None,None,Gay,Female,Threat,56,TRUE,TRUE
+279,386979,2019-09-19,2019,Public,FALSE,TRUE,South Asian,Israeli,Spanish,Jewish,None,Female,Assault,30,TRUE,TRUE
+280,192755,2022-06-25,2022,Public,FALSE,FALSE,Asian/Southeast Asian,Israeli,None,Other,2SLGBT,None,Threat,81,FALSE,TRUE
+281,238150,2021-07-08,2021,Residential,FALSE,FALSE,South Asian,Japanese,English,Buddhist,None,Transgender,Threat,101,FALSE,TRUE
+282,117061,2022-01-26,2022,Commercial,FALSE,FALSE,None,Arab,Arabic,Christian,2SLGBT,Female,Threat,133,FALSE,TRUE
+283,663902,2021-02-21,2021,Residential,TRUE,FALSE,None,Latino,Arabic,Buddhist,None,None,Threat,89,TRUE,TRUE
+284,803305,2022-10-05,2022,Other,FALSE,FALSE,None,Chinese,Spanish,Other,Gay,Transgender,Threat,105,TRUE,TRUE
+285,959667,2020-02-20,2020,Other,TRUE,FALSE,Black,None,English,Other,None,Female,Harassment,107,FALSE,TRUE
+286,326157,2021-09-11,2021,Other,TRUE,FALSE,South Asian,Japanese,Arabic,None,2SLGBT,Male,Threat,152,TRUE,TRUE
+287,663534,2023-08-14,2023,Commercial,FALSE,FALSE,None,Japanese,Hindi,Buddhist,Gay,Transgender,Threat,96,FALSE,TRUE
+288,685756,2018-11-20,2018,Public,TRUE,TRUE,Black,Latino,Mandarin,None,None,Transgender,Threat,36,FALSE,TRUE
+289,958063,2019-01-12,2019,Public,FALSE,TRUE,Asian/Southeast Asian,African,English,Other,2SLGBT,Transgender,Harassment,49,TRUE,TRUE
+290,655077,2019-04-25,2019,Other,FALSE,FALSE,South Asian,Chinese,English,Christian,None,Transgender,Threat,100,FALSE,TRUE
+291,663991,2022-09-07,2022,Public,FALSE,TRUE,White,Japanese,English,Other,2SLGBT,Female,Harassment,140,TRUE,TRUE
+292,284586,2019-02-28,2019,Residential,FALSE,FALSE,Asian/Southeast Asian,Afghan,Hindi,None,2SLGBT,Male,Vandalism,7,FALSE,TRUE
+293,794939,2021-06-20,2021,Public,FALSE,TRUE,White,Israeli,English,Christian,2SLGBT,None,Harassment,23,TRUE,TRUE
+294,530517,2019-05-02,2019,Residential,FALSE,FALSE,None,None,Arabic,None,Gay,None,Threat,33,FALSE,TRUE
+295,727173,2022-11-03,2022,Other,FALSE,FALSE,Asian/Southeast Asian,Chinese,None,None,None,Transgender,Threat,153,FALSE,TRUE
+296,359003,2023-03-30,2023,Residential,FALSE,FALSE,Black,Afghan,None,Muslim,None,Male,Threat,42,TRUE,TRUE
+297,559177,2018-12-29,2018,Public,TRUE,TRUE,Asian/Southeast Asian,None,Spanish,None,Gay,Female,Assault,15,FALSE,TRUE
+298,622784,2019-06-06,2019,Other,TRUE,TRUE,South Asian,Japanese,Spanish,Buddhist,None,Female,Threat,32,FALSE,TRUE
+299,391732,2023-12-15,2023,Residential,FALSE,TRUE,Black,Latino,Mandarin,Muslim,Gay,Male,Vandalism,32,FALSE,TRUE
+300,400982,2023-09-10,2023,Residential,TRUE,FALSE,Black,Chinese,None,Other,Gay,None,Harassment,77,FALSE,TRUE
+301,764137,2021-10-21,2021,Residential,FALSE,TRUE,White,Afghan,None,Jewish,Gay,Female,Threat,78,FALSE,TRUE
+302,167545,2020-06-27,2020,Residential,FALSE,TRUE,White,Chinese,Mandarin,None,Gay,Female,Vandalism,46,FALSE,TRUE
+303,704172,2020-03-30,2020,Public,FALSE,TRUE,Asian/Southeast Asian,African,Hindi,Christian,Gay,None,Threat,52,FALSE,TRUE
+304,494314,2023-12-24,2023,Public,TRUE,FALSE,Asian/Southeast Asian,Afghan,Arabic,Christian,None,Transgender,Assault,42,FALSE,TRUE
+305,921815,2023-05-07,2023,Commercial,FALSE,FALSE,Black,Arab,None,Buddhist,2SLGBT,Female,Threat,107,TRUE,TRUE
+306,763114,2023-08-30,2023,Commercial,TRUE,TRUE,Asian/Southeast Asian,African,English,None,None,Female,Vandalism,30,FALSE,TRUE
+307,542450,2019-11-27,2019,Public,FALSE,FALSE,None,None,English,Jewish,None,Female,Assault,30,FALSE,TRUE
+308,916713,2020-06-09,2020,Public,TRUE,TRUE,White,Arab,Spanish,None,None,None,Vandalism,121,FALSE,TRUE
+309,345836,2018-06-05,2018,Residential,TRUE,TRUE,White,Afghan,English,Muslim,Gay,Male,Vandalism,142,FALSE,TRUE
+310,926744,2019-06-21,2019,Public,TRUE,TRUE,Black,African,Hindi,Buddhist,Gay,Transgender,Vandalism,80,TRUE,TRUE
+311,720223,2019-03-03,2019,Public,TRUE,FALSE,South Asian,None,Mandarin,Other,None,Female,Vandalism,32,FALSE,TRUE
+312,325227,2019-07-04,2019,Public,TRUE,TRUE,Black,Chinese,Spanish,None,Gay,None,Assault,11,TRUE,TRUE
+313,256269,2023-12-17,2023,Public,TRUE,TRUE,None,Afghan,Mandarin,Buddhist,2SLGBT,Transgender,Vandalism,55,TRUE,TRUE
+314,196694,2019-09-26,2019,Commercial,TRUE,FALSE,Asian/Southeast Asian,None,None,Christian,Gay,Transgender,Assault,92,TRUE,TRUE
+315,212138,2023-03-05,2023,Residential,FALSE,FALSE,Black,Latino,Spanish,Jewish,2SLGBT,None,Harassment,112,FALSE,TRUE
+316,232209,2021-06-22,2021,Public,FALSE,TRUE,South Asian,Israeli,Hindi,Christian,2SLGBT,Female,Assault,144,FALSE,TRUE
+317,143614,2021-03-06,2021,Public,FALSE,TRUE,None,African,Hindi,Buddhist,Gay,Female,Threat,158,FALSE,TRUE
+318,385813,2018-04-15,2018,Public,FALSE,FALSE,Asian/Southeast Asian,Japanese,Spanish,Other,Gay,Male,Threat,57,FALSE,TRUE
+319,701290,2023-07-05,2023,Commercial,TRUE,TRUE,Asian/Southeast Asian,African,Spanish,Jewish,None,Female,Vandalism,100,TRUE,TRUE
+320,299283,2022-02-01,2022,Commercial,FALSE,TRUE,Black,Afghan,Arabic,Christian,None,Male,Assault,36,TRUE,TRUE
+321,418910,2019-06-23,2019,Public,FALSE,TRUE,South Asian,None,Arabic,Jewish,2SLGBT,Female,Harassment,78,FALSE,TRUE
+322,957838,2019-11-05,2019,Residential,TRUE,TRUE,South Asian,Chinese,Mandarin,None,None,None,Vandalism,23,FALSE,TRUE
+323,188582,2021-08-18,2021,Other,FALSE,TRUE,Asian/Southeast Asian,Israeli,Hindi,Jewish,2SLGBT,Female,Threat,25,FALSE,TRUE
+324,105743,2019-02-21,2019,Residential,TRUE,TRUE,Asian/Southeast Asian,Latino,Hindi,Other,None,Transgender,Assault,106,FALSE,TRUE
+325,412886,2020-10-01,2020,Commercial,TRUE,FALSE,White,Latino,Spanish,Muslim,Gay,Male,Assault,116,FALSE,TRUE
+326,180287,2019-01-05,2019,Commercial,FALSE,TRUE,White,Japanese,English,Muslim,None,Transgender,Harassment,155,FALSE,TRUE
+327,917085,2023-08-18,2023,Residential,TRUE,TRUE,White,Afghan,None,Other,Gay,Male,Assault,139,FALSE,TRUE
+328,353995,2018-04-26,2018,Commercial,TRUE,FALSE,Asian/Southeast Asian,Japanese,Hindi,Jewish,2SLGBT,Male,Assault,29,FALSE,TRUE
+329,982182,2021-02-23,2021,Other,TRUE,TRUE,South Asian,Afghan,Spanish,None,2SLGBT,Transgender,Assault,125,FALSE,TRUE
+330,250435,2018-05-02,2018,Commercial,TRUE,TRUE,Black,Japanese,Arabic,None,None,None,Harassment,90,FALSE,TRUE
+331,301606,2021-08-04,2021,Residential,TRUE,FALSE,White,Arab,English,Buddhist,2SLGBT,Male,Harassment,61,TRUE,TRUE
+332,881284,2023-03-16,2023,Commercial,FALSE,FALSE,Asian/Southeast Asian,Arab,Spanish,Muslim,Gay,Female,Threat,11,FALSE,TRUE
+333,800682,2019-09-04,2019,Residential,TRUE,FALSE,White,Chinese,Arabic,Christian,2SLGBT,None,Threat,154,FALSE,TRUE
+334,571646,2023-02-27,2023,Other,TRUE,FALSE,Black,Israeli,Spanish,Christian,None,None,Harassment,155,TRUE,TRUE
+335,861267,2023-08-17,2023,Residential,FALSE,TRUE,Black,Latino,Hindi,Buddhist,Gay,Female,Threat,115,TRUE,TRUE
+336,408723,2019-12-29,2019,Public,FALSE,TRUE,None,Japanese,Arabic,Muslim,2SLGBT,Male,Threat,157,TRUE,TRUE
+337,333259,2023-09-06,2023,Commercial,FALSE,TRUE,White,Latino,Spanish,None,None,Male,Assault,45,TRUE,TRUE
+338,877266,2018-10-27,2018,Commercial,TRUE,TRUE,White,Latino,Hindi,Other,None,Female,Threat,115,TRUE,TRUE
+339,510148,2021-05-06,2021,Commercial,FALSE,TRUE,None,African,Mandarin,Other,2SLGBT,Transgender,Harassment,61,FALSE,TRUE
+340,216307,2023-07-21,2023,Commercial,TRUE,TRUE,South Asian,Afghan,English,None,None,Transgender,Harassment,121,FALSE,TRUE
+341,615589,2022-02-21,2022,Other,TRUE,TRUE,South Asian,African,Arabic,Jewish,2SLGBT,Male,Assault,126,FALSE,TRUE
+342,729460,2022-03-30,2022,Public,TRUE,FALSE,White,Israeli,Spanish,Jewish,None,Transgender,Vandalism,103,TRUE,TRUE
+343,800923,2018-04-11,2018,Other,FALSE,FALSE,White,Chinese,None,Buddhist,Gay,Transgender,Assault,20,FALSE,TRUE
+344,944840,2022-10-14,2022,Public,TRUE,TRUE,Asian/Southeast Asian,Israeli,Spanish,Jewish,Gay,Female,Vandalism,21,TRUE,TRUE
+345,551944,2020-09-24,2020,Commercial,FALSE,FALSE,Asian/Southeast Asian,African,None,Muslim,None,Female,Vandalism,62,FALSE,TRUE
+346,388083,2021-11-09,2021,Residential,TRUE,TRUE,South Asian,Israeli,Mandarin,Buddhist,Gay,Female,Vandalism,6,FALSE,TRUE
+347,522554,2019-04-20,2019,Public,TRUE,FALSE,Black,African,Mandarin,Muslim,2SLGBT,None,Harassment,138,TRUE,TRUE
+348,475089,2021-04-21,2021,Public,FALSE,FALSE,Asian/Southeast Asian,Israeli,None,Muslim,None,Female,Harassment,63,TRUE,TRUE
+349,556374,2019-07-27,2019,Other,TRUE,FALSE,Black,Israeli,Mandarin,Other,2SLGBT,Female,Vandalism,27,FALSE,TRUE
+350,374594,2019-01-14,2019,Residential,TRUE,TRUE,Black,African,Spanish,Jewish,None,Transgender,Assault,154,FALSE,TRUE
+351,640270,2018-07-06,2018,Public,FALSE,TRUE,Black,Israeli,Hindi,Buddhist,Gay,Male,Assault,14,TRUE,TRUE
+352,692578,2021-03-06,2021,Other,FALSE,TRUE,Asian/Southeast Asian,None,None,Jewish,2SLGBT,None,Assault,93,FALSE,TRUE
+353,841293,2021-10-20,2021,Commercial,TRUE,FALSE,None,Japanese,Spanish,None,Gay,Male,Vandalism,43,FALSE,TRUE
+354,344948,2020-04-12,2020,Commercial,TRUE,TRUE,South Asian,Japanese,Mandarin,Buddhist,Gay,None,Vandalism,88,FALSE,TRUE
+355,709511,2018-12-23,2018,Other,FALSE,TRUE,None,Arab,None,Jewish,2SLGBT,Male,Assault,144,TRUE,TRUE
+356,981611,2023-04-10,2023,Other,TRUE,TRUE,Asian/Southeast Asian,Arab,Hindi,Jewish,Gay,None,Assault,150,TRUE,TRUE
+357,979777,2021-06-15,2021,Public,TRUE,FALSE,Asian/Southeast Asian,Afghan,English,Buddhist,None,Transgender,Vandalism,11,FALSE,TRUE
+358,398734,2018-07-15,2018,Commercial,FALSE,TRUE,White,Arab,Arabic,Muslim,Gay,Male,Harassment,72,FALSE,TRUE
+359,342212,2020-08-19,2020,Public,TRUE,TRUE,South Asian,Chinese,English,Christian,None,None,Harassment,66,TRUE,TRUE
+360,107243,2018-03-13,2018,Other,FALSE,TRUE,Asian/Southeast Asian,Chinese,Mandarin,Jewish,None,None,Vandalism,158,TRUE,TRUE
+361,341196,2022-11-22,2022,Residential,FALSE,TRUE,South Asian,None,Spanish,Jewish,None,Female,Harassment,129,TRUE,TRUE
+362,751066,2021-01-30,2021,Commercial,FALSE,FALSE,None,Latino,Arabic,Other,2SLGBT,Transgender,Vandalism,130,TRUE,TRUE
+363,385851,2019-02-06,2019,Other,TRUE,TRUE,None,African,Mandarin,Other,None,Transgender,Harassment,106,TRUE,TRUE
+364,857086,2022-05-19,2022,Commercial,TRUE,TRUE,South Asian,Israeli,Spanish,Other,None,Male,Harassment,130,FALSE,TRUE
+365,150058,2018-02-14,2018,Commercial,FALSE,TRUE,Black,Chinese,Arabic,Christian,None,Transgender,Vandalism,120,FALSE,TRUE
+366,488080,2021-06-14,2021,Other,FALSE,TRUE,White,Israeli,Hindi,Muslim,2SLGBT,Female,Vandalism,11,TRUE,TRUE
+367,324017,2022-01-16,2022,Commercial,TRUE,FALSE,White,African,Arabic,Other,Gay,None,Assault,143,FALSE,TRUE
+368,729288,2021-12-18,2021,Commercial,FALSE,FALSE,South Asian,African,Spanish,None,2SLGBT,None,Threat,143,TRUE,TRUE
+369,866338,2023-05-11,2023,Other,FALSE,TRUE,Black,Afghan,English,None,2SLGBT,Transgender,Threat,33,FALSE,TRUE
+370,343564,2019-03-10,2019,Other,TRUE,FALSE,White,Israeli,Arabic,Muslim,Gay,Female,Vandalism,121,TRUE,TRUE
+371,932591,2020-03-18,2020,Public,FALSE,TRUE,Black,African,Spanish,Jewish,None,None,Vandalism,140,FALSE,TRUE
+372,685544,2018-10-21,2018,Public,FALSE,TRUE,None,None,Hindi,Muslim,2SLGBT,Male,Threat,147,FALSE,TRUE
+373,915868,2019-05-25,2019,Residential,FALSE,FALSE,White,None,Hindi,Buddhist,2SLGBT,Transgender,Threat,88,TRUE,TRUE
+374,333021,2020-04-17,2020,Residential,TRUE,TRUE,White,Arab,None,Jewish,2SLGBT,None,Assault,108,TRUE,TRUE
+375,887344,2018-06-29,2018,Other,TRUE,FALSE,South Asian,Afghan,Hindi,Jewish,2SLGBT,None,Threat,39,FALSE,TRUE
+376,141743,2019-06-26,2019,Residential,FALSE,FALSE,None,Chinese,Arabic,Muslim,2SLGBT,Transgender,Harassment,13,FALSE,TRUE
+377,356640,2019-09-27,2019,Commercial,TRUE,FALSE,None,Chinese,None,Other,None,None,Assault,37,TRUE,TRUE
+378,611167,2022-06-15,2022,Commercial,FALSE,TRUE,Asian/Southeast Asian,Israeli,Mandarin,Muslim,None,Transgender,Threat,46,TRUE,TRUE
+379,359600,2018-01-08,2018,Residential,FALSE,TRUE,Black,Afghan,Arabic,Buddhist,2SLGBT,Female,Harassment,8,FALSE,TRUE
+380,376186,2019-09-05,2019,Residential,FALSE,TRUE,None,Arab,Mandarin,Buddhist,Gay,Male,Assault,3,FALSE,TRUE
+381,761766,2021-06-08,2021,Residential,TRUE,FALSE,Black,None,None,Muslim,Gay,Male,Threat,60,FALSE,TRUE
+382,133232,2022-07-27,2022,Public,TRUE,FALSE,Asian/Southeast Asian,African,Mandarin,Muslim,2SLGBT,None,Assault,138,TRUE,TRUE
+383,759714,2018-05-05,2018,Residential,TRUE,FALSE,Black,African,Spanish,None,Gay,Transgender,Harassment,47,FALSE,TRUE
+384,328032,2019-05-15,2019,Other,FALSE,TRUE,None,African,Mandarin,None,Gay,None,Threat,149,TRUE,TRUE
+385,743942,2020-02-12,2020,Commercial,TRUE,FALSE,Asian/Southeast Asian,None,Mandarin,Jewish,2SLGBT,Female,Threat,86,TRUE,TRUE
+386,570452,2019-11-17,2019,Commercial,FALSE,TRUE,None,Chinese,Arabic,Buddhist,None,Female,Threat,105,TRUE,TRUE
+387,564725,2021-09-26,2021,Commercial,TRUE,TRUE,White,Arab,English,Christian,None,Female,Harassment,71,FALSE,TRUE
+388,624448,2021-05-02,2021,Other,FALSE,TRUE,White,Latino,English,None,2SLGBT,Female,Threat,153,FALSE,TRUE
+389,371934,2020-03-26,2020,Public,FALSE,FALSE,South Asian,None,Mandarin,Buddhist,None,Female,Harassment,145,TRUE,TRUE
+390,459804,2023-04-01,2023,Public,TRUE,FALSE,South Asian,Japanese,Mandarin,Jewish,None,Male,Harassment,103,FALSE,TRUE
+391,911756,2020-11-30,2020,Commercial,TRUE,TRUE,Asian/Southeast Asian,Japanese,Mandarin,Christian,None,Female,Threat,46,FALSE,TRUE
+392,458267,2022-03-07,2022,Commercial,FALSE,FALSE,South Asian,None,None,Christian,2SLGBT,Female,Harassment,56,TRUE,TRUE
+393,733227,2023-07-14,2023,Other,TRUE,FALSE,Asian/Southeast Asian,African,None,Buddhist,Gay,None,Vandalism,99,TRUE,TRUE
+394,304363,2021-03-19,2021,Public,FALSE,FALSE,None,Afghan,Mandarin,None,Gay,Female,Assault,18,FALSE,TRUE
+395,698613,2023-12-07,2023,Residential,TRUE,TRUE,White,Chinese,Arabic,Muslim,2SLGBT,Female,Threat,114,TRUE,TRUE
+396,285205,2018-10-01,2018,Residential,TRUE,FALSE,None,Chinese,Hindi,Christian,Gay,Male,Harassment,61,TRUE,TRUE
+397,886871,2020-01-28,2020,Residential,FALSE,FALSE,Black,Israeli,None,Christian,Gay,None,Vandalism,101,TRUE,TRUE
+398,689714,2019-10-04,2019,Residential,TRUE,TRUE,None,Japanese,None,Christian,None,Female,Assault,40,TRUE,TRUE
+399,935321,2020-11-30,2020,Residential,TRUE,TRUE,Black,Japanese,Spanish,Muslim,None,Male,Harassment,57,TRUE,TRUE
+400,731941,2020-07-13,2020,Other,TRUE,TRUE,White,Japanese,Spanish,Christian,2SLGBT,Male,Threat,138,FALSE,TRUE
+401,875211,2019-09-03,2019,Commercial,FALSE,TRUE,Black,Israeli,Arabic,Christian,Gay,Male,Assault,58,TRUE,TRUE
+402,756522,2018-05-01,2018,Public,TRUE,FALSE,Asian/Southeast Asian,African,None,Muslim,2SLGBT,None,Threat,91,FALSE,TRUE
+403,105504,2018-01-05,2018,Other,TRUE,FALSE,None,Japanese,Mandarin,Christian,Gay,Male,Vandalism,68,FALSE,TRUE
+404,754566,2019-01-04,2019,Residential,TRUE,TRUE,Asian/Southeast Asian,Afghan,English,None,None,Male,Vandalism,79,FALSE,TRUE
+405,392772,2019-11-16,2019,Other,TRUE,TRUE,South Asian,Arab,Mandarin,Buddhist,Gay,Female,Vandalism,12,TRUE,TRUE
+406,971062,2018-11-13,2018,Other,TRUE,FALSE,None,Afghan,None,Other,None,Male,Threat,151,FALSE,TRUE
+407,291597,2023-04-19,2023,Commercial,FALSE,FALSE,Black,Japanese,Hindi,None,2SLGBT,Male,Threat,156,FALSE,TRUE
+408,862084,2020-08-07,2020,Residential,FALSE,TRUE,Black,African,Hindi,Jewish,None,Female,Vandalism,21,TRUE,TRUE
+409,508213,2023-03-23,2023,Other,TRUE,FALSE,Asian/Southeast Asian,Israeli,None,Other,None,None,Assault,72,TRUE,TRUE
+410,416653,2022-05-27,2022,Commercial,FALSE,FALSE,None,African,None,Other,Gay,Female,Threat,64,FALSE,TRUE
+411,765468,2019-07-04,2019,Residential,TRUE,FALSE,Black,Israeli,Spanish,Jewish,None,Female,Harassment,48,TRUE,TRUE
+412,947226,2022-11-20,2022,Residential,FALSE,FALSE,Black,Japanese,None,Christian,2SLGBT,Male,Assault,139,TRUE,TRUE
+413,195017,2022-07-07,2022,Commercial,FALSE,TRUE,White,African,Hindi,None,2SLGBT,Female,Vandalism,124,FALSE,TRUE
+414,930788,2022-03-09,2022,Residential,FALSE,TRUE,South Asian,None,Mandarin,Christian,Gay,Female,Assault,56,FALSE,TRUE
+415,835494,2022-07-19,2022,Other,FALSE,TRUE,White,Chinese,Mandarin,Other,Gay,Transgender,Assault,59,FALSE,TRUE
+416,899743,2019-03-14,2019,Other,FALSE,FALSE,South Asian,Israeli,English,Other,2SLGBT,Male,Assault,13,FALSE,TRUE
+417,887843,2020-03-06,2020,Commercial,TRUE,TRUE,Black,Latino,Hindi,Jewish,Gay,Male,Assault,134,TRUE,TRUE
+418,901467,2018-05-27,2018,Public,FALSE,TRUE,Black,None,English,Jewish,Gay,Male,Threat,29,FALSE,TRUE
+419,315255,2018-07-11,2018,Residential,TRUE,FALSE,South Asian,None,Hindi,Buddhist,Gay,None,Threat,75,TRUE,TRUE
+420,328693,2021-10-17,2021,Other,TRUE,TRUE,White,African,Mandarin,Other,Gay,None,Assault,62,TRUE,TRUE
+421,991572,2018-04-15,2018,Other,TRUE,TRUE,None,None,None,Other,None,None,Harassment,22,FALSE,FALSE
+422,469531,2019-03-06,2019,Commercial,FALSE,FALSE,Asian/Southeast Asian,Chinese,None,Muslim,None,Female,Vandalism,107,TRUE,TRUE
+423,746738,2022-03-31,2022,Residential,FALSE,TRUE,South Asian,Latino,Arabic,Buddhist,2SLGBT,None,Threat,156,TRUE,TRUE
+424,252403,2021-06-23,2021,Other,TRUE,TRUE,Black,Arab,English,Muslim,Gay,Female,Vandalism,60,TRUE,TRUE
+425,482788,2022-11-13,2022,Residential,TRUE,FALSE,White,African,Mandarin,None,2SLGBT,Transgender,Vandalism,143,TRUE,TRUE
+426,855399,2022-02-22,2022,Commercial,FALSE,FALSE,South Asian,Latino,Hindi,Jewish,Gay,None,Threat,44,FALSE,TRUE
+427,223001,2021-12-12,2021,Other,TRUE,TRUE,White,Japanese,English,Other,2SLGBT,Female,Assault,2,FALSE,TRUE
+428,433267,2022-12-24,2022,Public,TRUE,FALSE,None,Arab,None,Buddhist,2SLGBT,Female,Harassment,145,FALSE,TRUE
+429,575589,2018-04-19,2018,Commercial,TRUE,TRUE,Black,Afghan,Arabic,Christian,Gay,Male,Harassment,65,FALSE,TRUE
+430,527872,2019-03-21,2019,Public,TRUE,TRUE,Asian/Southeast Asian,Chinese,Hindi,Muslim,None,None,Assault,97,FALSE,TRUE
+431,739456,2020-11-02,2020,Public,TRUE,TRUE,Black,Latino,Hindi,Jewish,2SLGBT,Male,Assault,75,TRUE,TRUE
+432,288621,2018-02-19,2018,Public,FALSE,FALSE,South Asian,Afghan,None,Other,None,None,Vandalism,125,TRUE,TRUE
+433,213079,2020-04-10,2020,Other,FALSE,TRUE,Asian/Southeast Asian,Latino,Hindi,Buddhist,Gay,Transgender,Vandalism,58,FALSE,TRUE
+434,755079,2019-06-20,2019,Public,TRUE,TRUE,Black,Israeli,Mandarin,Buddhist,Gay,Female,Vandalism,153,TRUE,TRUE
+435,407252,2021-11-27,2021,Other,TRUE,TRUE,None,Israeli,Mandarin,Muslim,Gay,Transgender,Threat,147,TRUE,TRUE
+436,915517,2022-02-02,2022,Commercial,FALSE,TRUE,South Asian,Afghan,None,Muslim,None,Female,Harassment,37,FALSE,TRUE
+437,728513,2023-12-11,2023,Residential,FALSE,FALSE,Asian/Southeast Asian,Latino,English,Christian,2SLGBT,Male,Vandalism,22,FALSE,TRUE
+438,407345,2023-07-18,2023,Commercial,TRUE,FALSE,Black,Afghan,None,Other,2SLGBT,Male,Harassment,136,FALSE,TRUE
+439,562682,2022-10-09,2022,Residential,TRUE,FALSE,Asian/Southeast Asian,Israeli,Mandarin,Jewish,2SLGBT,None,Vandalism,76,TRUE,TRUE
+440,550058,2022-03-27,2022,Residential,TRUE,TRUE,South Asian,Chinese,Spanish,Jewish,Gay,Male,Threat,56,TRUE,TRUE
+441,441760,2022-09-10,2022,Residential,FALSE,FALSE,South Asian,Japanese,None,None,2SLGBT,Female,Vandalism,94,TRUE,TRUE
+442,290983,2021-03-06,2021,Commercial,TRUE,FALSE,South Asian,Chinese,English,None,Gay,Male,Threat,63,TRUE,TRUE
+443,696646,2023-02-16,2023,Residential,FALSE,TRUE,Asian/Southeast Asian,Latino,English,None,Gay,Transgender,Vandalism,143,TRUE,TRUE
+444,967086,2020-12-04,2020,Public,TRUE,TRUE,Black,Afghan,Spanish,Other,None,Transgender,Harassment,13,FALSE,TRUE
+445,273187,2022-03-13,2022,Public,FALSE,FALSE,White,None,English,Buddhist,2SLGBT,None,Assault,102,FALSE,TRUE
+446,199781,2021-02-06,2021,Public,TRUE,TRUE,Asian/Southeast Asian,Afghan,English,None,Gay,Transgender,Vandalism,136,FALSE,TRUE
+447,626288,2023-08-17,2023,Commercial,FALSE,FALSE,Asian/Southeast Asian,None,Spanish,Muslim,2SLGBT,Male,Assault,83,FALSE,TRUE
+448,253601,2021-03-29,2021,Commercial,TRUE,FALSE,White,Latino,Spanish,Jewish,2SLGBT,Male,Assault,71,TRUE,TRUE
+449,608170,2021-01-09,2021,Residential,FALSE,FALSE,Black,Japanese,Hindi,Jewish,2SLGBT,None,Vandalism,28,FALSE,TRUE
+450,194425,2020-09-19,2020,Commercial,FALSE,FALSE,White,Arab,Hindi,Christian,None,None,Harassment,130,TRUE,TRUE
+451,620692,2020-08-06,2020,Residential,FALSE,TRUE,Black,None,English,Other,2SLGBT,Female,Threat,40,FALSE,TRUE
+452,692396,2018-01-01,2018,Other,TRUE,TRUE,South Asian,Latino,Arabic,None,2SLGBT,None,Harassment,89,TRUE,TRUE
+453,661221,2021-12-02,2021,Commercial,TRUE,TRUE,None,African,Arabic,Other,2SLGBT,Female,Vandalism,17,FALSE,TRUE
+454,445294,2020-11-16,2020,Commercial,TRUE,FALSE,South Asian,Afghan,Hindi,Christian,2SLGBT,None,Threat,71,TRUE,TRUE
+455,881693,2020-09-11,2020,Other,FALSE,TRUE,None,Israeli,English,Buddhist,None,Female,Vandalism,51,TRUE,TRUE
+456,154150,2018-08-06,2018,Other,TRUE,TRUE,Asian/Southeast Asian,None,Arabic,Muslim,Gay,None,Vandalism,2,FALSE,TRUE
+457,904224,2022-07-19,2022,Other,TRUE,TRUE,None,Latino,Spanish,Christian,None,Male,Threat,25,FALSE,TRUE
+458,205057,2020-07-14,2020,Commercial,TRUE,TRUE,Asian/Southeast Asian,Japanese,English,Buddhist,None,Male,Vandalism,123,TRUE,TRUE
+459,205196,2018-11-02,2018,Commercial,TRUE,TRUE,None,Latino,Spanish,None,None,Female,Harassment,105,FALSE,TRUE
+460,651125,2019-09-05,2019,Other,TRUE,TRUE,None,Latino,None,Christian,None,Female,Threat,41,FALSE,TRUE
+461,302150,2022-02-05,2022,Residential,TRUE,FALSE,None,Afghan,Spanish,Muslim,Gay,Male,Vandalism,38,TRUE,TRUE
+462,934956,2021-02-12,2021,Public,FALSE,FALSE,White,Japanese,Hindi,Christian,2SLGBT,None,Threat,53,FALSE,TRUE
+463,665980,2022-03-19,2022,Other,TRUE,TRUE,Asian/Southeast Asian,Chinese,English,Jewish,Gay,Male,Assault,27,FALSE,TRUE
+464,596046,2020-07-29,2020,Public,FALSE,FALSE,South Asian,Latino,Mandarin,Christian,2SLGBT,Male,Harassment,77,FALSE,TRUE
+465,435363,2022-12-28,2022,Other,TRUE,FALSE,Black,Japanese,Mandarin,None,None,Male,Harassment,137,TRUE,TRUE
+466,854553,2020-07-18,2020,Public,FALSE,FALSE,White,Latino,None,Muslim,Gay,Transgender,Vandalism,27,FALSE,TRUE
+467,174873,2019-07-30,2019,Commercial,TRUE,TRUE,South Asian,None,English,Muslim,2SLGBT,Transgender,Assault,47,TRUE,TRUE
+468,857794,2020-10-07,2020,Public,FALSE,TRUE,Asian/Southeast Asian,Arab,Spanish,Other,Gay,Female,Harassment,62,FALSE,TRUE
+469,936570,2021-07-29,2021,Commercial,FALSE,FALSE,None,Japanese,Arabic,Muslim,2SLGBT,Male,Assault,145,TRUE,TRUE
+470,125478,2021-04-18,2021,Commercial,FALSE,TRUE,South Asian,Japanese,Mandarin,Christian,2SLGBT,Transgender,Threat,34,FALSE,TRUE
+471,934563,2022-11-08,2022,Commercial,FALSE,TRUE,Asian/Southeast Asian,None,Hindi,Christian,2SLGBT,None,Harassment,18,FALSE,TRUE
+472,408869,2019-07-11,2019,Other,FALSE,FALSE,Black,Arab,Spanish,Buddhist,2SLGBT,Male,Harassment,145,FALSE,TRUE
+473,840189,2021-10-27,2021,Residential,TRUE,FALSE,Black,Chinese,None,None,None,Transgender,Vandalism,76,TRUE,TRUE
+474,479936,2021-09-05,2021,Other,TRUE,TRUE,White,African,Spanish,Christian,2SLGBT,Female,Threat,17,FALSE,TRUE
+475,535670,2018-06-06,2018,Public,TRUE,FALSE,Asian/Southeast Asian,Latino,Spanish,None,2SLGBT,Transgender,Assault,27,TRUE,TRUE
+476,559868,2023-02-15,2023,Commercial,TRUE,TRUE,South Asian,Israeli,Hindi,Other,2SLGBT,Transgender,Assault,10,TRUE,TRUE
+477,759434,2023-11-03,2023,Public,FALSE,FALSE,White,Japanese,None,Muslim,None,None,Vandalism,25,FALSE,TRUE
+478,609897,2019-10-13,2019,Commercial,FALSE,FALSE,Black,African,Arabic,None,None,Transgender,Assault,129,TRUE,TRUE
+479,598126,2021-12-19,2021,Commercial,TRUE,FALSE,None,African,English,Buddhist,2SLGBT,Female,Assault,12,TRUE,TRUE
+480,307720,2018-08-23,2018,Commercial,FALSE,FALSE,Black,Arab,Hindi,Christian,2SLGBT,None,Vandalism,139,TRUE,TRUE
+481,981369,2023-12-18,2023,Commercial,TRUE,FALSE,White,Israeli,English,Other,2SLGBT,None,Threat,111,TRUE,TRUE
+482,840454,2023-09-04,2023,Residential,FALSE,TRUE,Asian/Southeast Asian,Japanese,English,Jewish,2SLGBT,None,Assault,77,FALSE,TRUE
+483,670734,2023-07-22,2023,Commercial,FALSE,FALSE,None,Latino,Mandarin,Christian,Gay,Transgender,Harassment,141,FALSE,TRUE
+484,642264,2021-11-07,2021,Commercial,TRUE,FALSE,South Asian,Latino,English,Christian,Gay,Transgender,Harassment,29,FALSE,TRUE
+485,814085,2023-03-13,2023,Commercial,TRUE,TRUE,South Asian,Latino,Spanish,Buddhist,None,Female,Assault,35,TRUE,TRUE
+486,607639,2021-12-18,2021,Public,TRUE,TRUE,None,Israeli,Arabic,Christian,None,Male,Assault,88,FALSE,TRUE
+487,134523,2023-05-17,2023,Public,FALSE,FALSE,Asian/Southeast Asian,Arab,Spanish,Buddhist,2SLGBT,None,Assault,113,FALSE,TRUE
+488,194826,2020-03-30,2020,Other,FALSE,FALSE,Asian/Southeast Asian,Afghan,None,Christian,Gay,Female,Vandalism,1,TRUE,TRUE
+489,191318,2019-11-06,2019,Commercial,TRUE,TRUE,White,Afghan,Mandarin,Other,Gay,Transgender,Harassment,19,TRUE,TRUE
+490,331640,2019-10-02,2019,Residential,TRUE,TRUE,None,Latino,None,Buddhist,None,Female,Threat,32,TRUE,TRUE
+491,129335,2021-07-03,2021,Commercial,TRUE,FALSE,White,Latino,English,None,None,None,Vandalism,142,FALSE,TRUE
+492,911974,2021-02-23,2021,Public,TRUE,TRUE,South Asian,Japanese,English,Jewish,None,None,Vandalism,6,TRUE,TRUE
+493,525253,2020-11-02,2020,Public,FALSE,FALSE,None,Afghan,None,Buddhist,2SLGBT,None,Vandalism,142,TRUE,TRUE
+494,125889,2020-11-12,2020,Other,TRUE,TRUE,White,None,Spanish,Christian,None,None,Assault,149,TRUE,TRUE
+495,159084,2019-08-30,2019,Commercial,FALSE,TRUE,White,Afghan,Mandarin,Other,Gay,Male,Threat,4,FALSE,TRUE
+496,457734,2022-05-06,2022,Other,FALSE,FALSE,None,Afghan,Mandarin,Muslim,Gay,Female,Vandalism,46,TRUE,TRUE
+497,366803,2020-10-13,2020,Residential,TRUE,FALSE,None,None,Spanish,Buddhist,Gay,Male,Harassment,66,FALSE,TRUE
+498,656259,2023-12-02,2023,Other,TRUE,TRUE,Black,African,Spanish,Christian,2SLGBT,None,Vandalism,60,TRUE,TRUE
+499,551333,2021-10-23,2021,Other,TRUE,TRUE,White,Chinese,None,Muslim,None,Transgender,Assault,67,FALSE,TRUE
+500,647106,2021-05-26,2021,Commercial,TRUE,TRUE,South Asian,Chinese,Hindi,None,2SLGBT,Female,Harassment,140,FALSE,TRUE
+501,220479,2019-06-29,2019,Commercial,TRUE,TRUE,None,None,Hindi,Jewish,Gay,Male,Threat,138,FALSE,TRUE
+502,882146,2019-03-30,2019,Public,TRUE,FALSE,South Asian,Arab,Hindi,None,Gay,Transgender,Threat,31,FALSE,TRUE
+503,822518,2020-08-13,2020,Commercial,FALSE,FALSE,None,Japanese,Spanish,Other,2SLGBT,None,Assault,70,FALSE,TRUE
+504,836464,2022-07-19,2022,Other,FALSE,TRUE,White,None,Spanish,Jewish,Gay,Transgender,Threat,21,FALSE,TRUE
+505,592279,2019-04-28,2019,Other,TRUE,FALSE,White,None,Arabic,Christian,2SLGBT,Transgender,Threat,68,TRUE,TRUE
+506,539686,2018-10-09,2018,Residential,FALSE,FALSE,None,None,Mandarin,Muslim,Gay,Male,Assault,35,TRUE,TRUE
+507,866287,2023-08-04,2023,Residential,FALSE,TRUE,White,Israeli,Hindi,Other,None,None,Harassment,32,TRUE,TRUE
+508,951326,2022-11-21,2022,Commercial,TRUE,FALSE,None,Latino,English,Muslim,Gay,None,Vandalism,6,TRUE,TRUE
+509,155164,2021-03-11,2021,Public,TRUE,FALSE,Black,Israeli,English,Buddhist,None,None,Vandalism,154,FALSE,TRUE
+510,876915,2021-12-23,2021,Residential,TRUE,FALSE,South Asian,Latino,Hindi,Buddhist,2SLGBT,Female,Vandalism,118,FALSE,TRUE
+511,567798,2023-05-27,2023,Public,TRUE,TRUE,Asian/Southeast Asian,Israeli,Mandarin,Muslim,Gay,Female,Vandalism,127,TRUE,TRUE
+512,950029,2018-01-10,2018,Commercial,TRUE,FALSE,Black,Latino,Arabic,Buddhist,None,Female,Harassment,119,FALSE,TRUE
+513,474984,2018-12-11,2018,Commercial,TRUE,FALSE,White,None,Hindi,Christian,None,None,Assault,145,FALSE,TRUE
+514,785370,2023-04-27,2023,Residential,TRUE,FALSE,White,African,Spanish,Muslim,Gay,None,Harassment,123,FALSE,TRUE
+515,589558,2021-10-23,2021,Commercial,FALSE,FALSE,Black,Chinese,Spanish,Christian,Gay,Male,Harassment,130,FALSE,TRUE
+516,729335,2022-04-01,2022,Public,TRUE,FALSE,Asian/Southeast Asian,Japanese,None,Muslim,2SLGBT,Transgender,Threat,34,TRUE,TRUE
+517,373519,2021-06-04,2021,Public,FALSE,FALSE,None,Arab,Spanish,Buddhist,2SLGBT,Male,Threat,81,TRUE,TRUE
+518,614580,2022-05-29,2022,Residential,TRUE,FALSE,Black,African,Spanish,None,None,Transgender,Vandalism,53,TRUE,TRUE
+519,658570,2019-08-23,2019,Public,FALSE,TRUE,None,Japanese,English,Other,None,None,Vandalism,35,TRUE,TRUE
+520,352357,2020-05-03,2020,Residential,TRUE,TRUE,White,Japanese,Spanish,Christian,None,Transgender,Assault,66,TRUE,TRUE
+521,182459,2018-08-06,2018,Commercial,FALSE,FALSE,None,Latino,Hindi,Buddhist,Gay,None,Vandalism,20,FALSE,TRUE
+522,227240,2023-03-20,2023,Other,TRUE,FALSE,South Asian,Arab,English,None,None,Male,Harassment,145,TRUE,TRUE
+523,402417,2019-07-17,2019,Residential,FALSE,FALSE,South Asian,Chinese,Hindi,Jewish,None,Transgender,Harassment,22,FALSE,TRUE
+524,816297,2022-12-18,2022,Residential,TRUE,TRUE,Asian/Southeast Asian,Latino,Arabic,Jewish,None,None,Assault,113,TRUE,TRUE
+525,808605,2019-06-27,2019,Public,FALSE,TRUE,Asian/Southeast Asian,None,English,Muslim,2SLGBT,None,Assault,30,TRUE,TRUE
+526,431589,2018-11-18,2018,Residential,FALSE,TRUE,South Asian,Japanese,Arabic,Buddhist,Gay,None,Harassment,106,FALSE,TRUE
+527,346924,2022-05-16,2022,Commercial,TRUE,TRUE,Black,Arab,Hindi,Other,2SLGBT,Transgender,Harassment,104,FALSE,TRUE
+528,573043,2021-02-25,2021,Commercial,FALSE,TRUE,Asian/Southeast Asian,Afghan,Mandarin,Buddhist,None,None,Vandalism,56,FALSE,TRUE
+529,677518,2020-10-04,2020,Residential,FALSE,TRUE,None,None,Mandarin,Buddhist,2SLGBT,Transgender,Harassment,14,FALSE,TRUE
+530,648794,2019-06-11,2019,Public,FALSE,TRUE,Black,Israeli,Arabic,Christian,2SLGBT,Male,Assault,141,FALSE,TRUE
+531,344857,2022-12-22,2022,Residential,TRUE,TRUE,Asian/Southeast Asian,Afghan,Mandarin,None,Gay,Male,Vandalism,28,TRUE,TRUE
+532,903092,2020-12-18,2020,Other,FALSE,TRUE,Black,Afghan,English,Muslim,None,Transgender,Threat,158,FALSE,TRUE
+533,784304,2023-06-05,2023,Residential,FALSE,FALSE,South Asian,African,Arabic,Muslim,None,Female,Vandalism,149,TRUE,TRUE
+534,591602,2019-09-20,2019,Other,TRUE,FALSE,White,Afghan,Mandarin,None,Gay,None,Assault,25,TRUE,TRUE
+535,206247,2023-07-17,2023,Other,FALSE,TRUE,Asian/Southeast Asian,Latino,English,Christian,2SLGBT,Transgender,Threat,124,TRUE,TRUE
+536,691352,2019-03-02,2019,Residential,FALSE,TRUE,None,Japanese,Mandarin,None,None,Transgender,Harassment,90,TRUE,TRUE
+537,672967,2018-07-01,2018,Public,TRUE,FALSE,Asian/Southeast Asian,Israeli,None,Muslim,2SLGBT,None,Vandalism,54,FALSE,TRUE
+538,113719,2020-04-25,2020,Other,TRUE,FALSE,Black,Japanese,Mandarin,Buddhist,None,Transgender,Threat,33,TRUE,TRUE
+539,818730,2018-08-07,2018,Public,FALSE,FALSE,None,Latino,Arabic,None,2SLGBT,Male,Vandalism,147,FALSE,TRUE
+540,703125,2019-09-03,2019,Other,FALSE,TRUE,White,Arab,Spanish,None,None,Male,Threat,141,TRUE,TRUE
+541,684829,2018-06-08,2018,Residential,FALSE,TRUE,Asian/Southeast Asian,Chinese,Mandarin,Other,Gay,Transgender,Assault,57,TRUE,TRUE
+542,972184,2023-12-16,2023,Residential,FALSE,TRUE,Asian/Southeast Asian,Chinese,Spanish,None,2SLGBT,Male,Threat,131,FALSE,TRUE
+543,302938,2019-08-12,2019,Public,TRUE,TRUE,None,Arab,English,Jewish,None,Transgender,Threat,36,TRUE,TRUE
+544,267009,2023-06-04,2023,Other,FALSE,TRUE,White,Japanese,Arabic,Buddhist,2SLGBT,Female,Harassment,142,TRUE,TRUE
+545,650189,2018-09-25,2018,Commercial,TRUE,TRUE,None,Israeli,Mandarin,Jewish,2SLGBT,Transgender,Assault,158,TRUE,TRUE
+546,851139,2018-08-19,2018,Residential,FALSE,TRUE,White,Israeli,Arabic,Christian,Gay,None,Vandalism,22,FALSE,TRUE
+547,616541,2020-04-03,2020,Other,FALSE,FALSE,White,Arab,Hindi,None,2SLGBT,Female,Threat,134,FALSE,TRUE
+548,983830,2019-04-19,2019,Residential,FALSE,TRUE,White,Israeli,Hindi,None,Gay,None,Harassment,67,FALSE,TRUE
+549,222254,2020-01-08,2020,Commercial,FALSE,FALSE,White,African,None,None,None,Transgender,Threat,128,TRUE,TRUE
+550,986167,2022-11-19,2022,Commercial,TRUE,FALSE,Black,None,Arabic,Other,Gay,Male,Threat,112,FALSE,TRUE
+551,585987,2023-07-05,2023,Residential,TRUE,FALSE,None,Japanese,Hindi,None,Gay,Transgender,Assault,50,FALSE,TRUE
+552,665999,2019-08-20,2019,Commercial,FALSE,TRUE,White,None,Spanish,Other,None,None,Harassment,145,FALSE,TRUE
+553,550872,2021-04-04,2021,Other,FALSE,FALSE,None,African,Arabic,Christian,None,None,Assault,103,TRUE,TRUE
+554,484589,2018-03-14,2018,Residential,TRUE,TRUE,Black,Japanese,None,Other,Gay,Female,Vandalism,66,FALSE,TRUE
+555,785070,2019-03-13,2019,Residential,FALSE,TRUE,South Asian,Afghan,Hindi,Other,None,None,Threat,151,TRUE,TRUE
+556,891522,2021-12-09,2021,Residential,FALSE,FALSE,Asian/Southeast Asian,Latino,English,Christian,None,Male,Harassment,27,FALSE,TRUE
+557,419232,2019-08-25,2019,Other,TRUE,FALSE,White,Latino,Spanish,Other,Gay,Transgender,Vandalism,21,FALSE,TRUE
+558,519576,2020-03-13,2020,Public,FALSE,TRUE,White,Japanese,None,None,Gay,Male,Vandalism,144,FALSE,TRUE
+559,600857,2020-09-30,2020,Other,FALSE,TRUE,None,Israeli,Mandarin,Christian,2SLGBT,Female,Vandalism,103,FALSE,TRUE
+560,578098,2023-09-23,2023,Residential,TRUE,FALSE,South Asian,Arab,Arabic,Buddhist,2SLGBT,Transgender,Threat,33,TRUE,TRUE
+561,662564,2022-01-09,2022,Other,FALSE,TRUE,Black,None,Mandarin,Other,Gay,Transgender,Vandalism,77,TRUE,TRUE
+562,802463,2020-04-26,2020,Residential,TRUE,FALSE,South Asian,Arab,Hindi,Other,None,Female,Threat,105,FALSE,TRUE
+563,750678,2020-06-03,2020,Residential,FALSE,TRUE,South Asian,None,None,Muslim,2SLGBT,Transgender,Assault,125,FALSE,TRUE
+564,659886,2020-12-10,2020,Commercial,FALSE,FALSE,None,Japanese,Hindi,Buddhist,Gay,Transgender,Vandalism,62,FALSE,TRUE
+565,879127,2021-12-21,2021,Residential,TRUE,FALSE,None,Latino,Mandarin,Christian,None,Female,Harassment,113,FALSE,TRUE
+566,778075,2020-12-30,2020,Residential,FALSE,TRUE,Black,Afghan,None,Buddhist,2SLGBT,Female,Assault,19,FALSE,TRUE
+567,389248,2020-08-17,2020,Public,FALSE,FALSE,None,Arab,English,Other,2SLGBT,Female,Assault,99,TRUE,TRUE
+568,794400,2020-08-22,2020,Residential,FALSE,TRUE,None,Japanese,None,Muslim,None,None,Threat,76,FALSE,TRUE
+569,195592,2021-08-06,2021,Residential,FALSE,FALSE,None,Chinese,English,Jewish,2SLGBT,Transgender,Harassment,64,FALSE,TRUE
+570,454004,2018-06-10,2018,Public,TRUE,TRUE,White,Israeli,Spanish,Buddhist,Gay,Transgender,Threat,82,TRUE,TRUE
+571,550785,2022-07-15,2022,Commercial,TRUE,FALSE,Asian/Southeast Asian,Afghan,Arabic,Other,Gay,Male,Assault,20,FALSE,TRUE
+572,438459,2023-05-25,2023,Commercial,TRUE,FALSE,Black,Chinese,Mandarin,Jewish,None,None,Harassment,57,TRUE,TRUE
+573,888419,2018-09-10,2018,Commercial,FALSE,FALSE,None,African,Arabic,None,Gay,Transgender,Assault,25,TRUE,TRUE
+574,693452,2019-03-11,2019,Public,TRUE,TRUE,White,Chinese,Hindi,Other,None,Male,Harassment,100,FALSE,TRUE
+575,698356,2019-03-22,2019,Other,TRUE,TRUE,None,Japanese,English,Muslim,Gay,Male,Assault,72,FALSE,TRUE
+576,423081,2019-02-14,2019,Other,FALSE,FALSE,Asian/Southeast Asian,None,Spanish,Other,None,None,Harassment,7,TRUE,TRUE
+577,683683,2020-04-10,2020,Other,FALSE,TRUE,None,Afghan,None,Other,2SLGBT,None,Assault,9,TRUE,TRUE
+578,643880,2022-06-13,2022,Residential,TRUE,TRUE,White,Arab,English,Buddhist,None,Female,Assault,17,FALSE,TRUE
+579,128642,2022-03-24,2022,Other,FALSE,FALSE,None,Arab,None,Muslim,None,Male,Vandalism,118,FALSE,TRUE
+580,223441,2018-01-31,2018,Commercial,TRUE,FALSE,White,Israeli,None,Other,2SLGBT,None,Threat,97,TRUE,TRUE
+581,488635,2022-05-06,2022,Public,FALSE,TRUE,South Asian,Japanese,None,Jewish,None,Transgender,Assault,71,TRUE,TRUE
+582,293643,2021-01-31,2021,Public,TRUE,FALSE,South Asian,Chinese,Spanish,Muslim,None,Male,Harassment,94,FALSE,TRUE
+583,534638,2020-11-21,2020,Other,FALSE,TRUE,White,Afghan,Spanish,Jewish,None,Male,Harassment,109,TRUE,TRUE
+584,869272,2019-05-13,2019,Other,TRUE,FALSE,White,Latino,Mandarin,Buddhist,Gay,Transgender,Vandalism,107,TRUE,TRUE
+585,960562,2019-05-16,2019,Public,FALSE,FALSE,None,Afghan,English,Jewish,None,Female,Vandalism,47,TRUE,TRUE
+586,331741,2019-06-12,2019,Other,TRUE,TRUE,None,Afghan,Arabic,Jewish,2SLGBT,None,Threat,69,FALSE,TRUE
+587,725923,2021-08-19,2021,Public,FALSE,TRUE,None,Arab,None,None,None,Male,Threat,116,TRUE,TRUE
+588,548713,2022-01-06,2022,Other,TRUE,FALSE,Asian/Southeast Asian,None,Hindi,Buddhist,2SLGBT,Female,Threat,12,TRUE,TRUE
+589,271723,2021-07-30,2021,Commercial,TRUE,TRUE,Asian/Southeast Asian,Afghan,None,Christian,Gay,Male,Vandalism,99,FALSE,TRUE
+590,759244,2019-04-12,2019,Commercial,TRUE,FALSE,None,None,None,Other,Gay,Female,Assault,149,FALSE,TRUE
+591,160588,2021-11-20,2021,Public,FALSE,TRUE,South Asian,Arab,English,Other,Gay,Male,Assault,90,FALSE,TRUE
+592,846463,2023-04-11,2023,Other,FALSE,FALSE,South Asian,Chinese,None,Jewish,2SLGBT,None,Threat,18,TRUE,TRUE
+593,388634,2019-08-23,2019,Commercial,FALSE,TRUE,Asian/Southeast Asian,Israeli,Hindi,Jewish,None,None,Threat,44,TRUE,TRUE
+594,705925,2020-01-20,2020,Residential,TRUE,FALSE,White,Chinese,Spanish,None,None,Male,Harassment,123,FALSE,TRUE
+595,964786,2021-09-27,2021,Public,FALSE,FALSE,South Asian,Afghan,Hindi,Buddhist,None,Transgender,Harassment,58,FALSE,TRUE
+596,679027,2019-06-12,2019,Other,TRUE,TRUE,Asian/Southeast Asian,Japanese,English,Jewish,Gay,None,Harassment,10,TRUE,TRUE
+597,934173,2019-12-04,2019,Residential,TRUE,FALSE,South Asian,African,Mandarin,Christian,2SLGBT,None,Assault,35,FALSE,TRUE
+598,737153,2019-07-16,2019,Commercial,FALSE,FALSE,Black,Afghan,None,Christian,2SLGBT,None,Threat,83,FALSE,TRUE
+599,713776,2021-03-20,2021,Commercial,FALSE,TRUE,Asian/Southeast Asian,Chinese,English,Jewish,2SLGBT,None,Assault,73,FALSE,TRUE
+600,721716,2021-01-08,2021,Residential,TRUE,TRUE,None,Chinese,None,Jewish,None,Transgender,Threat,131,FALSE,TRUE
+601,691257,2022-09-27,2022,Public,TRUE,TRUE,None,Arab,None,Buddhist,Gay,None,Threat,37,FALSE,TRUE
+602,380829,2018-10-10,2018,Other,TRUE,FALSE,Asian/Southeast Asian,None,Hindi,None,Gay,Male,Harassment,70,FALSE,TRUE
+603,341420,2022-06-30,2022,Commercial,FALSE,FALSE,None,None,Arabic,Jewish,None,Transgender,Harassment,31,TRUE,TRUE
+604,582144,2021-05-20,2021,Other,FALSE,TRUE,White,Chinese,Mandarin,Buddhist,2SLGBT,Male,Vandalism,115,FALSE,TRUE
+605,453587,2018-08-15,2018,Residential,TRUE,FALSE,Asian/Southeast Asian,Arab,Arabic,Christian,Gay,Male,Assault,76,TRUE,TRUE
+606,436599,2018-06-04,2018,Residential,FALSE,TRUE,Asian/Southeast Asian,None,Mandarin,Jewish,None,Female,Assault,68,TRUE,TRUE
+607,264692,2021-11-19,2021,Public,FALSE,FALSE,South Asian,Latino,Spanish,Jewish,2SLGBT,Female,Threat,58,FALSE,TRUE
+608,182849,2022-09-22,2022,Residential,FALSE,FALSE,Asian/Southeast Asian,Arab,None,Buddhist,2SLGBT,Female,Assault,79,TRUE,TRUE
+609,265587,2018-01-07,2018,Other,TRUE,TRUE,South Asian,None,Mandarin,Christian,None,None,Vandalism,77,TRUE,TRUE
+610,507602,2022-05-26,2022,Other,FALSE,TRUE,South Asian,Japanese,English,None,2SLGBT,Male,Harassment,34,TRUE,TRUE
+611,194313,2022-04-02,2022,Public,TRUE,FALSE,White,Israeli,Spanish,Other,None,Male,Threat,103,TRUE,TRUE
+612,618498,2020-07-18,2020,Residential,FALSE,FALSE,White,None,Arabic,Buddhist,2SLGBT,Female,Vandalism,24,TRUE,TRUE
+613,471538,2020-08-16,2020,Public,TRUE,FALSE,Asian/Southeast Asian,Israeli,Spanish,Christian,Gay,Transgender,Vandalism,60,TRUE,TRUE
+614,414526,2018-04-29,2018,Commercial,FALSE,TRUE,Asian/Southeast Asian,Latino,Mandarin,Muslim,2SLGBT,Female,Threat,99,TRUE,TRUE
+615,636737,2019-09-16,2019,Commercial,TRUE,TRUE,Asian/Southeast Asian,Latino,Hindi,Jewish,None,Female,Harassment,20,FALSE,TRUE
+616,327229,2023-08-08,2023,Commercial,TRUE,TRUE,South Asian,Chinese,Mandarin,Jewish,2SLGBT,Transgender,Threat,38,TRUE,TRUE
+617,782478,2020-03-13,2020,Public,FALSE,TRUE,White,Arab,None,Other,None,Female,Harassment,153,TRUE,TRUE
+618,512435,2018-11-21,2018,Commercial,TRUE,TRUE,South Asian,Japanese,Hindi,Jewish,None,Transgender,Threat,130,TRUE,TRUE
+619,670041,2022-06-11,2022,Other,TRUE,TRUE,Black,Japanese,English,Christian,Gay,None,Assault,121,TRUE,TRUE
+620,821949,2020-01-26,2020,Public,TRUE,TRUE,South Asian,African,English,Other,None,Transgender,Threat,130,TRUE,TRUE
+621,648125,2019-07-16,2019,Residential,FALSE,FALSE,Black,None,English,Jewish,2SLGBT,Male,Harassment,67,TRUE,TRUE
+622,665148,2019-07-23,2019,Residential,FALSE,TRUE,None,Afghan,Arabic,None,Gay,Transgender,Harassment,39,TRUE,TRUE
+623,333688,2020-01-21,2020,Other,TRUE,TRUE,None,None,English,Jewish,None,Female,Assault,52,TRUE,TRUE
+624,628399,2023-07-14,2023,Residential,FALSE,TRUE,Asian/Southeast Asian,Japanese,Hindi,Jewish,Gay,None,Harassment,85,TRUE,TRUE
+625,683785,2018-05-01,2018,Public,FALSE,FALSE,None,Chinese,None,Other,Gay,Transgender,Vandalism,2,FALSE,TRUE
+626,727325,2019-03-19,2019,Other,FALSE,FALSE,Asian/Southeast Asian,Afghan,Hindi,Buddhist,Gay,Male,Harassment,149,TRUE,TRUE
+627,451616,2020-12-05,2020,Residential,TRUE,FALSE,Asian/Southeast Asian,None,Mandarin,Muslim,2SLGBT,Female,Threat,143,TRUE,TRUE
+628,409117,2018-03-11,2018,Public,FALSE,TRUE,White,Israeli,Mandarin,Buddhist,2SLGBT,None,Assault,53,TRUE,TRUE
+629,265318,2021-08-07,2021,Other,TRUE,FALSE,Asian/Southeast Asian,Chinese,English,Other,2SLGBT,Male,Threat,65,TRUE,TRUE
+630,625837,2023-10-09,2023,Public,FALSE,TRUE,Black,Chinese,English,Buddhist,None,Female,Threat,23,TRUE,TRUE
+631,662767,2018-06-24,2018,Residential,FALSE,TRUE,Black,Japanese,None,Other,2SLGBT,None,Vandalism,59,TRUE,TRUE
+632,581731,2021-12-16,2021,Residential,TRUE,TRUE,Black,Chinese,None,Buddhist,None,Female,Harassment,13,TRUE,TRUE
+633,482383,2021-03-03,2021,Other,TRUE,TRUE,Asian/Southeast Asian,Chinese,Mandarin,Other,None,Female,Assault,153,TRUE,TRUE
+634,533236,2023-04-03,2023,Public,FALSE,TRUE,Asian/Southeast Asian,Chinese,Spanish,Muslim,None,Transgender,Harassment,138,FALSE,TRUE
+635,692707,2018-12-13,2018,Public,FALSE,TRUE,Black,Japanese,Arabic,Jewish,Gay,Transgender,Harassment,130,FALSE,TRUE
+636,925607,2019-12-14,2019,Other,FALSE,TRUE,South Asian,Afghan,Mandarin,Christian,2SLGBT,Male,Vandalism,108,FALSE,TRUE
+637,716215,2023-03-30,2023,Public,FALSE,TRUE,South Asian,Israeli,Hindi,Christian,None,Male,Assault,55,FALSE,TRUE
+638,839376,2022-08-15,2022,Commercial,TRUE,FALSE,None,Israeli,Mandarin,Muslim,Gay,Male,Harassment,150,FALSE,TRUE
+639,738760,2020-05-26,2020,Public,FALSE,FALSE,Black,Afghan,English,Buddhist,Gay,Transgender,Vandalism,41,TRUE,TRUE
+640,987208,2018-08-02,2018,Residential,TRUE,FALSE,Black,Arab,None,Other,None,Male,Harassment,135,TRUE,TRUE
+641,902632,2018-12-10,2018,Commercial,TRUE,FALSE,South Asian,Israeli,Mandarin,None,None,Transgender,Vandalism,73,TRUE,TRUE
+642,734737,2021-07-15,2021,Other,TRUE,TRUE,None,Israeli,Spanish,Muslim,None,Male,Assault,4,TRUE,TRUE
+643,994139,2020-06-17,2020,Other,TRUE,TRUE,Asian/Southeast Asian,Chinese,None,Buddhist,2SLGBT,Male,Vandalism,121,FALSE,TRUE
+644,951550,2019-04-25,2019,Public,TRUE,FALSE,Black,Israeli,English,Other,2SLGBT,Transgender,Harassment,92,TRUE,TRUE
+645,110542,2023-04-04,2023,Commercial,TRUE,FALSE,South Asian,African,Mandarin,Other,Gay,None,Threat,6,TRUE,TRUE
+646,709589,2022-12-10,2022,Other,FALSE,TRUE,Asian/Southeast Asian,African,Arabic,Muslim,2SLGBT,Female,Threat,110,FALSE,TRUE
+647,447985,2018-08-16,2018,Public,TRUE,TRUE,South Asian,Israeli,English,Buddhist,2SLGBT,Male,Assault,123,FALSE,TRUE
+648,132780,2023-03-15,2023,Other,TRUE,TRUE,Asian/Southeast Asian,Latino,Spanish,Christian,Gay,Male,Harassment,68,FALSE,TRUE
+649,756849,2018-01-19,2018,Commercial,FALSE,TRUE,South Asian,African,Spanish,Christian,None,Transgender,Harassment,77,TRUE,TRUE
+650,924269,2021-05-31,2021,Public,TRUE,TRUE,Black,Chinese,Mandarin,Jewish,None,Female,Vandalism,93,TRUE,TRUE
+651,623590,2022-04-10,2022,Public,TRUE,FALSE,None,Latino,English,Buddhist,2SLGBT,None,Assault,78,FALSE,TRUE
+652,512393,2021-09-18,2021,Commercial,FALSE,TRUE,South Asian,African,Mandarin,Buddhist,2SLGBT,Male,Harassment,30,FALSE,TRUE
+653,262729,2023-10-06,2023,Commercial,FALSE,TRUE,Black,African,Arabic,Buddhist,Gay,Female,Threat,158,TRUE,TRUE
+654,766941,2019-02-15,2019,Other,FALSE,FALSE,Black,Afghan,Arabic,None,None,None,Threat,75,FALSE,TRUE
+655,840533,2018-10-27,2018,Public,FALSE,TRUE,Asian/Southeast Asian,Chinese,Mandarin,Christian,None,Male,Vandalism,79,TRUE,TRUE
+656,287472,2023-11-25,2023,Other,TRUE,TRUE,White,Israeli,Mandarin,Christian,Gay,Male,Vandalism,106,FALSE,TRUE
+657,827598,2018-04-11,2018,Other,TRUE,TRUE,None,Chinese,Arabic,None,2SLGBT,Transgender,Assault,109,TRUE,TRUE
+658,854945,2018-02-16,2018,Commercial,FALSE,TRUE,South Asian,Arab,None,None,Gay,None,Threat,25,FALSE,TRUE
+659,396789,2018-02-10,2018,Residential,FALSE,TRUE,Black,Arab,Spanish,Jewish,None,None,Assault,61,TRUE,TRUE
+660,128749,2020-10-26,2020,Public,TRUE,TRUE,Asian/Southeast Asian,Japanese,Mandarin,Buddhist,Gay,Transgender,Harassment,158,TRUE,TRUE
+661,852613,2022-09-13,2022,Public,FALSE,FALSE,Asian/Southeast Asian,Afghan,Mandarin,Muslim,None,Male,Assault,34,FALSE,TRUE
+662,888157,2018-11-09,2018,Other,FALSE,FALSE,Asian/Southeast Asian,Latino,Hindi,Christian,None,Transgender,Vandalism,52,TRUE,TRUE
+663,108588,2023-04-11,2023,Other,TRUE,FALSE,South Asian,Afghan,Mandarin,Buddhist,Gay,Male,Harassment,123,TRUE,TRUE
+664,717818,2023-07-05,2023,Residential,FALSE,FALSE,South Asian,African,Spanish,Buddhist,None,Female,Harassment,37,FALSE,TRUE
+665,513167,2020-02-20,2020,Residential,TRUE,TRUE,Black,African,Mandarin,Christian,Gay,None,Vandalism,134,TRUE,TRUE
+666,346710,2018-01-26,2018,Other,FALSE,FALSE,Asian/Southeast Asian,Israeli,English,Muslim,None,Female,Threat,104,FALSE,TRUE
+667,271144,2021-11-13,2021,Commercial,FALSE,FALSE,None,Japanese,Arabic,Christian,Gay,Male,Vandalism,44,FALSE,TRUE
+668,615796,2023-08-03,2023,Residential,TRUE,FALSE,South Asian,None,Arabic,Other,None,Transgender,Harassment,31,TRUE,TRUE
+669,501921,2018-09-05,2018,Public,FALSE,TRUE,White,Israeli,English,Buddhist,Gay,Male,Vandalism,113,TRUE,TRUE
+670,572378,2023-09-11,2023,Other,TRUE,TRUE,White,Afghan,Mandarin,Other,Gay,Transgender,Harassment,42,FALSE,TRUE
+671,489460,2018-03-28,2018,Residential,FALSE,TRUE,White,Israeli,Arabic,Jewish,Gay,Transgender,Assault,64,FALSE,TRUE
+672,376755,2021-07-09,2021,Residential,TRUE,FALSE,Asian/Southeast Asian,Afghan,Spanish,Buddhist,None,Transgender,Assault,52,TRUE,TRUE
+673,739262,2023-04-03,2023,Residential,FALSE,TRUE,Black,Arab,Arabic,Buddhist,Gay,Female,Assault,109,FALSE,TRUE
+674,435881,2020-03-02,2020,Residential,FALSE,TRUE,White,Arab,Spanish,None,Gay,Male,Assault,2,TRUE,TRUE
+675,386846,2020-12-24,2020,Residential,TRUE,FALSE,Asian/Southeast Asian,Japanese,English,Christian,2SLGBT,Transgender,Vandalism,153,FALSE,TRUE
+676,247512,2023-10-23,2023,Commercial,FALSE,TRUE,White,Afghan,Hindi,Muslim,Gay,Female,Threat,65,FALSE,TRUE
+677,359199,2019-09-23,2019,Other,FALSE,TRUE,Black,None,Spanish,None,Gay,Female,Vandalism,46,FALSE,TRUE
+678,478518,2021-12-19,2021,Residential,TRUE,TRUE,White,Latino,English,Jewish,2SLGBT,None,Harassment,28,FALSE,TRUE
+679,391484,2020-09-06,2020,Other,TRUE,FALSE,None,Chinese,Spanish,Christian,None,None,Assault,122,TRUE,TRUE
+680,596023,2018-01-04,2018,Residential,FALSE,FALSE,None,None,None,Other,Gay,Male,Assault,84,TRUE,TRUE
+681,297783,2022-10-05,2022,Residential,FALSE,FALSE,Black,Japanese,Mandarin,Buddhist,None,Transgender,Vandalism,23,FALSE,TRUE
+682,405424,2020-05-19,2020,Public,TRUE,FALSE,South Asian,African,English,Jewish,None,Female,Assault,112,FALSE,TRUE
+683,595955,2021-06-24,2021,Commercial,FALSE,FALSE,Asian/Southeast Asian,Israeli,Hindi,Jewish,Gay,Transgender,Threat,71,TRUE,TRUE
+684,966182,2021-10-16,2021,Residential,TRUE,TRUE,South Asian,Japanese,Spanish,Jewish,Gay,Transgender,Vandalism,81,FALSE,TRUE
+685,443990,2018-05-07,2018,Other,TRUE,TRUE,White,Japanese,English,Christian,None,Female,Vandalism,73,FALSE,TRUE
+686,557223,2019-09-05,2019,Residential,TRUE,TRUE,Asian/Southeast Asian,African,Mandarin,Other,None,Male,Threat,51,FALSE,TRUE
+687,142939,2019-10-01,2019,Commercial,TRUE,TRUE,South Asian,None,Mandarin,Christian,None,None,Harassment,111,TRUE,TRUE
+688,659260,2018-06-08,2018,Residential,FALSE,FALSE,Black,Chinese,Mandarin,Jewish,Gay,None,Assault,56,FALSE,TRUE
+689,263068,2021-12-06,2021,Residential,FALSE,FALSE,Black,Chinese,Spanish,Christian,2SLGBT,Transgender,Threat,108,TRUE,TRUE
+690,333167,2021-09-15,2021,Residential,TRUE,TRUE,Black,None,Hindi,None,Gay,Male,Threat,43,TRUE,TRUE
+691,537854,2020-02-10,2020,Commercial,TRUE,FALSE,Asian/Southeast Asian,Chinese,Hindi,None,None,None,Vandalism,61,TRUE,TRUE
+692,171161,2020-07-23,2020,Other,FALSE,FALSE,None,Chinese,English,Other,Gay,Transgender,Vandalism,57,TRUE,TRUE
+693,661088,2022-06-25,2022,Residential,TRUE,TRUE,Asian/Southeast Asian,Arab,Spanish,Other,Gay,Transgender,Vandalism,124,FALSE,TRUE
+694,143709,2018-06-06,2018,Public,FALSE,FALSE,Asian/Southeast Asian,Israeli,English,Jewish,None,Female,Vandalism,89,TRUE,TRUE
+695,856487,2023-02-23,2023,Public,FALSE,FALSE,White,African,English,Christian,2SLGBT,Female,Assault,156,TRUE,TRUE
+696,553125,2023-07-02,2023,Residential,FALSE,TRUE,South Asian,None,Arabic,None,Gay,Transgender,Harassment,2,FALSE,TRUE
+697,303733,2022-08-17,2022,Public,FALSE,FALSE,None,Japanese,Hindi,Buddhist,None,Male,Harassment,55,TRUE,TRUE
+698,555395,2021-12-07,2021,Residential,TRUE,TRUE,South Asian,African,Hindi,Jewish,Gay,Male,Threat,113,TRUE,TRUE
+699,953565,2021-11-12,2021,Commercial,TRUE,TRUE,None,Latino,English,Jewish,2SLGBT,None,Harassment,130,TRUE,TRUE
+700,609328,2019-09-26,2019,Residential,TRUE,TRUE,White,None,English,Buddhist,None,Transgender,Assault,147,FALSE,TRUE
+701,799424,2020-02-19,2020,Public,TRUE,FALSE,South Asian,Latino,Arabic,Jewish,Gay,Transgender,Vandalism,100,FALSE,TRUE
+702,891583,2023-12-13,2023,Commercial,TRUE,TRUE,Asian/Southeast Asian,Japanese,Hindi,Christian,None,Female,Threat,134,FALSE,TRUE
+703,265694,2023-01-10,2023,Other,FALSE,TRUE,None,Afghan,None,Jewish,None,Transgender,Threat,55,TRUE,TRUE
+704,115627,2021-08-26,2021,Residential,FALSE,TRUE,South Asian,Japanese,Arabic,Other,None,Female,Threat,27,TRUE,TRUE
+705,169526,2023-03-09,2023,Public,TRUE,TRUE,South Asian,Japanese,None,None,None,None,Threat,111,TRUE,TRUE
+706,185628,2021-03-12,2021,Commercial,TRUE,TRUE,Black,Latino,None,Christian,Gay,Female,Assault,48,TRUE,TRUE
+707,212557,2018-05-22,2018,Commercial,FALSE,TRUE,White,Israeli,Spanish,Buddhist,None,Transgender,Assault,58,FALSE,TRUE
+708,994798,2023-09-18,2023,Public,FALSE,TRUE,Asian/Southeast Asian,Israeli,Mandarin,None,None,None,Threat,137,TRUE,TRUE
+709,378732,2020-03-09,2020,Residential,TRUE,FALSE,White,None,Spanish,Buddhist,None,None,Vandalism,122,FALSE,TRUE
+710,606853,2021-08-18,2021,Residential,FALSE,TRUE,None,Afghan,Hindi,Jewish,2SLGBT,Male,Assault,155,FALSE,TRUE
+711,331843,2021-01-25,2021,Commercial,TRUE,TRUE,None,Arab,Spanish,Other,2SLGBT,Male,Harassment,56,FALSE,TRUE
+712,618243,2019-03-15,2019,Residential,FALSE,FALSE,None,Israeli,Hindi,Christian,None,None,Threat,112,TRUE,TRUE
+713,719062,2018-06-13,2018,Residential,TRUE,FALSE,None,Arab,Spanish,Christian,Gay,Transgender,Threat,54,TRUE,TRUE
+714,730750,2019-01-28,2019,Commercial,FALSE,FALSE,South Asian,None,Mandarin,Christian,2SLGBT,Transgender,Vandalism,104,TRUE,TRUE
+715,549608,2023-08-05,2023,Commercial,TRUE,FALSE,South Asian,Arab,Mandarin,Christian,None,Female,Threat,4,FALSE,TRUE
+716,702562,2023-08-12,2023,Other,TRUE,TRUE,White,African,Hindi,Jewish,2SLGBT,Female,Harassment,144,TRUE,TRUE
+717,768873,2020-11-15,2020,Residential,TRUE,TRUE,White,Israeli,English,Jewish,Gay,None,Assault,55,TRUE,TRUE
+718,385838,2020-02-04,2020,Commercial,TRUE,FALSE,None,Afghan,Arabic,Muslim,Gay,Transgender,Vandalism,57,TRUE,TRUE
+719,623630,2020-05-03,2020,Public,FALSE,TRUE,South Asian,Latino,English,Christian,Gay,Male,Vandalism,133,FALSE,TRUE
+720,492174,2020-01-13,2020,Commercial,FALSE,FALSE,Black,Afghan,None,Buddhist,None,Male,Threat,148,FALSE,TRUE
+721,531883,2019-08-26,2019,Public,FALSE,FALSE,White,Chinese,English,None,None,None,Vandalism,26,FALSE,TRUE
+722,865899,2021-10-11,2021,Other,TRUE,TRUE,Black,Latino,English,None,None,None,Vandalism,128,TRUE,TRUE
+723,969061,2020-01-31,2020,Residential,TRUE,FALSE,South Asian,Arab,Mandarin,Jewish,Gay,None,Assault,150,TRUE,TRUE
+724,984335,2022-02-22,2022,Commercial,TRUE,TRUE,Asian/Southeast Asian,African,Hindi,Buddhist,Gay,Transgender,Assault,34,TRUE,TRUE
+725,307797,2022-05-06,2022,Residential,TRUE,FALSE,White,Arab,Mandarin,Jewish,2SLGBT,None,Threat,52,TRUE,TRUE
+726,468453,2019-11-11,2019,Commercial,TRUE,FALSE,Black,African,English,Buddhist,2SLGBT,Transgender,Harassment,56,TRUE,TRUE
+727,768873,2021-07-13,2021,Commercial,FALSE,FALSE,Asian/Southeast Asian,Israeli,Hindi,Other,Gay,None,Assault,145,FALSE,TRUE
+728,561723,2022-02-14,2022,Public,FALSE,TRUE,White,Latino,English,None,None,None,Harassment,12,TRUE,TRUE
+729,937072,2021-11-09,2021,Public,FALSE,FALSE,None,Japanese,Spanish,Other,Gay,None,Vandalism,53,TRUE,TRUE
+730,157890,2019-10-03,2019,Residential,FALSE,TRUE,Asian/Southeast Asian,Afghan,Spanish,Muslim,None,Transgender,Vandalism,35,FALSE,TRUE
+731,275069,2020-10-13,2020,Other,FALSE,FALSE,White,Japanese,Spanish,None,Gay,Male,Threat,59,TRUE,TRUE
+732,385481,2022-08-17,2022,Commercial,FALSE,TRUE,Asian/Southeast Asian,None,English,Other,Gay,Female,Threat,154,FALSE,TRUE
+733,990931,2020-08-02,2020,Other,FALSE,FALSE,Asian/Southeast Asian,Afghan,English,Buddhist,Gay,Transgender,Harassment,147,FALSE,TRUE
+734,468589,2019-04-14,2019,Residential,FALSE,TRUE,Black,Latino,English,Muslim,None,Transgender,Threat,144,TRUE,TRUE
+735,400178,2018-08-20,2018,Other,TRUE,TRUE,None,Israeli,English,Buddhist,2SLGBT,Transgender,Vandalism,35,TRUE,TRUE
+736,724414,2019-04-15,2019,Residential,FALSE,FALSE,South Asian,Japanese,English,Other,2SLGBT,Male,Assault,25,FALSE,TRUE
+737,827618,2019-04-19,2019,Other,FALSE,TRUE,Black,Japanese,Mandarin,Other,2SLGBT,None,Harassment,146,FALSE,TRUE
+738,701578,2020-12-02,2020,Residential,TRUE,TRUE,White,Israeli,English,Muslim,2SLGBT,None,Threat,127,TRUE,TRUE
+739,388310,2019-12-27,2019,Residential,FALSE,FALSE,Black,Israeli,English,Other,Gay,None,Vandalism,52,FALSE,TRUE
+740,820595,2019-05-20,2019,Other,FALSE,TRUE,Asian/Southeast Asian,Latino,Spanish,Buddhist,Gay,Transgender,Harassment,158,FALSE,TRUE
+741,840175,2019-01-21,2019,Residential,FALSE,FALSE,Asian/Southeast Asian,African,None,Jewish,Gay,Female,Threat,37,TRUE,TRUE
+742,129087,2019-08-18,2019,Commercial,TRUE,FALSE,Asian/Southeast Asian,None,Spanish,Muslim,2SLGBT,Female,Harassment,77,FALSE,TRUE
+743,499718,2019-03-06,2019,Commercial,FALSE,FALSE,Black,Israeli,Mandarin,Muslim,2SLGBT,Transgender,Vandalism,38,FALSE,TRUE
+744,943402,2022-03-26,2022,Other,TRUE,TRUE,Asian/Southeast Asian,African,Spanish,None,2SLGBT,Female,Vandalism,126,FALSE,TRUE
+745,451808,2020-07-29,2020,Other,TRUE,FALSE,White,Afghan,Hindi,Muslim,2SLGBT,Male,Harassment,94,FALSE,TRUE
+746,743501,2019-08-13,2019,Other,TRUE,TRUE,Black,Chinese,Spanish,Buddhist,Gay,Male,Vandalism,95,TRUE,TRUE
+747,865998,2018-06-13,2018,Commercial,FALSE,FALSE,White,Afghan,Hindi,Muslim,2SLGBT,Male,Threat,42,FALSE,TRUE
+748,959350,2019-06-16,2019,Commercial,FALSE,FALSE,White,Latino,Mandarin,Other,2SLGBT,Male,Vandalism,148,FALSE,TRUE
+749,265917,2019-10-23,2019,Other,TRUE,TRUE,White,African,Arabic,Other,2SLGBT,Female,Threat,18,FALSE,TRUE
+750,972540,2023-06-19,2023,Other,TRUE,FALSE,None,Afghan,None,Christian,Gay,Transgender,Harassment,10,FALSE,TRUE
+751,211000,2019-10-12,2019,Residential,TRUE,TRUE,None,Latino,Hindi,None,2SLGBT,None,Vandalism,10,FALSE,TRUE
+752,685748,2020-11-18,2020,Residential,FALSE,TRUE,White,Japanese,Hindi,None,None,Male,Harassment,76,TRUE,TRUE
+753,578261,2023-02-16,2023,Other,TRUE,FALSE,Asian/Southeast Asian,African,None,Jewish,Gay,Transgender,Threat,53,FALSE,TRUE
+754,172688,2020-06-05,2020,Public,FALSE,FALSE,None,Japanese,Arabic,Buddhist,2SLGBT,Female,Vandalism,30,TRUE,TRUE
+755,372489,2019-01-11,2019,Other,FALSE,FALSE,None,Israeli,Hindi,Christian,None,Female,Threat,21,TRUE,TRUE
+756,293809,2023-02-07,2023,Commercial,TRUE,FALSE,White,African,Spanish,Other,None,Transgender,Harassment,66,TRUE,TRUE
+757,400336,2023-01-06,2023,Other,FALSE,FALSE,None,Chinese,None,Other,None,Transgender,Assault,58,FALSE,TRUE
+758,993876,2019-12-02,2019,Public,FALSE,TRUE,White,African,None,Muslim,Gay,None,Vandalism,31,FALSE,TRUE
+759,196141,2020-11-14,2020,Commercial,TRUE,TRUE,Black,Arab,English,None,None,Transgender,Threat,4,FALSE,TRUE
+760,498845,2020-08-08,2020,Other,TRUE,TRUE,None,Israeli,None,Christian,None,Transgender,Assault,59,FALSE,TRUE
+761,320506,2020-02-23,2020,Other,FALSE,TRUE,White,Arab,English,None,Gay,Transgender,Assault,52,TRUE,TRUE
+762,184343,2020-12-14,2020,Residential,FALSE,FALSE,Black,Latino,None,None,2SLGBT,Transgender,Vandalism,15,TRUE,TRUE
+763,892858,2022-04-22,2022,Public,FALSE,TRUE,None,Afghan,Hindi,Jewish,2SLGBT,Female,Harassment,43,TRUE,TRUE
+764,862890,2022-10-18,2022,Commercial,FALSE,FALSE,None,African,Spanish,Other,2SLGBT,None,Assault,150,FALSE,TRUE
+765,880549,2019-08-05,2019,Commercial,FALSE,FALSE,None,Israeli,English,Jewish,Gay,None,Vandalism,49,FALSE,TRUE
+766,421073,2019-01-23,2019,Residential,FALSE,FALSE,White,Chinese,None,Buddhist,None,Male,Threat,121,TRUE,TRUE
+767,590975,2021-12-31,2021,Residential,FALSE,FALSE,White,Arab,Arabic,None,None,Transgender,Harassment,134,TRUE,TRUE
+768,820049,2022-11-28,2022,Other,FALSE,FALSE,Asian/Southeast Asian,Latino,English,None,2SLGBT,Female,Harassment,136,TRUE,TRUE
+769,835363,2018-04-15,2018,Public,FALSE,FALSE,None,African,Mandarin,Muslim,Gay,None,Assault,127,TRUE,TRUE
+770,673137,2023-07-05,2023,Public,TRUE,FALSE,Black,None,Arabic,Buddhist,None,Male,Harassment,128,TRUE,TRUE
+771,873725,2021-02-01,2021,Public,FALSE,FALSE,White,Afghan,None,Christian,Gay,None,Vandalism,54,TRUE,TRUE
+772,810560,2018-06-01,2018,Other,FALSE,FALSE,Asian/Southeast Asian,Latino,Hindi,Jewish,Gay,Male,Harassment,80,TRUE,TRUE
+773,905183,2020-03-07,2020,Commercial,TRUE,FALSE,Black,Japanese,None,Jewish,Gay,None,Harassment,98,TRUE,TRUE
+774,508308,2023-07-22,2023,Other,TRUE,TRUE,Black,Arab,Arabic,Christian,2SLGBT,Transgender,Harassment,29,FALSE,TRUE
+775,227506,2022-09-15,2022,Residential,TRUE,TRUE,None,Arab,Arabic,Jewish,Gay,None,Harassment,2,TRUE,TRUE
+776,217377,2018-04-08,2018,Commercial,FALSE,TRUE,South Asian,Chinese,English,Christian,Gay,Female,Vandalism,130,FALSE,TRUE
+777,937022,2018-04-07,2018,Other,FALSE,FALSE,South Asian,Chinese,English,Muslim,Gay,None,Assault,99,TRUE,TRUE
+778,963033,2020-09-14,2020,Other,TRUE,FALSE,South Asian,African,Hindi,Other,Gay,Transgender,Vandalism,128,TRUE,TRUE
+779,609924,2020-03-31,2020,Commercial,FALSE,FALSE,Black,Chinese,Hindi,None,2SLGBT,Male,Harassment,55,TRUE,TRUE
+780,389063,2023-05-16,2023,Public,FALSE,TRUE,White,African,Hindi,Christian,2SLGBT,None,Assault,6,TRUE,TRUE
+781,625418,2019-11-05,2019,Commercial,FALSE,FALSE,Asian/Southeast Asian,African,Mandarin,Other,None,Transgender,Vandalism,43,TRUE,TRUE
+782,506407,2021-07-22,2021,Residential,TRUE,FALSE,Asian/Southeast Asian,Israeli,Mandarin,Christian,2SLGBT,Female,Vandalism,130,TRUE,TRUE
+783,775763,2023-02-08,2023,Other,FALSE,TRUE,Asian/Southeast Asian,Afghan,Mandarin,None,None,Female,Harassment,83,TRUE,TRUE
+784,877684,2018-01-29,2018,Commercial,TRUE,TRUE,Asian/Southeast Asian,None,Mandarin,Christian,2SLGBT,Male,Threat,60,FALSE,TRUE
+785,492533,2018-05-13,2018,Public,TRUE,FALSE,Black,Chinese,English,None,None,Female,Assault,34,FALSE,TRUE
+786,124475,2019-06-04,2019,Residential,FALSE,FALSE,Asian/Southeast Asian,Afghan,None,Buddhist,2SLGBT,Transgender,Threat,101,FALSE,TRUE
+787,931227,2022-09-10,2022,Other,TRUE,TRUE,White,Arab,Hindi,Muslim,2SLGBT,Female,Vandalism,51,FALSE,TRUE
+788,988641,2022-07-08,2022,Commercial,TRUE,FALSE,Black,None,Arabic,Muslim,2SLGBT,Male,Harassment,130,FALSE,TRUE
+789,322341,2020-10-13,2020,Commercial,FALSE,FALSE,South Asian,None,English,Buddhist,2SLGBT,Transgender,Assault,136,TRUE,TRUE
+790,564988,2023-05-03,2023,Residential,FALSE,FALSE,None,Latino,None,Other,Gay,Female,Threat,21,FALSE,TRUE
+791,231441,2022-08-10,2022,Public,TRUE,TRUE,South Asian,None,Arabic,Jewish,None,Female,Assault,50,TRUE,TRUE
+792,335092,2023-08-29,2023,Commercial,FALSE,TRUE,South Asian,None,English,Other,2SLGBT,None,Vandalism,146,FALSE,TRUE
+793,433006,2019-03-20,2019,Other,FALSE,TRUE,White,Afghan,Hindi,Other,2SLGBT,Female,Harassment,53,TRUE,TRUE
+794,146432,2019-04-10,2019,Commercial,FALSE,TRUE,Asian/Southeast Asian,Arab,Arabic,Christian,Gay,None,Vandalism,12,TRUE,TRUE
+795,749260,2020-07-11,2020,Commercial,TRUE,FALSE,South Asian,Chinese,English,Christian,Gay,None,Vandalism,144,FALSE,TRUE
+796,831007,2022-06-26,2022,Public,TRUE,FALSE,Asian/Southeast Asian,Latino,Mandarin,Other,None,Transgender,Threat,73,FALSE,TRUE
+797,481570,2022-10-23,2022,Other,FALSE,TRUE,None,African,Mandarin,Buddhist,Gay,Female,Vandalism,28,FALSE,TRUE
+798,549504,2019-05-12,2019,Commercial,FALSE,FALSE,None,Latino,Hindi,Jewish,None,Transgender,Assault,78,FALSE,TRUE
+799,561250,2020-07-13,2020,Commercial,FALSE,FALSE,White,Chinese,Mandarin,Other,None,Transgender,Harassment,79,TRUE,TRUE
+800,976557,2020-11-13,2020,Commercial,TRUE,TRUE,Black,African,English,None,None,None,Threat,142,FALSE,TRUE
+801,440451,2020-11-13,2020,Other,TRUE,FALSE,Black,Latino,None,Buddhist,2SLGBT,None,Assault,122,TRUE,TRUE
+802,240773,2023-07-01,2023,Commercial,FALSE,TRUE,Asian/Southeast Asian,None,Arabic,Jewish,2SLGBT,Male,Harassment,68,FALSE,TRUE
+803,928751,2018-04-15,2018,Commercial,TRUE,FALSE,South Asian,Chinese,Arabic,Other,2SLGBT,Male,Threat,125,FALSE,TRUE
+804,126457,2021-01-21,2021,Commercial,FALSE,TRUE,None,Israeli,Arabic,Muslim,Gay,Female,Threat,109,TRUE,TRUE
+805,186922,2021-01-11,2021,Public,FALSE,TRUE,None,None,Arabic,Christian,None,Female,Vandalism,123,FALSE,TRUE
+806,591437,2018-10-30,2018,Public,TRUE,FALSE,Black,Arab,Hindi,Buddhist,Gay,Transgender,Threat,139,TRUE,TRUE
+807,132350,2018-09-28,2018,Public,TRUE,FALSE,Black,Latino,English,Christian,2SLGBT,None,Threat,108,FALSE,TRUE
+808,329767,2018-02-22,2018,Other,FALSE,FALSE,South Asian,Japanese,Hindi,Buddhist,None,Male,Threat,53,FALSE,TRUE
+809,682987,2023-02-22,2023,Residential,FALSE,FALSE,Asian/Southeast Asian,Israeli,Mandarin,Christian,Gay,None,Threat,84,FALSE,TRUE
+810,680221,2018-10-29,2018,Residential,FALSE,TRUE,Black,Afghan,Hindi,Other,2SLGBT,Transgender,Assault,144,FALSE,TRUE
+811,260421,2023-03-25,2023,Residential,FALSE,TRUE,None,Chinese,None,Christian,2SLGBT,Transgender,Threat,148,TRUE,TRUE
+812,653327,2023-10-06,2023,Other,TRUE,TRUE,Black,Latino,Hindi,Buddhist,Gay,Male,Threat,55,TRUE,TRUE
+813,378227,2022-04-24,2022,Residential,FALSE,FALSE,Asian/Southeast Asian,Latino,Spanish,Christian,Gay,None,Threat,120,FALSE,TRUE
+814,653295,2018-05-30,2018,Public,TRUE,FALSE,None,Israeli,Arabic,Other,None,None,Threat,140,TRUE,TRUE
+815,678212,2023-05-25,2023,Public,TRUE,TRUE,None,Japanese,English,None,Gay,None,Assault,67,FALSE,TRUE
+816,990084,2020-07-25,2020,Commercial,TRUE,FALSE,South Asian,Japanese,None,Other,None,Male,Assault,33,FALSE,TRUE
+817,547454,2019-10-25,2019,Residential,TRUE,TRUE,Black,Arab,Mandarin,Buddhist,None,Female,Threat,142,FALSE,TRUE
+818,225027,2022-02-26,2022,Residential,FALSE,TRUE,None,Japanese,None,Muslim,2SLGBT,Male,Vandalism,1,FALSE,TRUE
+819,193794,2019-12-12,2019,Other,TRUE,TRUE,South Asian,Arab,Mandarin,Christian,2SLGBT,Male,Harassment,15,FALSE,TRUE
+820,233296,2023-11-01,2023,Other,TRUE,FALSE,White,Afghan,Arabic,Buddhist,2SLGBT,Transgender,Assault,30,TRUE,TRUE
+821,487510,2018-12-30,2018,Residential,FALSE,TRUE,Asian/Southeast Asian,Japanese,Spanish,Jewish,None,Transgender,Threat,135,FALSE,TRUE
+822,363050,2018-05-05,2018,Commercial,FALSE,FALSE,South Asian,Chinese,English,Jewish,2SLGBT,Female,Threat,1,TRUE,TRUE
+823,443197,2019-09-09,2019,Residential,FALSE,FALSE,None,Japanese,Mandarin,Christian,2SLGBT,Female,Vandalism,19,TRUE,TRUE
+824,390636,2019-08-19,2019,Commercial,TRUE,FALSE,Black,Latino,English,Jewish,2SLGBT,Male,Harassment,85,TRUE,TRUE
+825,478445,2018-02-07,2018,Commercial,TRUE,TRUE,South Asian,Arab,Spanish,Jewish,Gay,Male,Assault,106,FALSE,TRUE
+826,567014,2021-02-05,2021,Other,TRUE,FALSE,Asian/Southeast Asian,None,English,None,None,Female,Vandalism,88,FALSE,TRUE
+827,704930,2021-08-31,2021,Other,TRUE,TRUE,Asian/Southeast Asian,Japanese,Spanish,None,None,Female,Vandalism,132,FALSE,TRUE
+828,360292,2022-09-18,2022,Other,TRUE,FALSE,Asian/Southeast Asian,Japanese,Mandarin,None,Gay,Female,Harassment,136,TRUE,TRUE
+829,565683,2019-07-05,2019,Commercial,TRUE,FALSE,Asian/Southeast Asian,Arab,Hindi,Other,2SLGBT,None,Assault,157,FALSE,TRUE
+830,380709,2020-10-17,2020,Commercial,FALSE,TRUE,Black,Chinese,Arabic,Muslim,None,None,Assault,61,FALSE,TRUE
+831,217087,2020-01-22,2020,Public,FALSE,TRUE,None,Latino,English,None,2SLGBT,None,Harassment,38,FALSE,TRUE
+832,710989,2019-10-30,2019,Public,FALSE,FALSE,None,Latino,None,Muslim,None,None,Assault,122,FALSE,TRUE
+833,705109,2023-03-16,2023,Residential,TRUE,TRUE,South Asian,None,Hindi,Buddhist,Gay,None,Threat,47,FALSE,TRUE
+834,845467,2021-10-11,2021,Public,FALSE,TRUE,White,Japanese,Mandarin,Jewish,2SLGBT,None,Assault,21,TRUE,TRUE
+835,258534,2022-03-12,2022,Public,FALSE,FALSE,White,Japanese,English,Buddhist,Gay,Female,Assault,119,FALSE,TRUE
+836,525452,2021-08-22,2021,Commercial,FALSE,TRUE,Black,Arab,Spanish,Christian,None,Female,Vandalism,63,TRUE,TRUE
+837,526128,2018-05-04,2018,Residential,FALSE,FALSE,Asian/Southeast Asian,Israeli,Hindi,Buddhist,Gay,Transgender,Harassment,34,TRUE,TRUE
+838,826983,2020-04-04,2020,Public,FALSE,TRUE,Black,Chinese,None,Buddhist,2SLGBT,None,Vandalism,31,FALSE,TRUE
+839,327739,2022-01-29,2022,Residential,FALSE,TRUE,White,Afghan,Arabic,Other,2SLGBT,None,Vandalism,32,TRUE,TRUE
+840,615548,2018-03-05,2018,Other,FALSE,TRUE,None,None,None,Jewish,2SLGBT,Male,Harassment,139,TRUE,TRUE
+841,168515,2022-11-27,2022,Commercial,TRUE,FALSE,White,Chinese,Mandarin,Christian,Gay,Transgender,Assault,137,TRUE,TRUE
+842,936251,2022-06-13,2022,Residential,TRUE,FALSE,Asian/Southeast Asian,None,Mandarin,Other,2SLGBT,None,Threat,103,FALSE,TRUE
+843,850728,2020-08-17,2020,Other,FALSE,TRUE,White,Arab,Hindi,Muslim,2SLGBT,None,Vandalism,74,FALSE,TRUE
+844,720216,2023-12-09,2023,Residential,FALSE,FALSE,White,Arab,English,Buddhist,2SLGBT,Female,Harassment,132,FALSE,TRUE
+845,484110,2022-01-17,2022,Commercial,TRUE,TRUE,Black,Afghan,Arabic,Buddhist,Gay,Male,Vandalism,52,FALSE,TRUE
+846,795694,2022-11-01,2022,Other,TRUE,TRUE,None,Latino,Hindi,Other,2SLGBT,Male,Harassment,80,FALSE,TRUE
+847,501805,2018-03-14,2018,Other,TRUE,FALSE,None,Arab,Arabic,Buddhist,None,Male,Assault,82,FALSE,TRUE
+848,950210,2021-08-11,2021,Residential,TRUE,TRUE,Black,None,Spanish,Buddhist,2SLGBT,Male,Harassment,147,TRUE,TRUE
+849,509783,2021-12-05,2021,Other,FALSE,TRUE,White,Japanese,Hindi,Christian,Gay,Transgender,Harassment,138,FALSE,TRUE
+850,805567,2020-12-09,2020,Commercial,TRUE,FALSE,White,None,English,None,Gay,Female,Harassment,81,TRUE,TRUE
+851,732972,2022-02-12,2022,Public,FALSE,TRUE,South Asian,Japanese,Spanish,Other,Gay,Female,Assault,12,TRUE,TRUE
+852,740810,2019-08-28,2019,Public,FALSE,FALSE,White,Latino,Mandarin,Other,Gay,Female,Harassment,67,TRUE,TRUE
+853,554079,2021-10-29,2021,Commercial,TRUE,TRUE,Black,Chinese,None,Muslim,2SLGBT,Female,Vandalism,52,TRUE,TRUE
+854,942224,2022-08-12,2022,Commercial,TRUE,TRUE,South Asian,None,English,Christian,None,None,Harassment,12,TRUE,TRUE
+855,192359,2022-04-03,2022,Residential,FALSE,FALSE,Asian/Southeast Asian,Latino,Spanish,Other,Gay,Male,Threat,94,FALSE,TRUE
+856,141713,2023-12-07,2023,Public,TRUE,FALSE,White,Arab,English,Muslim,2SLGBT,Female,Harassment,31,FALSE,TRUE
+857,426942,2019-08-14,2019,Residential,TRUE,FALSE,None,Latino,Mandarin,Christian,None,Male,Harassment,47,FALSE,TRUE
+858,331417,2021-06-21,2021,Public,FALSE,FALSE,South Asian,None,None,None,None,Transgender,Harassment,120,FALSE,TRUE
+859,793587,2022-10-12,2022,Residential,TRUE,TRUE,Asian/Southeast Asian,Latino,Spanish,Other,2SLGBT,None,Vandalism,38,TRUE,TRUE
+860,768842,2021-07-09,2021,Residential,FALSE,FALSE,White,Chinese,English,Buddhist,Gay,Male,Harassment,96,TRUE,TRUE
+861,304392,2020-12-05,2020,Commercial,TRUE,FALSE,Asian/Southeast Asian,Japanese,Spanish,Muslim,2SLGBT,None,Threat,33,FALSE,TRUE
+862,448733,2022-04-15,2022,Commercial,TRUE,FALSE,None,Israeli,Mandarin,None,Gay,None,Vandalism,68,FALSE,TRUE
+863,665335,2020-05-19,2020,Other,TRUE,FALSE,Asian/Southeast Asian,Japanese,Hindi,Muslim,Gay,Male,Vandalism,102,FALSE,TRUE
+864,846472,2018-05-20,2018,Residential,TRUE,TRUE,South Asian,Arab,Mandarin,None,None,Female,Assault,29,TRUE,TRUE
+865,793089,2022-03-13,2022,Commercial,FALSE,FALSE,Asian/Southeast Asian,Latino,Mandarin,Christian,None,Female,Harassment,115,FALSE,TRUE
+866,754848,2019-06-11,2019,Public,TRUE,FALSE,None,Israeli,Hindi,Christian,2SLGBT,Female,Harassment,50,TRUE,TRUE
+867,361735,2023-04-05,2023,Other,FALSE,TRUE,Black,Chinese,Spanish,Christian,Gay,Transgender,Threat,69,FALSE,TRUE
+868,180308,2021-08-24,2021,Residential,FALSE,TRUE,South Asian,Latino,None,Jewish,2SLGBT,Transgender,Vandalism,84,FALSE,TRUE
+869,645829,2022-11-29,2022,Commercial,TRUE,FALSE,None,Arab,English,Muslim,Gay,None,Harassment,129,TRUE,TRUE
+870,758423,2022-09-05,2022,Public,TRUE,FALSE,South Asian,Israeli,Spanish,Muslim,Gay,Female,Assault,83,FALSE,TRUE
+871,286011,2019-07-20,2019,Other,TRUE,FALSE,Black,African,Mandarin,None,2SLGBT,Female,Assault,56,TRUE,TRUE
+872,263683,2023-01-20,2023,Other,TRUE,TRUE,White,Chinese,Spanish,Buddhist,Gay,Transgender,Threat,9,FALSE,TRUE
+873,290750,2018-02-14,2018,Other,TRUE,FALSE,None,Chinese,None,Jewish,None,Female,Vandalism,36,TRUE,TRUE
+874,347790,2023-03-09,2023,Public,FALSE,FALSE,Black,African,Spanish,Muslim,2SLGBT,Female,Threat,22,FALSE,TRUE
+875,745297,2018-01-08,2018,Other,TRUE,FALSE,South Asian,Chinese,None,Muslim,Gay,Male,Assault,118,TRUE,TRUE
+876,513015,2022-09-19,2022,Other,FALSE,FALSE,South Asian,Japanese,Spanish,None,2SLGBT,Male,Harassment,140,TRUE,TRUE
+877,870234,2023-11-08,2023,Public,FALSE,TRUE,White,Arab,English,Other,None,None,Assault,141,FALSE,TRUE
+878,737527,2020-09-16,2020,Residential,FALSE,FALSE,South Asian,Latino,Arabic,Jewish,Gay,Male,Assault,114,FALSE,TRUE
+879,472382,2018-06-30,2018,Other,TRUE,TRUE,Black,African,English,Jewish,2SLGBT,Female,Threat,156,FALSE,TRUE
+880,190094,2022-02-12,2022,Commercial,TRUE,TRUE,Asian/Southeast Asian,Latino,Arabic,Christian,2SLGBT,None,Harassment,137,FALSE,TRUE
+881,523705,2022-02-15,2022,Other,TRUE,TRUE,South Asian,Arab,None,None,None,Transgender,Threat,30,TRUE,TRUE
+882,250425,2018-09-18,2018,Commercial,FALSE,FALSE,None,Japanese,English,Muslim,None,Male,Harassment,153,TRUE,TRUE
+883,278451,2018-03-13,2018,Other,FALSE,FALSE,South Asian,Japanese,English,None,2SLGBT,Male,Vandalism,72,FALSE,TRUE
+884,988408,2021-04-05,2021,Commercial,TRUE,FALSE,None,Chinese,Hindi,None,2SLGBT,Male,Threat,88,FALSE,TRUE
+885,666782,2019-11-25,2019,Commercial,TRUE,FALSE,White,African,Mandarin,Other,None,None,Vandalism,95,TRUE,TRUE
+886,204774,2019-11-21,2019,Other,FALSE,FALSE,Asian/Southeast Asian,Israeli,Hindi,None,Gay,Female,Harassment,95,FALSE,TRUE
+887,101021,2018-12-01,2018,Other,TRUE,TRUE,None,Israeli,Spanish,Christian,Gay,Female,Threat,120,FALSE,TRUE
+888,638658,2020-06-16,2020,Other,FALSE,TRUE,Asian/Southeast Asian,Chinese,None,Christian,None,None,Threat,59,FALSE,TRUE
+889,236219,2020-07-06,2020,Residential,TRUE,FALSE,White,Israeli,Mandarin,Muslim,2SLGBT,Female,Threat,90,TRUE,TRUE
+890,831057,2018-05-10,2018,Commercial,FALSE,FALSE,None,Latino,Spanish,None,2SLGBT,Male,Threat,145,TRUE,TRUE
+891,730332,2023-03-15,2023,Other,TRUE,FALSE,Asian/Southeast Asian,Afghan,Hindi,Buddhist,Gay,None,Threat,10,TRUE,TRUE
+892,240453,2021-02-24,2021,Other,TRUE,FALSE,None,Japanese,None,Buddhist,2SLGBT,Female,Harassment,82,TRUE,TRUE
+893,793016,2019-09-19,2019,Commercial,FALSE,TRUE,None,None,Arabic,Buddhist,None,Transgender,Vandalism,143,FALSE,TRUE
+894,279895,2022-09-04,2022,Other,FALSE,FALSE,Black,None,Mandarin,Christian,None,Female,Vandalism,105,TRUE,TRUE
+895,918570,2022-11-18,2022,Other,FALSE,TRUE,Asian/Southeast Asian,Arab,Arabic,Christian,None,Male,Vandalism,127,FALSE,TRUE
+896,598865,2019-04-27,2019,Public,TRUE,TRUE,Black,Chinese,English,Other,Gay,Male,Assault,158,TRUE,TRUE
+897,339922,2020-03-19,2020,Other,FALSE,FALSE,None,Afghan,English,Muslim,None,Male,Assault,104,FALSE,TRUE
+898,540217,2020-03-26,2020,Public,TRUE,TRUE,Asian/Southeast Asian,Arab,None,Muslim,Gay,Transgender,Harassment,4,TRUE,TRUE
+899,823773,2022-02-13,2022,Commercial,FALSE,TRUE,South Asian,Latino,Mandarin,Other,Gay,Male,Threat,97,FALSE,TRUE
+900,583467,2021-05-10,2021,Other,FALSE,FALSE,White,None,Spanish,Muslim,2SLGBT,Female,Assault,154,FALSE,TRUE
+901,558443,2019-02-14,2019,Residential,FALSE,TRUE,Black,Japanese,Spanish,None,None,Female,Vandalism,15,TRUE,TRUE
+902,737670,2020-07-12,2020,Commercial,TRUE,FALSE,None,Japanese,Hindi,Other,None,Male,Harassment,42,FALSE,TRUE
+903,761366,2019-07-05,2019,Other,TRUE,TRUE,White,Chinese,English,Other,None,Female,Harassment,118,FALSE,TRUE
+904,801089,2023-04-05,2023,Commercial,FALSE,TRUE,South Asian,None,Arabic,Muslim,2SLGBT,Female,Harassment,63,FALSE,TRUE
+905,797901,2019-05-29,2019,Other,FALSE,TRUE,None,Japanese,English,Buddhist,None,Female,Assault,99,FALSE,TRUE
+906,619657,2023-06-29,2023,Residential,TRUE,FALSE,South Asian,African,None,Muslim,Gay,None,Harassment,79,TRUE,TRUE
+907,860431,2020-10-06,2020,Commercial,TRUE,FALSE,Black,Japanese,Mandarin,Jewish,None,Male,Assault,113,FALSE,TRUE
+908,859177,2020-03-02,2020,Residential,TRUE,TRUE,White,Afghan,None,None,2SLGBT,None,Harassment,40,TRUE,TRUE
+909,282308,2019-08-14,2019,Public,FALSE,FALSE,White,Afghan,Spanish,None,2SLGBT,None,Assault,5,TRUE,TRUE
+910,727288,2020-08-30,2020,Residential,TRUE,FALSE,Asian/Southeast Asian,Arab,Arabic,Muslim,None,Transgender,Assault,10,FALSE,TRUE
+911,354233,2020-01-10,2020,Commercial,FALSE,FALSE,South Asian,Japanese,Spanish,Jewish,Gay,Male,Harassment,145,FALSE,TRUE
+912,764738,2021-10-27,2021,Residential,TRUE,TRUE,None,Arab,Hindi,Jewish,2SLGBT,Transgender,Threat,93,FALSE,TRUE
+913,300454,2018-05-05,2018,Residential,FALSE,TRUE,Asian/Southeast Asian,African,Spanish,Buddhist,2SLGBT,None,Harassment,35,TRUE,TRUE
+914,160659,2020-12-10,2020,Other,FALSE,TRUE,None,Latino,Spanish,Buddhist,Gay,Female,Threat,67,FALSE,TRUE
+915,986735,2020-11-09,2020,Commercial,TRUE,TRUE,White,Latino,Mandarin,Muslim,Gay,Male,Vandalism,36,TRUE,TRUE
+916,844025,2018-06-10,2018,Other,FALSE,FALSE,None,African,English,Muslim,None,None,Harassment,133,FALSE,TRUE
+917,248477,2018-01-12,2018,Other,FALSE,FALSE,Asian/Southeast Asian,Latino,Mandarin,Buddhist,2SLGBT,None,Vandalism,131,FALSE,TRUE
+918,863178,2018-08-17,2018,Commercial,FALSE,FALSE,Black,Latino,English,Jewish,None,None,Harassment,89,FALSE,TRUE
+919,801108,2022-06-10,2022,Public,TRUE,TRUE,South Asian,Chinese,Spanish,Other,None,Male,Threat,134,TRUE,TRUE
+920,241044,2023-10-20,2023,Commercial,FALSE,FALSE,Asian/Southeast Asian,None,English,Buddhist,Gay,Transgender,Threat,155,TRUE,TRUE
+921,889401,2018-06-13,2018,Commercial,TRUE,TRUE,White,Japanese,None,Jewish,Gay,Female,Vandalism,114,FALSE,TRUE
+922,641284,2018-04-27,2018,Residential,TRUE,FALSE,White,African,Spanish,Other,Gay,Male,Vandalism,23,FALSE,TRUE
+923,321196,2018-07-25,2018,Public,FALSE,FALSE,None,Japanese,None,None,None,Male,Assault,32,TRUE,TRUE
+924,457346,2023-11-08,2023,Residential,FALSE,FALSE,South Asian,Afghan,None,Muslim,None,Transgender,Vandalism,14,FALSE,TRUE
+925,579327,2022-03-13,2022,Public,TRUE,TRUE,White,African,None,Christian,Gay,Transgender,Threat,23,FALSE,TRUE
+926,131346,2018-05-11,2018,Residential,TRUE,FALSE,None,Afghan,Spanish,Other,Gay,Male,Vandalism,46,FALSE,TRUE
+927,344190,2020-06-24,2020,Commercial,FALSE,FALSE,Asian/Southeast Asian,Chinese,Hindi,Jewish,2SLGBT,None,Harassment,79,TRUE,TRUE
+928,668242,2021-02-17,2021,Other,FALSE,FALSE,White,Latino,Mandarin,Muslim,2SLGBT,Female,Assault,106,FALSE,TRUE
+929,511220,2023-02-20,2023,Other,FALSE,FALSE,White,Chinese,Hindi,Buddhist,Gay,None,Harassment,20,FALSE,TRUE
+930,970433,2018-09-04,2018,Public,FALSE,TRUE,White,African,Mandarin,Christian,None,Transgender,Threat,143,FALSE,TRUE
+931,642613,2020-12-15,2020,Other,TRUE,TRUE,South Asian,Arab,English,Buddhist,Gay,Female,Vandalism,21,FALSE,TRUE
+932,706740,2022-05-11,2022,Residential,FALSE,FALSE,Black,Chinese,Spanish,None,Gay,Female,Threat,36,TRUE,TRUE
+933,391393,2019-09-02,2019,Residential,TRUE,TRUE,None,None,Hindi,Muslim,2SLGBT,None,Threat,119,FALSE,TRUE
+934,156423,2022-11-09,2022,Other,FALSE,TRUE,Black,Latino,Arabic,Buddhist,2SLGBT,Male,Assault,86,FALSE,TRUE
+935,678583,2018-01-10,2018,Commercial,FALSE,TRUE,White,African,English,Muslim,Gay,None,Threat,12,FALSE,TRUE
+936,968852,2023-12-13,2023,Other,TRUE,TRUE,None,African,Spanish,Muslim,2SLGBT,Transgender,Threat,36,TRUE,TRUE
+937,610874,2022-01-10,2022,Other,TRUE,TRUE,White,Afghan,Spanish,Christian,Gay,Female,Vandalism,146,TRUE,TRUE
+938,638392,2019-07-13,2019,Residential,TRUE,FALSE,White,None,Arabic,Jewish,Gay,Transgender,Harassment,115,TRUE,TRUE
+939,425620,2023-04-28,2023,Public,FALSE,FALSE,None,Latino,None,Other,None,Male,Harassment,90,FALSE,TRUE
+940,604937,2021-03-22,2021,Commercial,FALSE,TRUE,Black,African,Mandarin,None,None,Transgender,Assault,41,TRUE,TRUE
+941,702395,2019-09-13,2019,Other,TRUE,FALSE,Asian/Southeast Asian,Chinese,None,Christian,Gay,Female,Assault,62,FALSE,TRUE
+942,890879,2022-12-09,2022,Other,TRUE,TRUE,South Asian,Israeli,Hindi,Other,2SLGBT,None,Assault,32,FALSE,TRUE
+943,964132,2023-11-10,2023,Commercial,FALSE,TRUE,South Asian,Afghan,None,Other,None,Male,Harassment,15,TRUE,TRUE
+944,442322,2023-08-21,2023,Commercial,FALSE,TRUE,South Asian,African,Spanish,Other,Gay,Transgender,Threat,134,FALSE,TRUE
+945,771395,2019-08-23,2019,Public,FALSE,TRUE,South Asian,Latino,None,None,Gay,Female,Assault,143,TRUE,TRUE
+946,196951,2019-01-20,2019,Other,FALSE,FALSE,South Asian,Afghan,English,Christian,None,Male,Vandalism,97,TRUE,TRUE
+947,823334,2019-02-24,2019,Commercial,FALSE,TRUE,South Asian,Afghan,Mandarin,Christian,Gay,Transgender,Assault,11,TRUE,TRUE
+948,889222,2020-08-06,2020,Commercial,FALSE,TRUE,Asian/Southeast Asian,Afghan,English,Other,None,None,Vandalism,23,TRUE,TRUE
+949,914054,2023-09-26,2023,Other,TRUE,FALSE,None,African,Arabic,None,Gay,None,Threat,131,TRUE,TRUE
+950,582249,2023-10-27,2023,Public,TRUE,FALSE,Black,None,Spanish,Buddhist,None,Female,Threat,146,FALSE,TRUE
+951,327909,2022-09-14,2022,Residential,FALSE,FALSE,White,Latino,Spanish,Other,None,Female,Assault,47,TRUE,TRUE
+952,546164,2019-08-18,2019,Other,FALSE,TRUE,None,African,Spanish,Jewish,2SLGBT,Transgender,Assault,18,FALSE,TRUE
+953,269236,2019-08-03,2019,Public,FALSE,TRUE,White,Latino,Spanish,Muslim,None,None,Harassment,27,TRUE,TRUE
+954,182703,2018-12-20,2018,Commercial,TRUE,FALSE,South Asian,Chinese,Mandarin,Buddhist,None,None,Threat,120,FALSE,TRUE
+955,718678,2023-07-13,2023,Other,TRUE,FALSE,Asian/Southeast Asian,Afghan,Hindi,Muslim,Gay,Female,Assault,52,FALSE,TRUE
+956,172956,2021-06-16,2021,Residential,FALSE,FALSE,Black,Japanese,Mandarin,Buddhist,Gay,None,Vandalism,154,FALSE,TRUE
+957,865597,2018-09-05,2018,Residential,FALSE,TRUE,Black,Afghan,Arabic,Muslim,None,Transgender,Harassment,50,FALSE,TRUE
+958,771854,2019-05-22,2019,Public,FALSE,FALSE,South Asian,Israeli,Mandarin,None,None,None,Assault,108,FALSE,TRUE
+959,558281,2023-01-11,2023,Residential,TRUE,FALSE,None,Japanese,English,Christian,None,Male,Vandalism,116,TRUE,TRUE
+960,676458,2021-08-13,2021,Public,FALSE,FALSE,Black,Afghan,Spanish,Jewish,Gay,Female,Harassment,150,FALSE,TRUE
+961,666661,2021-05-27,2021,Commercial,FALSE,TRUE,White,None,Arabic,Christian,2SLGBT,Transgender,Threat,143,TRUE,TRUE
+962,303482,2019-04-09,2019,Residential,FALSE,TRUE,Asian/Southeast Asian,Afghan,Arabic,Muslim,2SLGBT,Transgender,Vandalism,90,FALSE,TRUE
+963,204444,2021-01-08,2021,Public,TRUE,TRUE,None,African,Spanish,Buddhist,2SLGBT,None,Threat,105,TRUE,TRUE
+964,291516,2022-06-26,2022,Other,FALSE,TRUE,Black,Afghan,English,Christian,2SLGBT,None,Harassment,17,FALSE,TRUE
+965,118433,2020-10-15,2020,Commercial,FALSE,FALSE,White,None,None,None,None,Male,Harassment,107,TRUE,TRUE
+966,270500,2018-12-11,2018,Commercial,TRUE,TRUE,South Asian,Chinese,Hindi,None,Gay,None,Assault,96,FALSE,TRUE
+967,350479,2019-10-30,2019,Residential,FALSE,FALSE,White,Japanese,English,Buddhist,Gay,Female,Assault,150,FALSE,TRUE
+968,855148,2021-04-15,2021,Residential,FALSE,TRUE,Black,Chinese,Mandarin,Jewish,2SLGBT,None,Threat,77,FALSE,TRUE
+969,725456,2021-11-04,2021,Commercial,TRUE,TRUE,Black,Latino,None,Other,Gay,Female,Harassment,125,TRUE,TRUE
+970,617858,2023-08-05,2023,Other,FALSE,TRUE,None,African,Arabic,Buddhist,2SLGBT,Female,Threat,129,FALSE,TRUE
+971,599634,2020-12-10,2020,Commercial,TRUE,FALSE,South Asian,None,None,Buddhist,None,Transgender,Vandalism,69,TRUE,TRUE
+972,234676,2023-06-16,2023,Residential,FALSE,FALSE,None,Israeli,Mandarin,Other,2SLGBT,Female,Assault,38,TRUE,TRUE
+973,795796,2018-08-02,2018,Other,TRUE,FALSE,Asian/Southeast Asian,Latino,Mandarin,Other,None,Transgender,Threat,39,FALSE,TRUE
+974,838951,2021-12-12,2021,Commercial,FALSE,TRUE,Asian/Southeast Asian,African,Mandarin,None,2SLGBT,Male,Vandalism,5,TRUE,TRUE
+975,613896,2019-12-25,2019,Public,TRUE,FALSE,South Asian,Afghan,None,Jewish,None,Male,Harassment,35,FALSE,TRUE
+976,632804,2022-12-24,2022,Other,TRUE,TRUE,South Asian,Afghan,Arabic,Buddhist,2SLGBT,Male,Assault,152,FALSE,TRUE
+977,360360,2019-11-04,2019,Other,TRUE,FALSE,Black,Arab,Mandarin,Other,None,None,Threat,125,FALSE,TRUE
+978,809902,2020-01-11,2020,Residential,TRUE,TRUE,Black,None,Hindi,Buddhist,None,None,Vandalism,116,TRUE,TRUE
+979,113313,2023-01-08,2023,Other,TRUE,FALSE,South Asian,None,English,Jewish,None,Male,Vandalism,122,TRUE,TRUE
+980,952362,2019-06-17,2019,Public,FALSE,FALSE,Asian/Southeast Asian,African,Arabic,Jewish,2SLGBT,Male,Harassment,107,FALSE,TRUE
+981,929587,2018-01-23,2018,Commercial,FALSE,TRUE,South Asian,None,Spanish,Jewish,Gay,Transgender,Threat,158,FALSE,TRUE
+982,497474,2021-09-29,2021,Other,FALSE,FALSE,Asian/Southeast Asian,Chinese,Spanish,Muslim,2SLGBT,Male,Assault,52,TRUE,TRUE
+983,338507,2019-06-05,2019,Other,TRUE,TRUE,South Asian,Chinese,Mandarin,Other,Gay,Male,Threat,57,FALSE,TRUE
+984,211416,2019-10-13,2019,Residential,TRUE,FALSE,Black,African,Arabic,None,2SLGBT,Transgender,Vandalism,141,TRUE,TRUE
+985,939101,2019-06-05,2019,Commercial,FALSE,FALSE,Black,Israeli,Spanish,Muslim,2SLGBT,None,Harassment,127,TRUE,TRUE
+986,615319,2022-10-31,2022,Commercial,TRUE,FALSE,Asian/Southeast Asian,Latino,Arabic,Other,None,Male,Harassment,7,TRUE,TRUE
+987,404592,2020-04-27,2020,Other,FALSE,FALSE,Black,African,Hindi,Muslim,Gay,None,Assault,132,FALSE,TRUE
+988,196993,2018-07-14,2018,Residential,TRUE,TRUE,Black,Afghan,Spanish,Muslim,Gay,None,Vandalism,132,FALSE,TRUE
+989,268908,2020-07-31,2020,Other,TRUE,TRUE,Asian/Southeast Asian,African,Hindi,Buddhist,None,Male,Threat,158,TRUE,TRUE
+990,162706,2021-02-11,2021,Commercial,TRUE,FALSE,South Asian,Israeli,None,Christian,None,Male,Threat,111,FALSE,TRUE
+991,390910,2018-09-12,2018,Other,TRUE,TRUE,South Asian,Latino,Spanish,Buddhist,None,Transgender,Threat,120,TRUE,TRUE
+992,862305,2021-06-13,2021,Residential,TRUE,FALSE,Black,Latino,None,Other,None,Transgender,Vandalism,104,FALSE,TRUE
+993,515348,2020-07-08,2020,Public,TRUE,TRUE,White,Israeli,Hindi,Buddhist,2SLGBT,Female,Assault,99,FALSE,TRUE
+994,462369,2022-04-26,2022,Public,FALSE,FALSE,White,Latino,None,Christian,2SLGBT,Transgender,Vandalism,7,FALSE,TRUE
+995,541510,2021-03-20,2021,Public,FALSE,TRUE,South Asian,Israeli,None,Other,None,None,Assault,85,FALSE,TRUE
+996,814516,2023-06-16,2023,Commercial,FALSE,TRUE,South Asian,Afghan,Mandarin,Buddhist,2SLGBT,None,Harassment,110,FALSE,TRUE
+997,613581,2021-08-06,2021,Other,FALSE,TRUE,White,Israeli,Mandarin,None,None,Female,Threat,142,TRUE,TRUE
+998,555607,2022-12-11,2022,Public,FALSE,FALSE,White,African,English,Other,Gay,Female,Vandalism,26,FALSE,TRUE
+999,836860,2019-04-13,2019,Other,FALSE,TRUE,Asian/Southeast Asian,None,Arabic,Buddhist,2SLGBT,Transgender,Vandalism,154,TRUE,TRUE
+1000,966758,2023-10-07,2023,Other,TRUE,TRUE,None,African,Hindi,None,None,Female,Vandalism,134,FALSE,TRUE
