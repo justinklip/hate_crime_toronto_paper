@@ -11,7 +11,6 @@
 #Get libraries
 library(opendatatoronto)
 library(dplyr)
-library
 
 # get package
 package <- show_package("hate-crimes-open-data")
@@ -28,7 +27,7 @@ hate_crime_raw_data <- filter(datastore_resources, row_number()==1) %>% get_reso
 hate_crime_raw_data
 
 #### Save data ####
-# change the_raw_data to whatever name you assigned when you downloaded it.
+#save to the raw data folder
 write_csv(hate_crime_raw_data, "data/raw_data/hate_crime_raw_data.csv") 
 
          
