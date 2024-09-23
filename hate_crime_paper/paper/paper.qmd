@@ -6,7 +6,7 @@ author:
 thanks: "Code and data are available at: https://github.com/justinklip/hate_crime_toronto_paper."
 date: today
 date-format: long
-abstract: "First sentence. Second sentence. Third sentence. Fourth sentence."
+abstract: "Despite Canada's diversity, hate crimes continue to grow in Canada's most multicultural areas. Using data from Open Data Toronto, this paper the tracks the evolution of hate crime in Toronto from 2018 to the end of 2023. Third sentence. Fourth sentence."
 format: pdf
 number-sections: true
 bibliography: references.bib
@@ -18,7 +18,13 @@ bibliography: references.bib
 #| message: false
 
 library(tidyverse)
+library(dplyr)
+library(ggplot2)
+library(lubridate)
 library(palmerpenguins)
+
+#Data Acquisition
+hate_crime_analysis_data <- read_csv("data/analysis_data/hate_crime_analysis_data.csv")
 ```
 
 # Introduction
@@ -32,17 +38,30 @@ The remainder of this paper is structured as follows. @sec-data....
 Some of our data is of penguins (@fig-bills), from @palmerpenguins.
 
 ```{r}
-#| label: fig-bills
-#| fig-cap: Bills of penguins
+#| label: Monthly Hate Crimes in Toronto from 2018-2023
+#| fig-cap: Number of reported hate crimes from month to month in Toronto
 #| echo: false
 
-ggplot(penguins, aes(x = island, fill = species)) +
-  geom_bar(alpha = 0.8) +
-  scale_fill_manual(values = c("darkorange","purple","cyan4"),
-                    guide = "none") +
+
+# Extract year and month from the 'occurence_date' column
+hate_crime_analysis_data <- hate_crime_analysis_data %>%
+  mutate(year_month = floor_date(occurence_date, "month"))
+
+# Group by year and month, then count observations
+monthly_counts <- hate_crime_analysis_data %>%
+  group_by(year_month) %>%
+  summarise(count = n())
+
+# Plot the number of observations per month
+ggplot(monthly_counts, aes(x = year_month, y = count)) +
+  geom_line() +   # Use line plot to show trends over time
+  geom_point() +  # Add points for better visualization
+  labs(title = "Number of Observations per Month",
+       x = "Month",
+       y = "Number of Observations") +
   theme_minimal() +
-  facet_wrap(~species, ncol = 1) +
-  coord_flip()
+  scale_x_date(date_labels = "%b %Y", date_breaks = "1 month") + 
+  theme(axis.text.x = element_text(angle = 90, hjust = 1))
 ```
 
 Talk more about it.

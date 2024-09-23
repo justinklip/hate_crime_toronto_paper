@@ -6,7 +6,7 @@ author:
 thanks: "Code and data are available at: https://github.com/justinklip/hate_crime_toronto_paper."
 date: today
 date-format: long
-abstract: "First sentence. Second sentence. Third sentence. Fourth sentence."
+abstract: "Despite Canada's diversity, hate crimes continue to grow in Canada's most multicultural areas. Using data from Open Data Toronto, this paper the tracks the evolution of hate crime in Toronto from 2018 to the end of 2023. Third sentence. Fourth sentence."
 format: pdf
 number-sections: true
 bibliography: references.bib
@@ -32,15 +32,45 @@ The remainder of this paper is structured as follows. @sec-data....
 Some of our data is of penguins (@fig-bills), from @palmerpenguins.
 
 ```{r}
+hate_crime_analysis_data <- read_csv(here::here("data/analysis_data/hate_crime_analysis_data.csv"))
+
+#| label: Monthly Hate Crimes in Toronto from 2018-2023
+#| fig-cap: Number of reported hate crimes from month to month, labels are quarterly due to space.
+#| echo: false
+
+
+# Extract year and month from the 'occurrence_date' column
+hate_crime_analysis_data <- hate_crime_analysis_data %>%
+  mutate(year_month = floor_date(occurrence_date, "month"))
+
+# Group by year and month, then count observations
+monthly_counts <- hate_crime_analysis_data %>%
+  group_by(year_month) %>%
+  summarise(count = n())
+
+# Plot the number of observations per month, with x-axis labels every quarter
+ggplot(monthly_counts, aes(x = year_month, y = count)) +
+  geom_line() +   # Use line plot to show trends over time
+  geom_point() +  # Add points for better visualization
+  labs(title = "Hate Crime Incidents in Toronto by Month",
+       x = "Month",
+       y = "Number of Reported Hate Crimes") + 
+  theme_minimal() +
+  scale_x_date(date_labels = "%b %Y", date_breaks = "3 months") + 
+  theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
+  annotate("text", x = as.Date("2023-01-01"), y = max(monthly_counts$count), 
+           label = "Footnote: Data is plotted monthly, but labelled quarterly due to space", 
+           hjust = 0, vjust = 1, size = 3.5, color = "")
+```
 
 ```
 
-Talk more about it.
+As we can see, 
 
 And also planes (@fig-planes). (You can change the height and width, but don't worry about doing that until you have finished every other aspect of the paper - Quarto will try to make it look nice and the defaults usually work well once you have enough text.)
 
 ```{r}
-analysis_data <- read_csv(here::here("data/analysis_data/hate_crime_analysis_data.csv"))
+
 
 
 ```
