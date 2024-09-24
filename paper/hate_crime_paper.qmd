@@ -18,7 +18,6 @@ bibliography: references.bib
 #| message: false
 
 library(tidyverse)
-library(palmerpenguins)
 ```
 
 # Introduction
@@ -32,7 +31,7 @@ The remainder of this paper is structured as follows. @sec-data....
 Some of our data is of penguins (@fig-bills), from @palmerpenguins.
 
 ```{r}
-hate_crime_analysis_data <- read_csv(here::here("data/analysis_data/hate_crime_analysis_data.csv"))
+hate_crime_analysis_data <- read_csv("data/analysis_data/hate_crime_analysis_data.csv")
 
 #| label: Monthly Hate Crimes in Toronto from 2018-2023
 #| fig-cap: Number of reported hate crimes from month to month, labels are quarterly due to space.
