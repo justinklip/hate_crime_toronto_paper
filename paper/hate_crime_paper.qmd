@@ -1,12 +1,12 @@
 ---
-title: "Toronto is becoming more bigoted: An analysis of hate crime in Toronto over time and groups"
+title: "Toronto's Uptick in Hate Crime: Time and Group Trends"
 subtitle: "My subtitle if needed"
 author: 
   - Justin Klip
 thanks: "Code and data are available at: https://github.com/justinklip/hate_crime_toronto_paper."
 date: today
 date-format: long
-abstract: "Despite Canada's diversity, hate crimes continue to grow in Canada's most multicultural areas. Using data from Open Data Toronto, this paper the tracks the evolution of hate crime in Toronto from 2018 to the end of 2023. Third sentence. Fourth sentence."
+abstract: "Using data from Open Data Toronto, this paper the tracks the evolution of hate crime in Toronto from 2018 to the end of 2023. Third sentence. Fourth sentence."
 format: pdf
 number-sections: true
 bibliography: references.bib
@@ -18,25 +18,51 @@ bibliography: references.bib
 #| message: false
 
 library(tidyverse)
+library(janitor)
+library(dplyr)
+library(ggplot2)
+library(lubridate)
+library(tinytex)
+library(zoo)
+library(tidyr)
+
+#Data Acquisition
+hate_crime_analysis_data <- read_csv(here::here("data/analysis_data/hate_crime_analysis_data.csv"))
 ```
 
-# Introduction
+# Introduction {#sec-introduction}
 
-You can and should cross-reference sections and sub-sections. We use @citeR and @rohan.
+In 1988 the Canadian Parliament passed the Canadian Multiculturalism Act, an act that served to recognize and preserve Canada's multicultural heritage @government_of_canada_about_2024. Toronto serves as a shining example of Canada's multiculturalism, with over half of the population of Toronto being foreign-born [@mcneil_how_2023]. Yet, despite Toronto's reputation as an international city with large widespread cultural heterogeneity, hate crimes have seen an uptick in recent times. Hate crimes in Toronto have increased nearly 55% in 2024 in comparison to 2023. A hate crime is defined as a "criminal act done by a person who is motivated by an extreme bias or hatred towards a particular social group" [@government_of_canada_victims_2023]. Acts like these are fundamentally at odds with the sentiment expressed by the Canadian Multiculturalism Act and raise questions about Toronto's history with hate crimes and its multicultural status. In this paper, I explore the dynamics of Toronto's Hate Crimes from 2018 to 2023, before the current uptick. In particular, I describe how the types of hate crimes, the types of victims, and the quantity of victims have changed over time.
 
-The remainder of this paper is structured as follows. @sec-data....
+The rest of the paper is split into three main parts @sec-data, @sec-discussion, and @sec-limitations. The @sec-data section describes how the data is generated in the @sec-measurement section. It then moves to the @sec-cleaningandpackages which describes the data cleaning process and libraries used. The @sec-observations section demonstrates what a typical observation in the data set looks like, and the @sec-plotsandanalysis section displays the data to describe how it has varied over time and group.
+
+```{r}
+```
 
 # Data {#sec-data}
 
-Some of our data is of penguins (@fig-bills), from @palmerpenguins.
+## Measurement {##sec-measurement}
+
+To run my analysis, data was collected from Open Data Toronto's Open Data Portal, through the R library opendatatoronto [@opendatatoronto]. The data source used is their Hate Crimes Open Data data set [@open-data-set]. This data of about 1400 observations has every crime that has been classified as a 'hate crime' by Toronto Police from the beginning of 2018 to the end of 2023. The data is generated as follows: a crime is committed in Toronto, and generally within a month that crime is reported by the victim. If a hate-motivated offence is suspected, the investigation is then led by a divisional investigator of the Hate Crime Unit (HCU) or by the HCU itself (Toronto Police Service). If hate-motivated offences are found, then this case will be added next year to the data set. Details of the crime are documented – including what social group they were biased against – these bias variables include ethnicity, race, gender, age, language, religion, and sexual orientation. Date and time (of both the crime and the reporting of it), offence committed, neighborhood, and place (such as apartments, malls, parks) were also recorded. Every unique case number was also attributed to each observation in the data set. There were almost no empty observations, except for a few cases where place data was missing. @cleaning-packages discusses this missing data further.
+
+## Cleaning and Packages {#sec-cleaning-and-packages}
+
+To download, clean, and analyze the data, the statistical software R was used [@citeR]. Other packages such as lubridate [@lubridate], tidyverse [@tidyverse], dplyr [@dplyr], janitor [@janitor] aided in this process. In the data cleaning process, about 30 missing observations were found. These 30 observations were all under the variable of location type, demonstrating the report writer had a hard time describing the location of the incident. To deal with this, all the location was set to unknown which can still be interpreted in the graphs. \## Observations {#sec-observations}
+
+A typical observation of the cleaned data has the all data on the
+
+## Data Analysis {sec-data-analysis}
+
+@fig-1 documents the evolution of hate crimes in Toronto over time. It plots the monthly quantity of hate crimes committed for all months from January 2018 to December 2023.It also plots the 12 month moving average the demonstrate the trend over time. As seen, number of hate crimes go from averaging 12 a month in a given year, to nearly 30 by the end of the dataset. The catalyst for this upward trend seems to start during the early Covid-19 period in 2020, demonstrating that COVID-19 could be a possible explanatory factor this uptick. Interestingly, hate crimes still remained rather elevated post lockdown, and in 2023 climbed to even higher levels in comparison to the 2020 period. May 2023 had the highest amount of hate crimes committed in Toronto since the start of this data, with 44 being committed.
+
+
 
 ```{r}
-hate_crime_analysis_data <- read_csv("data/analysis_data/hate_crime_analysis_data.csv")
-
-#| label: Monthly Hate Crimes in Toronto from 2018-2023
-#| fig-cap: Number of reported hate crimes from month to month, labels are quarterly due to space.
+#| label: fig-1
+#| fig-cap: Number of reported hate crimes from month to month in Toronto
 #| echo: false
-
+#| fig.align center
+#| fig.width "\\textwidth"
 
 # Extract year and month from the 'occurrence_date' column
 hate_crime_analysis_data <- hate_crime_analysis_data %>%
@@ -47,49 +73,99 @@ monthly_counts <- hate_crime_analysis_data %>%
   group_by(year_month) %>%
   summarise(count = n())
 
-# Plot the number of observations per month, with x-axis labels every quarter
-ggplot(monthly_counts, aes(x = year_month, y = count)) +
-  geom_line() +   # Use line plot to show trends over time
-  geom_point() +  # Add points for better visualization
-  labs(title = "Hate Crime Incidents in Toronto by Month",
-       x = "Month",
-       y = "Number of Reported Hate Crimes") + 
+# Calculate a 12-month (yearly) moving average
+monthly_counts <- monthly_counts %>%
+  mutate(moving_avg = rollmean(count, 12, fill = NA, align = "right"))
+
+# Reshape the data for easier plotting of multiple lines
+monthly_counts_long <- monthly_counts %>%
+  pivot_longer(cols = c(count, moving_avg), 
+               names_to = "Line_Type", 
+               values_to = "Value")
+
+# Plot with legend for monthly total and moving average
+ggplot() +
+  geom_line(data = monthly_counts_long, aes(x = year_month, y = Value, color = Line_Type, linetype = Line_Type), size = 1) +  # Line plot for both trends
+  geom_point(data = monthly_counts, aes(x = year_month, y = count), color = "black") +  # Points for monthly totals
+  scale_color_manual(values = c("count" = "black", "moving_avg" = "blue"), 
+                     labels = c("Monthly Total", "12 Month Moving Average")) +  # Define colors for the lines and set legend labels
+  scale_linetype_manual(values = c("count" = "solid", "moving_avg" = "dashed"), 
+                        labels = c("Monthly Total", "12 Month Moving Average")) +  # Define line types and set legend labels
+  labs(
+    title = "Number of Hate Crimes Per Month in Toronto",
+    x = "Month",
+    y = "Reported Hate Crimes",
+    color = "Legend",
+    linetype = "Legend",
+    caption = "Figure 1: Monthly Hate Crime Data from 2018 to 2024"
+  ) +
   theme_minimal() +
   scale_x_date(date_labels = "%b %Y", date_breaks = "3 months") + 
-  theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
-  annotate("text", x = as.Date("2023-01-01"), y = max(monthly_counts$count), 
-           label = "Footnote: Data is plotted monthly, but labelled quarterly due to space", 
-           hjust = 0, vjust = 1, size = 3.5, color = "")
+  theme(
+    axis.text.x = element_text(angle = 90, hjust = 1),
+    plot.caption = element_text(hjust = 0.5)  # Center the caption
+  )
+```
+@fig-2 plots the race-biased crimes
+
+```{r}
+#| label: fig-2a
+#| fig-cap: Yearly Breakdown of Race-Motivated Hate Crimes
+#| echo: false
+
+ggplot(hate_crime_analysis_data %>% filter(race_bias != "None"), aes(x = factor(year(occurrence_date)), fill = race_bias)) +
+  geom_bar(position = "stack") +  # Stack the bars to show total counts by year
+  labs(
+    title = "Hate Crimes by Race and Year",
+    x = "Year",
+    y = "Total Hate Crimes",
+    fill = "Race Bias"
+  ) +
+  theme_minimal()
+```
+```{r}
+
+#| label: fig-2b
+#| fig-cap: Yearly Breakdown of Religion-Motivated Hate Crimes
+#| echo: false
+
+ggplot(hate_crime_analysis_data %>% filter(religion_bias != "None"), aes(x = factor(year(occurrence_date)), fill = religion_bias)) +
+  geom_bar(position = "stack") +  # Stack the bars to show total counts by year
+  labs(
+    title = "Hate Crimes by Gender and Year",
+    x = "Year",
+    y = "Total Hate Crimes",
+    fill = "Gender Bias"
+  ) +
+  theme_minimal()
+```
 ```
 
+```{r}
+#| label: fig-2c
+#| fig-cap: Yearly Breakdown of Ethnicity-Motivated Hate Crimes
+#| echo: false
+
+ggplot(hate_crime_analysis_data %>% filter(race_bias != "None"), aes(x = factor(year(occurrence_date)), fill = ethnicity_bias)) +
+  geom_bar(position = "stack") +  # Stack the bars to show total counts by year
+  labs(
+    title = "Hate Crimes by Ethnicity and Year",
+    x = "Year",
+    y = "Total Hate Crimes",
+    fill = "Ethnicity Bias"
+  ) +
+  theme_minimal()
 ```
-
-As we can see, 
-
-And also planes (@fig-planes). (You can change the height and width, but don't worry about doing that until you have finished every other aspect of the paper - Quarto will try to make it look nice and the defaults usually work well once you have enough text.)
 
 ```{r}
 
-
-
-```
-
-Talk way more about it.
-
-# Results
-
-
-Our results are summarized in @tbl-modelresults.
-
-```{r}
-
 ```
 
 ```{r}
 
 ```
 
-# Discussion
+# Discussion {#sec-discussion}
 
 ## First discussion point {#sec-first-point}
 
@@ -99,9 +175,7 @@ If my paper were 10 pages, then should be be at least 2.5 pages. The discussion 
 
 ## Third discussion point
 
-## Weaknesses and next steps
-
-# Limitations and Next Steps
+## Limitations
 
 Weaknesses and next steps should also be included.
 
@@ -109,21 +183,13 @@ Weaknesses and next steps should also be included.
 
 \appendix
 
-
-
 # Appendix {.unnumbered}
-
-
 
 ```{r}
 
 ```
 
 ## Diagnostics
-
-@fig-stanareyouokay-1 is a trace plot. It shows... This suggests...
-
-@fig-stanareyouokay-2 is a Rhat plot. It shows... This suggests...
 
 ```{r}
 

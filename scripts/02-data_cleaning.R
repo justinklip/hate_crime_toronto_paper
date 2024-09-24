@@ -42,6 +42,10 @@ print(n = 37, df_with_na)
 #They all are specifically for location type, so we'll just rename to unspecified
 cleaned_hate_crime_data[is.na(cleaned_hate_crime_data)] <- "unspecified"
 
+#Also want a little less specificity due to the number of races, we will take their primary race indicated by being the first word typed.
+hate_crime_analysis_data <- hate_crime_analysis_data %>%
+  mutate(race_bias = sub(",.*", "", race_bias))  # Extract the first word before the comma
+print(hate_crime_analysis_data['race_bias'], n =200)
 
 #### Save data ####
 write_csv(cleaned_hate_crime_data, "data/analysis_data/hate_crime_analysis_data.csv")
