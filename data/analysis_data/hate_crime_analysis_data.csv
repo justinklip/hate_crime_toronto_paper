@@ -53,7 +53,7 @@ id,event_unique_id,occurrence_year,occurrence_date,occurrence_time,division,loca
 52,GO-20181364803,2018,2018-05-24,1,D32,"Apartment Building (Condo, Retirement Buidling, etc.)",NO,NO,None,None,None,Jewish,None,None,NO,Mischief Under $5000,032,Englemount-Lawrence (32),NO
 53,GO-2018970888,2018,2018-05-29,1700,D23,"Apartment Building (Condo, Retirement Buidling, etc.)",NO,NO,None,None,None,None,Gay,None,NO,Uttering Threats - Bodily Harm,001,West Humber-Clairville (1),NO
 54,GO-2018975560,2018,2018-05-29,2030,D13,Religious Place of Worship/Cultural Centre,NO,NO,None,None,None,Jewish,None,None,NO,"Mischief To Religious Property, Educational Institutions, Etc.",094,Wychwood (94),NO
-55,GO-2018982987,2018,2018-05-31,1212,D55,"Open Area, Park or Parking Lot",NO,NO,"Black, White",None,None,None,2SLGBTQ+,None,YES,Mischief Under $5000,054,O'Connor-Parkview (54),NO
+55,GO-2018982987,2018,2018-05-31,1212,D55,"Open Area, Park or Parking Lot",NO,NO,Black,None,None,None,2SLGBTQ+,None,YES,Mischief Under $5000,054,O'Connor-Parkview (54),NO
 56,GO-2018989194,2018,2018-05-31,1900,D55,Streets/Roadways/Highway,NO,NO,None,None,None,Jewish,None,None,NO,Mischief Under $5000,065,Greenwood-Coxwell (65),NO
 57,GO-2018990504,2018,2018-06-01,1225,D53,Religious Place of Worship/Cultural Centre,NO,NO,None,None,None,Christian Orthodox,None,None,NO,"Mischief To Religious Property, Educational Institutions, Etc.",095,Annex (95),NO
 58,GO-20181026326,2018,2018-06-06,1557,D31,Public Transportation,NO,NO,None,None,None,Muslim,None,Woman,YES,Assault,154,Oakdale-Beverley Heights (154),YES
@@ -211,7 +211,7 @@ id,event_unique_id,occurrence_year,occurrence_date,occurrence_time,division,loca
 210,GO-20191362556,2019,2019-07-20,1350,D31,"Apartment Building (Condo, Retirement Buidling, etc.)",NO,NO,None,None,None,Muslim,None,None,NO,Assault,024,Black Creek (24),YES
 211,GO-20191378673,2019,2019-07-22,0,D32,unspecified,NO,NO,None,None,None,Jewish,None,None,NO,Mischief Under $5000,038,Lansing-Westgate (38),NO
 212,GO-20191442068,2019,2019-07-24,0,D53,Other Commercial / Corporate Places,NO,NO,None,None,None,Jewish,None,None,NO,Mischief Interfere With Property,095,Annex (95),NO
-213,GO-20191407470,2019,2019-07-25,1600,D51,"Educational Institution (Universities, Colleges, Schools, etc.)",NO,NO,"Black, East/Southeast Asian",None,None,None,None,None,YES,Mischief Under $5000,168,Downtown Yonge East (168),NO
+213,GO-20191407470,2019,2019-07-25,1600,D51,"Educational Institution (Universities, Colleges, Schools, etc.)",NO,NO,Black,None,None,None,None,None,YES,Mischief Under $5000,168,Downtown Yonge East (168),NO
 214,GO-20191409309,2019,2019-07-26,2202,NSA,Streets/Roadways/Highway,NO,NO,None,None,None,Sikh,None,None,NO,Uttering Threats - Bodily Harm,NSA,NSA,YES
 215,GO-20191425466,2019,2019-07-28,1030,D14,"Open Area, Park or Parking Lot",NO,NO,None,None,None,Jewish,None,None,NO,Mischief Under $5000,172,Dovercourt Village (172),NO
 216,GO-20191422984,2019,2019-07-28,2230,D13,Business/Retail,NO,NO,None,None,None,Jewish,None,None,NO,Uttering Threats - Property,032,Englemount-Lawrence (32),NO
@@ -303,7 +303,7 @@ id,event_unique_id,occurrence_year,occurrence_date,occurrence_time,division,loca
 302,GO-2020662140,2020,2020-04-04,2155,D32,"Open Area, Park or Parking Lot",NO,NO,None,None,None,Jewish,None,None,NO,Mischief Under $5000,037,Willowdale West (37),NO
 303,GO-2020662384,2020,2020-04-04,2257,D14,"Apartment Building (Condo, Retirement Buidling, etc.)",NO,NO,None,None,None,Jewish,None,None,NO,Mischief Under $5000,081,Trinity-Bellwoods (81),NO
 304,GO-2020666686,2020,2020-04-05,1100,D32,"Open Area, Park or Parking Lot",NO,NO,None,None,None,Jewish,None,None,NO,Mischief Under $5000,037,Willowdale West (37),NO
-305,GO-2020688833,2020,2020-04-08,1440,D52,Streets/Roadways/Highway,NO,NO,"Black, East/Southeast Asian",None,None,None,None,None,YES,Assault With a Weapon,164,Wellington Place (164),NO
+305,GO-2020688833,2020,2020-04-08,1440,D52,Streets/Roadways/Highway,NO,NO,Black,None,None,None,None,None,YES,Assault With a Weapon,164,Wellington Place (164),NO
 306,GO-2020690486,2020,2020-04-08,815,D11,"Medical Facility (Hospitals, Long-term Care, etc.)",NO,NO,Black,None,None,None,None,None,NO,Assault,087,High Park-Swansea (87),YES
 307,GO-2020751197,2020,2020-04-19,1955,D13,Religious Place of Worship/Cultural Centre,NO,NO,None,None,None,Jewish,None,None,NO,Disturbing Religious Worship Or Certain Meetings,032,Englemount-Lawrence (32),NO
 308,GO-2020762020,2020,2020-04-21,1000,D55,Streets/Roadways/Highway,NO,NO,None,None,None,None,Gay,None,NO,Mischief Under $5000,065,Greenwood-Coxwell (65),NO
@@ -380,7 +380,7 @@ id,event_unique_id,occurrence_year,occurrence_date,occurrence_time,division,loca
 379,GO-20201565183,2020,2020-08-06,1200,D31,Streets/Roadways/Highway,NO,NO,None,None,None,Muslim,None,None,NO,Uttering Threats - Bodily Harm,027,York University Heights (27),NO
 380,GO-20201474847,2020,2020-08-07,1408,D52,Business/Retail,NO,NO,None,None,None,Jewish,None,None,NO,Mischief Under $5000,170,Yonge-Bay Corridor (170),NO
 381,GO-20201514928,2020,2020-08-11,800,D32,"Open Area, Park or Parking Lot",NO,NO,None,None,None,Jewish,None,None,NO,Mischief Over $5000,151,Yonge-Doris (151),NO
-382,GO-20201523993,2020,2020-08-11,1230,D52,Other Commercial / Corporate Places,NO,NO,"Black, South Asian",None,None,None,None,None,YES,Uttering Threats - Bodily Harm,170,Yonge-Bay Corridor (170),NO
+382,GO-20201523993,2020,2020-08-11,1230,D52,Other Commercial / Corporate Places,NO,NO,Black,None,None,None,None,None,YES,Uttering Threats - Bodily Harm,170,Yonge-Bay Corridor (170),NO
 383,GO-20201507570,2020,2020-08-12,820,D55,Streets/Roadways/Highway,NO,NO,None,None,None,Jewish,None,None,NO,Mischief Under $5000,068,North Riverdale (68),NO
 384,GO-20201522469,2020,2020-08-12,1250,D31,Public Transportation,NO,NO,South Asian,None,None,None,None,None,NO,Uttering Threats - Bodily Harm,154,Oakdale-Beverley Heights (154),NO
 385,GO-20201523463,2020,2020-08-13,2000,D55,"Apartment Building (Condo, Retirement Buidling, etc.)",NO,NO,None,Chinese,None,None,None,None,NO,Mischief Under $5000,054,O'Connor-Parkview (54),NO
@@ -534,9 +534,9 @@ id,event_unique_id,occurrence_year,occurrence_date,occurrence_time,division,loca
 533,GO-2021548532,2021,2021-03-25,1215,D14,Public Transportation,NO,NO,East/Southeast Asian,None,None,None,None,None,NO,Uttering Threats - Bodily Harm,172,Dovercourt Village (172),NO
 534,GO-2021547990,2021,2021-03-25,1045,D13,unspecified,NO,NO,None,Indian,None,None,None,None,NO,Criminal Harassment,094,Wychwood (94),NO
 535,GO-2021552518,2021,2021-03-25,2253,D52,Streets/Roadways/Highway,NO,NO,East/Southeast Asian,None,None,None,None,None,NO,Assault,170,Yonge-Bay Corridor (170),NO
-536,GO-2021563236,2021,2021-03-26,1700,D42,"Open Area, Park or Parking Lot",NO,NO,"Black, East/Southeast Asian",None,None,None,None,None,YES,Mischief Under $5000,129,Agincourt North (129),NO
+536,GO-2021563236,2021,2021-03-26,1700,D42,"Open Area, Park or Parking Lot",NO,NO,Black,None,None,None,None,None,YES,Mischief Under $5000,129,Agincourt North (129),NO
 537,GO-2021606576,2021,2021-03-26,1,D31,"Apartment Building (Condo, Retirement Buidling, etc.)",NO,NO,None,None,None,Muslim,None,None,NO,Sexual Assault,027,York University Heights (27),NO
-538,GO-2021570861,2021,2021-03-27,1911,D22,Public Transportation,NO,NO,"East/Southeast Asian, South Asian, Black",None,None,None,None,None,YES,Mischief Under $5000,159,Etobicoke City Centre (159),NO
+538,GO-2021570861,2021,2021-03-27,1911,D22,Public Transportation,NO,NO,East/Southeast Asian,None,None,None,None,None,YES,Mischief Under $5000,159,Etobicoke City Centre (159),NO
 539,GO-2021574723,2021,2021-03-29,1124,D42,Streets/Roadways/Highway,NO,NO,None,African,None,Muslim,None,None,YES,Assault,144,Morningside Heights (144),YES
 540,GO-2021582585,2021,2021-03-30,1318,D22,Streets/Roadways/Highway,NO,NO,East/Southeast Asian,None,None,None,None,None,NO,Assault,161,Humber Bay Shores (161),YES
 541,GO-2021581081,2021,2021-03-30,930,D33,"Open Area, Park or Parking Lot",NO,NO,None,None,None,Muslim,None,None,NO,Assault,040,St.Andrew-Windfields (40),NO
@@ -560,7 +560,7 @@ id,event_unique_id,occurrence_year,occurrence_date,occurrence_time,division,loca
 559,GO-2021764286,2021,2021-04-22,2000,D55,Other Commercial / Corporate Places,NO,NO,None,None,None,Jewish,None,None,NO,Mischief Under $5000,063,The Beaches (63),NO
 560,GO-2021770439,2021,2021-04-27,1016,D11,"Apartment Building (Condo, Retirement Buidling, etc.)",NO,NO,None,None,None,None,None,Woman,NO,Criminal Harassment,091,Weston-Pelham Park (91),NO
 561,GO-2021933259,2021,2021-04-28,1400,D22,"Open Area, Park or Parking Lot",NO,NO,None,None,None,Jewish,2SLGBTQ+,None,YES,Mischief Under $5000,161,Humber Bay Shores (161),NO
-562,GO-2021788273,2021,2021-04-29,1941,D31,"Apartment Building (Condo, Retirement Buidling, etc.)",NO,NO,"Black, East/Southeast Asian",None,None,None,2SLGBTQ+,None,YES,Mischief Under $5000,027,York University Heights (27),NO
+562,GO-2021788273,2021,2021-04-29,1941,D31,"Apartment Building (Condo, Retirement Buidling, etc.)",NO,NO,Black,None,None,None,2SLGBTQ+,None,YES,Mischief Under $5000,027,York University Heights (27),NO
 563,GO-2021791912,2021,2021-04-30,30,D14,"Apartment Building (Condo, Retirement Buidling, etc.)",NO,NO,None,None,None,Jewish,None,None,NO,Mischief Under $5000,165,Harbourfront-CityPlace (165),NO
 564,GO-2021963450,2021,2021-04-30,900,D32,"House (Townhouse, Retirement Home, Garage, Vehicle, Cottage)",NO,NO,None,Israeli,None,None,None,None,NO,Mischief Under $5000,039,Bedford Park-Nortown (39),NO
 565,GO-2021802780,2021,2021-05-01,2146,D51,Public Transportation,NO,NO,Black,None,None,None,None,None,NO,Mischief Interfere With Property,168,Downtown Yonge East (168),NO
@@ -586,7 +586,7 @@ id,event_unique_id,occurrence_year,occurrence_date,occurrence_time,division,loca
 585,GO-2021957429,2021,2021-05-23,1910,D51,Streets/Roadways/Highway,NO,NO,East/Southeast Asian,None,None,None,None,None,NO,Assault,167,Church-Wellesley (167),NO
 586,GO-2021962565,2021,2021-05-24,1520,D22,"Open Area, Park or Parking Lot",NO,NO,Black,None,None,None,None,None,NO,Assault,009,Edenbridge-Humber Valley (9),NO
 587,GO-2021962023,2021,2021-05-24,1240,D52,Streets/Roadways/Highway,NO,NO,East/Southeast Asian,None,None,None,None,None,NO,Assault,170,Yonge-Bay Corridor (170),NO
-588,GO-2021992486,2021,2021-05-28,1452,D32,"Educational Institution (Universities, Colleges, Schools, etc.)",NO,NO,"Black, East/Southeast Asian",None,None,None,None,None,YES,Harassing Communications,036,Newtonbrook West (36),NO
+588,GO-2021992486,2021,2021-05-28,1452,D32,"Educational Institution (Universities, Colleges, Schools, etc.)",NO,NO,Black,None,None,None,None,None,YES,Harassing Communications,036,Newtonbrook West (36),NO
 589,GO-20211013649,2021,2021-05-31,2025,D51,Streets/Roadways/Highway,NO,NO,East/Southeast Asian,None,None,None,None,None,NO,Assault,168,Downtown Yonge East (168),NO
 590,GO-20211009522,2021,2021-05-31,1135,D43,Religious Place of Worship/Cultural Centre,NO,NO,None,None,None,None,None,Woman,NO,Mischief Under $5000,136,West Hill (136),NO
 591,GO-20211023985,2021,2021-06-01,900,D53,"Open Area, Park or Parking Lot",NO,NO,None,Arab,None,None,None,None,NO,Mischief Under $5000,100,Yonge-Eglinton (100),NO
@@ -876,7 +876,7 @@ id,event_unique_id,occurrence_year,occurrence_date,occurrence_time,division,loca
 875,GO-20221480609,2022,2022-06-30,1,D43,"Government Building (Courthouse, Museums, Parliament Building, etc.)",NO,NO,Black,None,None,None,None,None,NO,Mischief Under $5000,156,Bendale-Glen Andrew (156),NO
 876,GO-20221254600,2022,2022-06-30,1520,D31,"House (Townhouse, Retirement Home, Garage, Vehicle, Cottage)",NO,NO,None,None,None,Jewish,None,None,NO,Mischief Under $5000,027,York University Heights (27),YES
 877,GO-20221271322,2022,2022-07-01,1542,D55,"House (Townhouse, Retirement Home, Garage, Vehicle, Cottage)",NO,NO,None,Indian,None,None,Gay,None,YES,Harassing Communications,066,Danforth (66),NO
-878,GO-20221249858,2022,2022-07-01,0,D13,Streets/Roadways/Highway,NO,NO,"Indigenous, East/Southeast Asian",None,None,Jewish,None,None,YES,Mischief Under $5000,031,Yorkdale-Glen Park (31),NO
+878,GO-20221249858,2022,2022-07-01,0,D13,Streets/Roadways/Highway,NO,NO,Indigenous,None,None,Jewish,None,None,YES,Mischief Under $5000,031,Yorkdale-Glen Park (31),NO
 879,GO-20221259546,2022,2022-07-02,2300,D51,Streets/Roadways/Highway,NO,NO,Black,None,None,None,None,None,NO,Mischief Under $5000,168,Downtown Yonge East (168),NO
 880,GO-20221334948,2022,2022-07-09,100,D32,"Open Area, Park or Parking Lot",NO,NO,Black,None,None,Jewish,None,None,YES,Mischief Under $5000,151,Yonge-Doris (151),NO
 881,GO-20221315604,2022,2022-07-10,1526,D51,Streets/Roadways/Highway,NO,NO,None,None,None,None,Gay,None,NO,Assault With a Weapon,073,Moss Park (73),NO
@@ -888,7 +888,7 @@ id,event_unique_id,occurrence_year,occurrence_date,occurrence_time,division,loca
 887,GO-20221379473,2022,2022-07-19,1303,D53,Other Commercial / Corporate Places,NO,NO,None,None,Spanish,None,None,None,NO,Assault With a Weapon,100,Yonge-Eglinton (100),NO
 888,GO-20221382749,2022,2022-07-19,2050,D41,unspecified,NO,NO,Black,None,None,None,None,None,NO,Assault,157,Bendale South (157),YES
 889,GO-20221398643,2022,2022-07-21,2336,D14,"Open Area, Park or Parking Lot",NO,NO,None,None,None,None,Gay,None,NO,Assault,172,Dovercourt Village (172),NO
-890,GO-20221444222,2022,2022-07-28,858,D32,Streets/Roadways/Highway,NO,NO,"Black, East/Southeast Asian",None,None,Jewish,None,None,YES,Mischief Under $5000,151,Yonge-Doris (151),NO
+890,GO-20221444222,2022,2022-07-28,858,D32,Streets/Roadways/Highway,NO,NO,Black,None,None,Jewish,None,None,YES,Mischief Under $5000,151,Yonge-Doris (151),NO
 891,GO-20221458643,2022,2022-07-30,545,D14,Streets/Roadways/Highway,NO,NO,None,Other Ethnicity not mentioned,None,None,None,None,NO,Assault,081,Trinity-Bellwoods (81),NO
 892,GO-20221459051,2022,2022-07-30,829,D33,Streets/Roadways/Highway,NO,NO,None,None,None,Jewish,None,None,NO,Mischief Under $5000,042,Banbury-Don Mills (42),NO
 893,GO-20221537550,2022,2022-08-10,1300,D31,unspecified,NO,NO,None,None,None,None,Gay,None,NO,Uttering Threats - Bodily Harm,027,York University Heights (27),YES
@@ -904,7 +904,7 @@ id,event_unique_id,occurrence_year,occurrence_date,occurrence_time,division,loca
 903,GO-20221659442,2022,2022-08-27,1526,D51,Streets/Roadways/Highway,NO,NO,South Asian,None,None,None,None,None,NO,Assault,167,Church-Wellesley (167),NO
 904,GO-20221696014,2022,2022-08-28,300,D22,Streets/Roadways/Highway,NO,NO,Black,None,None,None,None,None,NO,Assault,158,Islington (158),NO
 905,GO-20221679603,2022,2022-08-29,100,D41,"Educational Institution (Universities, Colleges, Schools, etc.)",NO,NO,None,None,None,Jewish,None,None,NO,Mischief Under $5000,156,Bendale-Glen Andrew (156),NO
-906,GO-20221694295,2022,2022-09-01,1155,D51,Streets/Roadways/Highway,NO,NO,"Black, South Asian",None,None,None,None,None,YES,Assault,167,Church-Wellesley (167),YES
+906,GO-20221694295,2022,2022-09-01,1155,D51,Streets/Roadways/Highway,NO,NO,Black,None,None,None,None,None,YES,Assault,167,Church-Wellesley (167),YES
 907,GO-20221838143,2022,2022-09-02,2301,D14,"Apartment Building (Condo, Retirement Buidling, etc.)",NO,NO,None,None,None,Jewish,None,None,NO,Mischief Under $5000,165,Harbourfront-CityPlace (165),NO
 908,GO-20221760894,2022,2022-09-07,800,D41,"Medical Facility (Hospitals, Long-term Care, etc.)",NO,NO,Black,None,None,Jewish,None,None,YES,Mischief Under $5000,126,Dorset Park (126),NO
 909,GO-20221739482,2022,2022-09-07,1625,D43,"Apartment Building (Condo, Retirement Buidling, etc.)",NO,NO,South Asian,None,None,None,None,None,NO,Assault,141,Golfdale-Cedarbrae-Woburn (141),YES
@@ -934,7 +934,7 @@ id,event_unique_id,occurrence_year,occurrence_date,occurrence_time,division,loca
 933,GO-20222048836,2022,2022-10-13,1755,D53,"Educational Institution (Universities, Colleges, Schools, etc.)",NO,NO,None,None,None,Jewish,None,None,NO,Mischief Interfere With Property,095,Annex (95),NO
 934,GO-20222026586,2022,2022-10-17,2100,D14,Streets/Roadways/Highway,NO,NO,None,None,None,Jewish,None,None,NO,Mischief Under $5000,081,Trinity-Bellwoods (81),YES
 935,GO-20222027706,2022,2022-10-18,1215,D55,"Open Area, Park or Parking Lot",NO,NO,None,None,None,Jewish,None,None,NO,Mischief Under $5000,063,The Beaches (63),NO
-936,GO-20222036569,2022,2022-10-19,2003,D51,unspecified,NO,NO,"Black, Latino",None,None,None,None,None,YES,Uttering Threats - Bodily Harm,073,Moss Park (73),NO
+936,GO-20222036569,2022,2022-10-19,2003,D51,unspecified,NO,NO,Black,None,None,None,None,None,YES,Uttering Threats - Bodily Harm,073,Moss Park (73),NO
 937,GO-20222041116,2022,2022-10-20,1225,D53,Streets/Roadways/Highway,NO,NO,None,None,None,Jewish,None,None,NO,Mischief Under $5000,095,Annex (95),NO
 938,GO-20222055323,2022,2022-10-22,1130,D22,Streets/Roadways/Highway,NO,NO,None,Chinese,None,None,None,None,NO,Mischief Under $5000,161,Humber Bay Shores (161),NO
 939,GO-20222065012,2022,2022-10-22,1900,D55,Public Transportation,NO,NO,None,Mexican,None,None,None,None,NO,Assault,062,East End-Danforth (62),NO
@@ -947,7 +947,7 @@ id,event_unique_id,occurrence_year,occurrence_date,occurrence_time,division,loca
 946,GO-20222123183,2022,2022-10-31,1800,D51,"Apartment Building (Condo, Retirement Buidling, etc.)",NO,NO,South Asian,None,None,None,None,None,NO,Uttering Threats - Bodily Harm,167,Church-Wellesley (167),YES
 947,GO-20222121068,2022,2022-10-31,1649,D51,"Apartment Building (Condo, Retirement Buidling, etc.)",NO,NO,Black,None,None,None,None,None,NO,Assault,073,Moss Park (73),YES
 948,GO-20222120993,2022,2022-10-31,1640,D51,"Apartment Building (Condo, Retirement Buidling, etc.)",NO,NO,None,None,None,None,None,Transgender Woman (Identifies As Woman),NO,Criminal Harassment,072,Regent Park (72),YES
-949,GO-20222128867,2022,2022-11-01,500,D55,Public Transportation,NO,NO,"Black, East/Southeast Asian",None,None,Jewish,None,None,YES,Mischief Under $5000,070,South Riverdale (70),YES
+949,GO-20222128867,2022,2022-11-01,500,D55,Public Transportation,NO,NO,Black,None,None,Jewish,None,None,YES,Mischief Under $5000,070,South Riverdale (70),YES
 950,GO-20222185958,2022,2022-11-03,1200,D13,"Educational Institution (Universities, Colleges, Schools, etc.)",NO,NO,None,None,None,Catholic,None,None,NO,"Mischief To Religious Property, Educational Institutions, Etc.",094,Wychwood (94),NO
 951,GO-20222380550,2022,2022-11-03,2100,D22,Streets/Roadways/Highway,NO,NO,Black,None,None,Jewish,None,None,YES,Mischief Under $5000,009,Edenbridge-Humber Valley (9),NO
 952,GO-20222158759,2022,2022-11-05,1811,D14,Streets/Roadways/Highway,NO,NO,None,None,None,Jewish,None,None,NO,Mischief Under $5000,081,Trinity-Bellwoods (81),NO
@@ -998,7 +998,7 @@ id,event_unique_id,occurrence_year,occurrence_date,occurrence_time,division,loca
 997,GO-2023215949,2023,2023-01-27,1200,D53,Other Commercial / Corporate Places,NO,NO,None,Chinese,None,None,None,None,NO,Mischief Under $5000,055,Thorncliffe Park (55),NO
 998,GO-2023216443,2023,2023-01-28,1256,D32,Other Commercial / Corporate Places,NO,NO,None,None,None,Jewish,None,None,NO,Mischief Under $5000,153,Avondale (153),NO
 999,GO-2023217796,2023,2023-01-28,2000,D51,"Apartment Building (Condo, Retirement Buidling, etc.)",NO,NO,Black,None,None,None,None,None,NO,Mischief Under $5000,072,Regent Park (72),NO
-1000,GO-2023226901,2023,2023-01-29,2132,D52,Public Transportation,NO,NO,"Black, South Asian",None,None,None,None,None,YES,Assault,166,St Lawrence-East Bayfront-The Islands (166),YES
+1000,GO-2023226901,2023,2023-01-29,2132,D52,Public Transportation,NO,NO,Black,None,None,None,None,None,YES,Assault,166,St Lawrence-East Bayfront-The Islands (166),YES
 1001,GO-20231676647,2023,2023-01-30,844,D51,"Apartment Building (Condo, Retirement Buidling, etc.)",NO,NO,None,Japanese,None,Jewish,None,None,YES,Uttering Threats - Bodily Harm,166,St Lawrence-East Bayfront-The Islands (166),YES
 1002,GO-2023273959,2023,2023-02-03,1700,D14,Other Commercial / Corporate Places,NO,NO,None,None,None,Jewish,None,None,NO,Mischief Under $5000,084,Little Portugal (84),NO
 1003,GO-2023264681,2023,2023-02-03,1130,D12,"Apartment Building (Condo, Retirement Buidling, etc.)",NO,NO,None,None,None,None,Gay,None,NO,Mischief Under $5000,111,Rockcliffe-Smythe (111),NO
@@ -1084,7 +1084,7 @@ id,event_unique_id,occurrence_year,occurrence_date,occurrence_time,division,loca
 1083,GO-2023970120,2023,2023-05-01,1929,D51,"Apartment Building (Condo, Retirement Buidling, etc.)",NO,NO,Black,None,None,None,None,None,NO,Uttering Threats - Bodily Harm,073,Moss Park (73),YES
 1084,GO-2023987725,2023,2023-05-03,1945,D11,unspecified,NO,NO,None,None,None,Sikh,None,None,NO,Assault,171,Junction-Wallace Emerson (171),YES
 1085,GO-2023999928,2023,2023-05-04,1240,D11,"Educational Institution (Universities, Colleges, Schools, etc.)",NO,NO,None,None,None,Jewish,None,None,NO,Mischief Under $5000,089,Runnymede-Bloor West Village (89),NO
-1086,GO-20231038997,2023,2023-05-06,2200,D51,"Apartment Building (Condo, Retirement Buidling, etc.)",NO,NO,"White, East/Southeast Asian",None,None,None,None,None,YES,Uttering Threats - Bodily Harm,073,Moss Park (73),NO
+1086,GO-20231038997,2023,2023-05-06,2200,D51,"Apartment Building (Condo, Retirement Buidling, etc.)",NO,NO,White,None,None,None,None,None,YES,Uttering Threats - Bodily Harm,073,Moss Park (73),NO
 1087,GO-20231024916,2023,2023-05-08,949,D22,"Educational Institution (Universities, Colleges, Schools, etc.)",NO,NO,None,None,None,None,Gay,None,NO,Uttering Threats - Bodily Harm,018,New Toronto (18),NO
 1088,GO-20231043361,2023,2023-05-09,2130,D32,"Apartment Building (Condo, Retirement Buidling, etc.)",NO,NO,None,None,None,Muslim,None,None,NO,Mischief Under $5000,033,Clanton Park (33),NO
 1089,GO-20231087247,2023,2023-05-09,0,D32,Other Commercial / Corporate Places,NO,NO,East/Southeast Asian,Filipino,None,None,None,None,YES,Mischief Under $5000,031,Yorkdale-Glen Park (31),NO
@@ -1122,7 +1122,7 @@ id,event_unique_id,occurrence_year,occurrence_date,occurrence_time,division,loca
 1121,GO-20231300435,2023,2023-06-07,1254,D14,"Apartment Building (Condo, Retirement Buidling, etc.)",NO,NO,None,Chinese,None,None,None,None,NO,Assault,078,Kensington-Chinatown (78),NO
 1122,GO-20231309062,2023,2023-06-08,1159,D53,Religious Place of Worship/Cultural Centre,NO,NO,None,None,None,None,2SLGBTQ+,None,NO,Mischief Under $5000,056,Leaside-Bennington (56),NO
 1123,GO-20231605325,2023,2023-06-08,1400,D31,Other Commercial / Corporate Places,NO,NO,Black,None,None,None,None,None,NO,Assault With a Weapon,154,Oakdale-Beverley Heights (154),YES
-1124,GO-20231356007,2023,2023-06-09,1200,D51,Streets/Roadways/Highway,NO,NO,"Black, Indigenous",None,None,None,None,None,YES,Assault,073,Moss Park (73),YES
+1124,GO-20231356007,2023,2023-06-09,1200,D51,Streets/Roadways/Highway,NO,NO,Black,None,None,None,None,None,YES,Assault,073,Moss Park (73),YES
 1125,GO-20231380501,2023,2023-06-09,0,D32,Streets/Roadways/Highway,NO,NO,Black,None,None,None,None,None,NO,Mischief Under $5000,050,Newtonbrook East (50),NO
 1126,GO-20231343730,2023,2023-06-10,1930,D55,Streets/Roadways/Highway,NO,NO,None,None,None,None,Lesbian,None,NO,Uttering Threats - Bodily Harm,060,Woodbine-Lumsden (60),YES
 1127,GO-20231455052,2023,2023-06-10,1408,D11,Streets/Roadways/Highway,NO,NO,None,Indian,None,None,None,None,NO,Assault,171,Junction-Wallace Emerson (171),NO

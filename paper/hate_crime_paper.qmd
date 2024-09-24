@@ -1,6 +1,6 @@
 ---
 title: "Toronto's Uptick in Hate Crime: Time and Group Trends"
-subtitle: "My subtitle if needed"
+subtitle: "An Exploratory Analysis of Hate Crime in Toronto"
 author: 
   - Justin Klip
 thanks: "Code and data are available at: https://github.com/justinklip/hate_crime_toronto_paper."
@@ -25,10 +25,14 @@ library(lubridate)
 library(tinytex)
 library(zoo)
 library(tidyr)
+library(opendatatoronto)
 
 #Data Acquisition
 hate_crime_analysis_data <- read_csv(here::here("data/analysis_data/hate_crime_analysis_data.csv"))
 ```
+
+
+
 
 # Introduction {#sec-introduction}
 
@@ -58,11 +62,12 @@ A typical observation of the cleaned data has the all data on the
 
 
 ```{r}
+
 #| label: fig-1
-#| fig-cap: Number of reported hate crimes from month to month in Toronto
 #| echo: false
-#| fig.align center
-#| fig.width "\\textwidth"
+#| fig.align: center
+#| fig.width: 10
+#| fig.height: 7
 
 # Extract year and month from the 'occurrence_date' column
 hate_crime_analysis_data <- hate_crime_analysis_data %>%
@@ -85,7 +90,7 @@ monthly_counts_long <- monthly_counts %>%
 
 # Plot with legend for monthly total and moving average
 ggplot() +
-  geom_line(data = monthly_counts_long, aes(x = year_month, y = Value, color = Line_Type, linetype = Line_Type), size = 1) +  # Line plot for both trends
+  geom_line(data = monthly_counts_long, aes(x = year_month, y = Value, color = Line_Type, linetype = Line_Type), linewidth = 1) +  # Line plot for both trends
   geom_point(data = monthly_counts, aes(x = year_month, y = count), color = "black") +  # Points for monthly totals
   scale_color_manual(values = c("count" = "black", "moving_avg" = "blue"), 
                      labels = c("Monthly Total", "12 Month Moving Average")) +  # Define colors for the lines and set legend labels
@@ -106,10 +111,55 @@ ggplot() +
     plot.caption = element_text(hjust = 0.5)  # Center the caption
   )
 ```
-@fig-2 plots the race-biased crimes
+```{r}
+# Load required packages
+#| label: fig-2
+#| fig-cap: Types of Hate Crimes Committed, Excluding Multiple Bias Hate Crimes.
+#| echo: false
+
+# Step 1: Filter and reshape the data to long format
+long_data <- hate_crime_analysis_data %>%
+  filter(multiple_bias == "NO") %>%  # Exclude entries with multiple bias
+  select(occurrence_date, race_bias, ethnicity_bias, religion_bias, language_bias, age_bias, sexual_orientation_bias) %>%
+  pivot_longer(cols = c(race_bias, ethnicity_bias, religion_bias, language_bias, age_bias, sexual_orientation_bias), 
+               names_to = "bias_type", 
+               values_to = "bias_value") %>%
+  filter(bias_value != "None", bias_value != "NO")  # Exclude entries with "None" or NA
+
+# Step 2: Modify bias_type to just represent the category
+long_data <- long_data %>%
+  mutate(bias_type = case_when(
+    bias_type == "race_bias" ~ "Race Bias",
+    bias_type == "ethnicity_bias" ~ "Ethnicity Bias",
+    bias_type == "religion_bias" ~ "Religion Bias",
+    bias_type == "language_bias" ~ "Language Bias",
+    bias_type == "age_bias" ~ "Age Bias",
+    bias_type == "sexual_orientation_bias" ~ "Sexual Orientation Bias",
+    TRUE ~ bias_type  # Fallback case, should not be reached
+  ))
+
+# Step 3: Count hate crimes by year and bias type
+hate_crime_counts <- long_data %>%
+  mutate(year = year(occurrence_date)) %>%  # Extract year
+  group_by(year, bias_type) %>%             # Group by year and bias type
+  summarise(count = n(), .groups = "drop")  # Count entries
+
+# Step 4: Create the segmented bar chart
+ggplot(hate_crime_counts, aes(x = factor(year), y = count, fill = bias_type)) +
+  geom_bar(stat = "identity", position = "stack") +  # Use 'identity' for raw counts
+  labs(title = "Hate Crimes by Bias Type and Year (Excluding Multiple Bias)",
+       x = "Year",
+       y = "Total Number of Hate Crimes",
+       fill = "Bias Type") +
+  theme_minimal() +
+  scale_fill_brewer(palette = "Set1") +  # Optional: Set color palette
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))  # Rotate x-axis text for better readability
+```
+
+@fig-3a plots the year breakdown of race-motivated hate crimes. As seen, Black people are  clearly the most targeted group for hate crimes in Toronto. They made up the largest proportion of hate crime victims in every single year, and were almost the only victims of race targeted hate crimes in 2018. Another significant subgroup were East/Southeast Asians. They are particularly notable in 2021 onward, suggesting that COVID may have played a role in East/Southeast Asians becoming victims of hate crimes; this particularly makes sense given the rhetoric at the time.
 
 ```{r}
-#| label: fig-2a
+#| label: fig-3a
 #| fig-cap: Yearly Breakdown of Race-Motivated Hate Crimes
 #| echo: false
 
@@ -123,30 +173,33 @@ ggplot(hate_crime_analysis_data %>% filter(race_bias != "None"), aes(x = factor(
   ) +
   theme_minimal()
 ```
+
+@fig-3b plots the num
+
 ```{r}
 
-#| label: fig-2b
+#| label: fig-3b
 #| fig-cap: Yearly Breakdown of Religion-Motivated Hate Crimes
 #| echo: false
 
 ggplot(hate_crime_analysis_data %>% filter(religion_bias != "None"), aes(x = factor(year(occurrence_date)), fill = religion_bias)) +
   geom_bar(position = "stack") +  # Stack the bars to show total counts by year
   labs(
-    title = "Hate Crimes by Gender and Year",
+    title = "Hate Crimes by Religion and Year",
     x = "Year",
     y = "Total Hate Crimes",
-    fill = "Gender Bias"
+    fill = "Religion Bias"
   ) +
   theme_minimal()
 ```
-```
+
 
 ```{r}
-#| label: fig-2c
+#| label: fig-3c
 #| fig-cap: Yearly Breakdown of Ethnicity-Motivated Hate Crimes
 #| echo: false
 
-ggplot(hate_crime_analysis_data %>% filter(race_bias != "None"), aes(x = factor(year(occurrence_date)), fill = ethnicity_bias)) +
+ggplot(hate_crime_analysis_data %>% filter(ethnicity_bias != "None"), aes(x = factor(year(occurrence_date)), fill = ethnicity_bias)) +
   geom_bar(position = "stack") +  # Stack the bars to show total counts by year
   labs(
     title = "Hate Crimes by Ethnicity and Year",
@@ -155,10 +208,6 @@ ggplot(hate_crime_analysis_data %>% filter(race_bias != "None"), aes(x = factor(
     fill = "Ethnicity Bias"
   ) +
   theme_minimal()
-```
-
-```{r}
-
 ```
 
 ```{r}
