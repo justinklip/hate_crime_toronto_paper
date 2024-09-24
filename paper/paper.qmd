@@ -18,6 +18,7 @@ bibliography: references.bib
 #| message: false
 
 library(tidyverse)
+library(janitor)
 library(dplyr)
 library(ggplot2)
 library(lubridate)
@@ -36,11 +37,13 @@ The rest of the paper is as follows: I first describe the data set, how it is us
 
 # Data {#sec-data}
 
-To run my analysis, data was collected from Open Data Toronto's Open Data Portal, through the R library @opendatatoronto. The data source used is their Hate Crimes Open Data data set. This data of about 1400 observations has every crime that has been classified as a 'hate crime' by Toronto Police.
-
 ## Measurement
 
-The data is compounded
+To run my analysis, data was collected from Open Data Toronto's Open Data Portal, through the R library @opendatatoronto. The data source used is their Hate Crimes Open Data data set. This data of about 1400 observations has every crime that has been classified as a 'hate crime' by Toronto Police from the beginning of 2018 to the end of 2023. The data is generated as follows: a crime is committed in Toronto, and generally within a month that crime is reported by the victim. If a hate-motivated offence is suspected, the investigation is then led by a divisional investigator of the Hate Crime Unit (HCU) or by the HCU itself (Toronto Police Service). If hate-motivated offences are found, then this case will be added next year to the data set. Details of the crime are documented – including what social group they were biased against – these bias variables include ethnicity, race, gender, age, language and sexual orientation. Date and time (of both the crime and the reporting of it), offence committed, neighborhood, and place (such as apartments, malls, parks) were also recorded. Every unique case number was also attributed to each observation in the data set.
+
+## Cleaning and Packages
+
+To clean and analyze the data, the statistical software R was used [@citeR].
 
 ```{r}
 #| label: fig-monthlyhatecrimes
