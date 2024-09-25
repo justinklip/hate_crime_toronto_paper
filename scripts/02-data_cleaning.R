@@ -47,5 +47,9 @@ cleaned_hate_crime_data <- cleaned_hate_crime_data %>%
   mutate(race_bias = sub(",.*", "", race_bias))  # Extract the first word before the comma
 print(cleaned_hate_crime_data['race_bias'], n =200)
 
+#We want to narrow down the the location of the crime to more specific places, combine some categories.
+
+
+
 #### Save data ####
 write_csv(cleaned_hate_crime_data, "data/analysis_data/hate_crime_analysis_data.csv")

@@ -27,6 +27,7 @@ library(zoo)
 library(tidyr)
 library(opendatatoronto)
 library(knitr)
+library(treemapify)
 
 #Data Acquisition
 hate_crime_analysis_data <- read_csv(here::here("data/analysis_data/hate_crime_analysis_data.csv"))
@@ -50,7 +51,7 @@ To run my analysis, data was collected from Open Data Toronto's Open Data Portal
 
 ## Data and Variable Selection:
 
-Only one other data set documenting these hate crimes come directly from miscellaneous police data, and since this data set is based off of that one and cleaner, the decision was made to use this specific data set. Variables were dropped (or not explored) in this paper for one of two reasons. The first reason is lack of observations: some bias variables included such as age bias and language bias were dropped because they did not have any cases associated with them, or just 1 or 2. This rationale also dropped the mental and physical disability category. The second reason was scope: some data such as neighbourhood data, time of incidence, and reported time and date, although interesting, was not analyzed in this paper due to constraints. Questions like whether certain neighborhoods get more crimes and it's connection with socioeconomic factors would require further information that does not seem available to be valid. For example, did the victim of the hate crime live outside the neighborhood they became a victim of hate crime? Does the perpetrator? For these reasons this paper focuses more on victim breakdown and quantity of crimes.
+Only one other data set documenting these hate crimes come directly from miscellaneous police data, and since this data set is based off of that one and cleaner, the decision was made to use this specific data set. Variables were dropped (or not explored) in this paper for one of two reasons. The first reason is lack of observations: some bias variables included such as age bias and language bias were dropped because they did not have any cases associated with them, or just 1 or 2. This rationale also dropped the mental and physical disability category. The second reason was scope: some data such as neighbourhood data, time of incidence, and reported time and date, although interesting, were not analyzed in this paper. Questions like whether certain neighborhoods get more crimes and it's connection with socioeconomic factors would require further information not readily available. For example, did the victim of the hate crime live outside the neighborhood they became a victim of hate crime? Does the perpetrator? For these reasons this paper focuses more on victim breakdown and quantity of crimes.
 
 ## Cleaning and Packages {#sec-cleaning-and-packages}
 
@@ -208,6 +209,23 @@ ggplot(final_counts, aes(x = factor(year), y = count, fill = bias_type)) +
   theme(axis.text.x = element_text(angle = 45, hjust = 1))  # Rotate x-axis text for better readability
 ```
 
+```{r}
+#| label: fig-5
+#| fig-cap: Yearly Breakdown of Hate Crimes by Location Type
+#| echo: false
+
+ggplot(hate_crime_analysis_data, aes(x = factor(year(occurrence_date)), fill = location_type)) +
+  geom_bar(position = "dodge") +  # Group the bars by location type
+  labs(
+    title = "Hate Crimes by Location Type and Year",
+    x = "Year",
+    y = "Total Hate Crimes",
+    fill = "Location Type"
+  ) +
+  theme_minimal()
+
+```
+
 @fig-3 provides the year breakdown of race-motivated hate crimes. As seen, Black people are clearly the most targeted group for hate crimes in Toronto. They made up the largest proportion of hate crime victims in every single year, and were almost the only victims of race targeted hate crimes in 2018. Another significant subgroup were East/Southeast Asians. They are particularly notable in 2021 onward, suggesting that COVID may have played a role in East/Southeast Asians becoming victims of hate crimes; this particularly makes sense given the rhetoric at the time. Although we can't argue that this is a causal effect of COVID.
 
 ```{r}
@@ -216,13 +234,14 @@ ggplot(final_counts, aes(x = factor(year), y = count, fill = bias_type)) +
 #| echo: false
 
 ggplot(hate_crime_analysis_data %>% filter(race_bias != "None"), aes(x = factor(year(occurrence_date)), fill = race_bias)) +
-  geom_bar(position = "stack") +  # Stack the bars to show total counts by year
+  geom_bar(position = "dodge") +  # Stack the bars to show total counts by year
   labs(
     title = "Hate Crimes by Race and Year",
     x = "Year",
     y = "Total Hate Crimes",
     fill = "Race Bias"
   ) +
+  scale_fill_brewer(palette = "Set1") +  # Choose a color palette from RColorBrewer
   theme_minimal()
 
 ```
@@ -234,6 +253,24 @@ ggplot(hate_crime_analysis_data %>% filter(race_bias != "None"), aes(x = factor(
 #| fig-cap: Yearly Breakdown of Religion-Motivated Hate Crimes
 #| echo: false
 
+# Load the palette from RColorBrewer
+palette_colors <- RColorBrewer::brewer.pal(n = 10, name = "Set2")
+
+# Modify only "Other Christian Religion" color while keeping the rest of the palette
+custom_colors <- c(
+  palette_colors[1],  # First color from the palette
+  palette_colors[2],  # Second color from the palette
+  palette_colors[3],  # Third color, etc.
+  palette_colors[4],
+  palette_colors[5],
+  palette_colors[6],
+  palette_colors[7],
+  palette_colors[8],
+  palette_colors[9],
+  "Other Christian Religion" = "#0072B2",  # Custom non-white color
+  palette_colors[10]
+)
+
 ggplot(hate_crime_analysis_data %>% filter(religion_bias != "None"), aes(x = factor(year(occurrence_date)), fill = religion_bias)) +
   geom_bar(position = "stack") +  # Stack the bars to show total counts by year
   labs(
@@ -243,7 +280,6 @@ ggplot(hate_crime_analysis_data %>% filter(religion_bias != "None"), aes(x = fac
     fill = "Religion Bias"
   ) +
   theme_minimal()
-
 ```
 
 # Discussion {#sec-discussion}
