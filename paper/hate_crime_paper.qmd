@@ -6,7 +6,7 @@ author:
 thanks: "Code and data are available at: https://github.com/justinklip/hate_crime_toronto_paper."
 date: today
 date-format: long
-abstract: "Using data from Open Data Toronto, this paper the tracks the evolution of hate crime in Toronto from 2018 to the end of 2023. The up tick of hate crime began during the start of COVID-19, remained at elevated levels since then, and has continued to rise in 2023 where there are now 3 times as many hate crime than in 2018. The data also shows that during the COVID period of 2020, 2021, and 2022, race and ethnicity made up much larger levels of the share of hate crimes in comparison to 2018, 2019 and 2023. Religion generally makes up the largest reason for hate crime, although in some COVID years it was tied with race. Other reasons such as sexual orientation, ethnicity, also are large victim groups. The most targetted religious group were Jewish people, whereas the most targetted race was Black people, although in 2021 East/Southeast Asian people made up a significant share of race related hate crimes as well."
+abstract: "Using data from Open Data Toronto, this paper the tracks the evolution of hate crime in Toronto from 2018 to the end of 2023. The up tick of hate crime began during the start of COVID-19, remained at elevated levels since then, and has continued to rise in 2023 which had 3 times as many hate crimes as 2018. The data also shows that during the COVID period of 2020, 2021, and 2022, race and ethnicity made up much larger levels of the share of hate crimes in comparison to 2018, 2019 and 2023. Targeting of race groups and religious groups make up the bulk of hate crime cases. Other reasons such as sexual orientation, ethnicity, also are significant victim groups. The most targetted religious group were Jewish people, whereas the most targetted race was Black people, although in 2021 East/Southeast Asian people made up a significant share of race related hate crimes as well."
 format: pdf
 number-sections: true
 bibliography: references.bib
@@ -28,6 +28,7 @@ library(tidyr)
 library(opendatatoronto)
 library(knitr)
 library(treemapify)
+library(lintr)
 
 #Data Acquisition
 hate_crime_analysis_data <- read_csv(here::here("data/analysis_data/hate_crime_analysis_data.csv"))
@@ -35,9 +36,11 @@ hate_crime_analysis_data <- read_csv(here::here("data/analysis_data/hate_crime_a
 
 # Introduction {#sec-introduction}
 
-In 1988 the Canadian Parliament passed the Canadian Multiculturalism Act, an act that served to recognize and preserve Canada's multicultural heritage @government_of_canada_about_2024. Toronto serves as a shining example of Canada's multiculturalism, with over half of the population of Toronto being foreign-born [@mcneil_how_2023]. Yet, despite Toronto's reputation as an international city with large widespread cultural heterogeneity, hate crimes have seen an uptick in recent times. Hate crimes in Toronto have increased nearly 55% in 2024 in comparison to 2023. A hate crime is defined as a "criminal act done by a person who is motivated by an extreme bias or hatred towards a particular social group" [@government_of_canada_victims_2023]. Acts like these are fundamentally at odds with the sentiment expressed by the Canadian Multiculturalism Act and raise questions about Toronto's history with hate crimes and its multicultural status. In this paper, I explore the dynamics of Toronto's Hate Crimes from 2018 to 2023, before the current uptick. In particular, I describe how the types of hate crimes, the types of victims, and the quantity of victims have changed over time.
+In 1988 the Canadian Parliament passed the Canadian Multiculturalism Act, an act that served to recognize and preserve Canada's multicultural heritage @government_of_canada_about_2024. Toronto serves as a shining example of Canada's multiculturalism, with over half of the population of Toronto being foreign-born [@mcneil_how_2023]. Yet, despite Toronto's reputation as an international city with large widespread cultural heterogeneity, hate crimes have seen an uptick in recent times. Hate crimes in Toronto have increased nearly 55% in 2024 in comparison to 2023. A hate crime is defined as a "criminal act done by a person who is motivated by an extreme bias or hatred towards a particular social group" [@government_of_canada_victims_2023]. Acts like these are fundamentally at odds with the sentiment expressed by the Canadian Multiculturalism Act and raise questions about Toronto's history with hate crimes and its multicultural status. Although hate crime on a broad level has been studied before, an exploratory study on the characteristics of a more specific sample in Toronto will either add to the strength of the literature or go against it.
 
-The rest of the paper is split into three main parts @sec-data, @sec-discussion, and @sec-limitations. The @sec-data section describes how the data is generated in the @sec-measurement section. It then moves to the @sec-cleaning-and-packages which describes the data cleaning process and libraries used. The @sec-observations section demonstrates what a typical observation in the data set looks like, and the @sec-datanalysis section displays the data via graphs to describe how it has varied over time and group.
+In this paper, I explore the dynamics of Toronto's Hate Crimes from 2018 to 2023, before the current uptick. In particular, I describe how the types of hate crimes, the types of victims, and the quantity of victims have changed over time. I find that that hate crimes have grown significantly since 2018 due to large increases in both 2020 and 2023, with more than 300 in comparison to just over 100 in 2018. Past 2020 the number of hate crimes also did not increase and instead remained high relative to their pre 2020 level, showing COVID-19 was not just a temporary shock to hate crimes. I find that the most common victims of hate crimes are Black or Jewish, and that religious groups and race groups are the most common groups to fall victim of hate crime. Lastly, I find that over time, religion based hate crimes are a large portion of the 2023 rise in hate crimes in Toronto. These findings are all provide important information to policy makers in order to know which groups in Toronto are most vulnerable.
+
+The rest of the paper is split into two main parts @sec-data describes how the data was collected and measure in @sec-measurement. It describes how it was cleaned and what packages were used in @sec-cleaning-and-packages. It displays what a typical data point looks like in @sec-observations. It provides rationale on why some variables are explored but not others in @sec-data-and-variable-selection. It lastly plots the data in numerous ways and interprets those plots in @sec-data-analysis-and-plots. The second section, @sec-discussion-and-limitations broadly generalizes our results, what they mean, and what should be done with them. It also describes what this paper cannot do and points out room in the literature for expansion on this topic.
 
 ```{r}
 
@@ -47,17 +50,13 @@ The rest of the paper is split into three main parts @sec-data, @sec-discussion,
 
 ## Measurement {#sec-measurement}
 
-To run my analysis, data was collected from Open Data Toronto's Open Data Portal, through the R library opendatatoronto [@opendatatoronto]. The data source used is their Hate Crimes Open Data data set [@open-data-set]. This data of about 1400 observations has every crime that has been classified as a 'hate crime' by Toronto Police from the beginning of 2018 to the end of 2023. The data is generated as follows: a crime is committed in Toronto, and generally within a month that crime is reported by the victim. If a hate-motivated offence is suspected, the investigation is then led by a divisional investigator of the Hate Crime Unit (HCU) or by the HCU itself (Toronto Police Service). If hate-motivated offences are found, then this case will be added next year to the data set. Details of the crime are documented – including what social group they were biased against – these bias variables include ethnicity, race, gender, age, language, religion, and sexual orientation. Date and time (of both the crime and the reporting of it), offence committed, neighborhood, and place (such as apartments, malls, parks) were also recorded. Every unique case number was also attributed to each observation in the data set. There were almost no empty observations, except for a few cases where place data was missing. @cleaning-packages discusses this missing data further.
-
-## Data and Variable Selection:
-
-Only one other data set documenting these hate crimes come directly from miscellaneous police data, and since this data set is based off of that one and cleaner, the decision was made to use this specific data set. Variables were dropped (or not explored) in this paper for one of two reasons. The first reason is lack of observations: some bias variables included such as age bias and language bias were dropped because they did not have any cases associated with them, or just 1 or 2. This rationale also dropped the mental and physical disability category. The second reason was scope: some data such as neighbourhood data, time of incidence, and reported time and date, although interesting, were not analyzed in this paper. Questions like whether certain neighborhoods get more crimes and it's connection with socioeconomic factors would require further information not readily available. For example, did the victim of the hate crime live outside the neighborhood they became a victim of hate crime? Does the perpetrator? For these reasons this paper focuses more on victim breakdown and quantity of crimes.
+To run my analysis, data was collected from Open Data Toronto's Open Data Portal, through the R library opendatatoronto [@opendatatoronto]. The data source used is their Hate Crimes Open Data data set [@noauthor_open_nodate] . This data of about 1400 observations has every crime that has been classified as a 'hate crime' by Toronto Police from the beginning of 2018 to the end of 2023. The data is generated as follows: a crime is committed in Toronto, and generally within a month that crime is reported by the victim. If a hate-motivated offence is suspected, the investigation is then led by a divisional investigator of the Hate Crime Unit (HCU) or by the HCU itself (Toronto Police Service). If hate-motivated offences are found, then this case will be added next year to the data set. Details of the crime are documented – including what social group they were biased against – these bias variables include ethnicity, race, gender, age, language, religion, and sexual orientation. Date and time (of both the crime and the reporting of it), offence committed, neighborhood, and place (such as apartments, malls, parks) were also recorded. Every unique case number was also attributed to each observation in the data set. There were almost no empty observations, except for a few cases where place data was missing. @cleaning-packages discusses this missing data further.
 
 ## Cleaning and Packages {#sec-cleaning-and-packages}
 
-To download, clean, and analyze the data, the statistical software R was used [@citeR]. Other packages such as lubridate [@lubridate], tidyverse [@tidyverse], dplyr [@dplyr], janitor [@janitor] aided in this process. In the data cleaning process, about 30 missing observations were found. These 30 observations were all under the variable of location type, demonstrating the report writer had a hard time describing the location of the incident. To deal with this, all the location was set to unspecified which can still be interpreted in the graphs.
+To download, clean, plot, and analyze the data, the statistical software R was used [@citeR]. Other packages such as tidyverse @tidyverse, janitor [@janitor], dplyr [@dplyr], ggplot2 [@ggplot2], lubridate [@lubridate], tinytex [@tinytex], zoo [@zoo], tidyr [@tidyr], knitr [@knitr], treemapify [@treemapify], and lintr [@lintr] aided in this process. In the data cleaning process, about 30 missing observations were found. These 30 observations were all under the variable of location type, demonstrating the report writer had a hard time describing the location of the incident. To deal with this, all the location was set to unspecified which can still be interpreted in the graphs. Some variables were transformed in the data to make graphs more interpretable, the [appendix](#appendix) documents how exactly other variables were changed.
 
-## Observations
+## Observations {#sec-observations}
 
 A sample observation of the cleaned data is shown in @table-1a and @table-1b This table plots the variables of interest for our analysis. It can be seen that most observations are generally not biased to more than one group. Also, due to the categorical nature of the data, this is the best 'summary statistic' that can be shown, although other displays of the data that show all observations are plotted in the @sec-data-analysis section. This shows us that every variable of interest is documented rather nicely for analysis.
 
@@ -76,9 +75,8 @@ random_sample_table_1 <- hate_crime_analysis_data %>%
 # Display the first table
 knitr::kable(random_sample_table_1, 
              caption = "Random Sample of 5 Hate Crime Observations - Part 1", 
-             col.names = c("Occurence Date", "Location Type", "Hood 158", "Race Bias", "Ethnicity Bias"))
+             col.names = c("Occurence Date", "Location Type", "Neighbourhood Number", "Race Bias", "Ethnicity Bias"))
 ```
-
 ```{r}
 #| label: table-1b
 #| echo: false
@@ -97,17 +95,23 @@ knitr::kable(random_sample_table_2,
              col.names = c("Language Bias", "Religion Bias", "Sexual Orientation Bias", "Primary Offence", "Multiple Bias"))
 
 ```
+## Data and Variable Selection: {#sec-data-and-variable-selection}
+
+Only one other data set documenting these hate crimes come directly from miscellaneous police data, and since this data set is based off of that one and is cleaner, the decision was made to use this specific data set. Certain variables were not explored due to being outside the scope of our paper: these include primary offence, and neighborhood. While the primary offence is an important variable of interest, plotting and analyzing it proves to be a challenge due to the low number of offences of each type. Also this paper tries to put an emphasis victims rather than the perpetrators of hate crime to get a better understanding of who is most vulnerable. Neighborhood analysis also proves troublesome to explore: since the data is only based on where the crime is committed, we can't infer too much. We don't know if either the victim or the perpetrator even lives in the area, so connecting it with other neighborhood variables such as income would leave out key parts of the story. For that reason, this paper only explores the group trends of the victims and general trends over time, rather than spatial analysis.
 
 ## Data Analysis and Plots {#sec-data-analysis}
 
-@fig-1 documents the evolution of hate crimes in Toronto over time. It plots the monthly quantity of hate crimes committed for all months from January 2018 to December 2023.It also plots the 12 month moving average the demonstrate the trend over time. As seen, number of hate crimes go from averaging 12 a month in a given year, to nearly 30 by the end of the data set. The catalyst for this upward trend seems to start during the early Covid-19 period in 2020, demonstrating that COVID-19 could be a possible explanatory factor this uptick. Interestingly, hate crimes still remained rather elevated post loc down, and in 2023 climbed to even higher levels in comparison to the 2020 period. May 2023 had the highest amount of hate crimes committed in Toronto since the start of this data, with 44 being committed.
+@fig-1 documents the evolution of hate crimes in Toronto over time. It plots the monthly quantity of hate crimes committed for all months from January 2018 to December 2023.It also plots the 12 month moving average the demonstrate the trend over time. The number of hate crimes go from averaging 12 a month in a given year, to nearly 30 by the end of the data set. The catalyst for this upward trend seems to start during the early Covid-19 period in 2020, demonstrating that COVID-19 could be a possible explanatory factor this uptick. Interestingly, hate crimes still remained rather elevated post lock down, and in 2023 climbed to even higher levels in comparison to the 2020 period. May 2023 had the highest amount of hate crimes committed in Toronto since the start of this data, with 44 being committed. Hate crimes also exhibit a seasonal pattern, with December having the a relatively low amount of hate crimes in every single year.
 
 ```{r}
 #| label: fig-1
 #| echo: false
 #| fig.align: center
 #| fig.width: 8
-#| fig.subcap: "Dots plot the monthly number of hate crimes, but x-axis is only every 3 months for space. Blue line plots 12 month moving average starting to show trend from 2019 January onward."
+#| warning: false # Hide one annoying error message
+#| fig-pos: 'H'
+#| fig-cap: Monthly Hate Crime Counts from 2018 to 2024, x-axis quarterly, with annual moving average.
+#| page-break-before: auto
 
 # Extract year and month from the 'occurrence_date' column
 hate_crime_analysis_data <- hate_crime_analysis_data %>%
@@ -142,13 +146,11 @@ ggplot() +
     y = "Reported Hate Crimes",
     color = "Legend",
     linetype = "Legend",
-    caption = "Figure 1: Monthly Hate Crime Counts from 2018 to 2024"
   ) +
   theme_minimal() +
   scale_x_date(date_labels = "%b %Y", date_breaks = "3 months") + 
   theme(
     axis.text.x = element_text(angle = 90, hjust = 1),
-    plot.caption = element_text(hjust = 0.5)  # Center the caption
   )
 
 ```
@@ -159,6 +161,9 @@ ggplot() +
 #| label: fig-2
 #| fig-cap: Groups targeted by hate crime.
 #| echo: false
+#| fig-pos: 'H'
+#| fig-height: 3
+#| page-break-before: auto
 
 # Step 1: Filter and reshape the data to long format for non-multiple bias
 long_data <- hate_crime_analysis_data %>%
@@ -209,29 +214,43 @@ ggplot(final_counts, aes(x = factor(year), y = count, fill = bias_type)) +
   theme(axis.text.x = element_text(angle = 45, hjust = 1))  # Rotate x-axis text for better readability
 ```
 
-```{r}
-#| label: fig-5
-#| fig-cap: Yearly Breakdown of Hate Crimes by Location Type
-#| echo: false
-
-ggplot(hate_crime_analysis_data, aes(x = factor(year(occurrence_date)), fill = location_type)) +
-  geom_bar(position = "dodge") +  # Group the bars by location type
-  labs(
-    title = "Hate Crimes by Location Type and Year",
-    x = "Year",
-    y = "Total Hate Crimes",
-    fill = "Location Type"
-  ) +
-  theme_minimal()
-
-```
-
-@fig-3 provides the year breakdown of race-motivated hate crimes. As seen, Black people are clearly the most targeted group for hate crimes in Toronto. They made up the largest proportion of hate crime victims in every single year, and were almost the only victims of race targeted hate crimes in 2018. Another significant subgroup were East/Southeast Asians. They are particularly notable in 2021 onward, suggesting that COVID may have played a role in East/Southeast Asians becoming victims of hate crimes; this particularly makes sense given the rhetoric at the time. Although we can't argue that this is a causal effect of COVID.
+@fig-3 Plots the relative proportions of all locations types for hate crimes. There is a large variety of the kinds of locations where these events take place. This could perhaps suggest that hate crimes are not spur of the moment attacks rather than premeditated ones, as the locations do not seem to happen in any one fixed location. The most common locations are streets/roads/highways, residential areas, and educational institutions. @sec-appendix plots in a segmented bar chart to show dynamics, however, the results don't vary much over time.
 
 ```{r}
 #| label: fig-3
-#| fig-cap: Yearly Breakdown of Race-Motivated Hate Crimes
+#| fig-cap: Yearly Breakdown of Hate Crimes by Location Type
 #| echo: false
+#| fig-width: 8
+#| fig-pos: 'H'
+#| page-break-before: auto
+
+# Aggregate the data by location_type
+location_type_counts <- hate_crime_analysis_data %>%
+  group_by(location_type) %>%
+  summarize(total_crimes = n())
+
+# Create the pie chart
+ggplot(location_type_counts, aes(x = "", y = total_crimes, fill = location_type)) +
+  geom_bar(stat = "identity", width = 1) +  # Create a bar chart, which will be transformed into a pie chart
+  coord_polar(theta = "y") +  # Convert the bar chart to a pie chart
+  labs(
+    title = "Breakdown of Hate Crimes by Location Type",
+    fill = "Location Type"
+  ) +
+  scale_fill_brewer(palette = "Set3") +  # Choose a color palette from RColorBrewer
+  theme_void() +  # Remove all non-essential chart elements for a clean pie chart
+  theme(plot.title = element_text(hjust = 0.5))  # Center the title
+```
+
+@fig-4 provides the year breakdown of race-motivated hate crimes. As seen, Black people are clearly the most targeted group for hate crimes in Toronto. They made up the largest proportion of hate crime victims in every single year, and were almost the only victims of race targeted hate crimes in 2018. Another significant subgroup were East/Southeast Asians. They are particularly notable in 2021 onward, suggesting that COVID may have played a role in East/Southeast Asians becoming victims of hate crimes.
+
+```{r}
+#| label: fig-4
+#| fig-cap: Yearly Breakdown of Race-Motivated Hate Crimes
+#| warning: false
+#| echo: false
+#| fig-pos: 'H'
+#| page-break-before: auto
 
 ggplot(hate_crime_analysis_data %>% filter(race_bias != "None"), aes(x = factor(year(occurrence_date)), fill = race_bias)) +
   geom_bar(position = "dodge") +  # Stack the bars to show total counts by year
@@ -246,12 +265,14 @@ ggplot(hate_crime_analysis_data %>% filter(race_bias != "None"), aes(x = factor(
 
 ```
 
-@fig-4 provides the year breakdown of religion motivated hate crimes. Consistently throughout 2018 to 2023, Jewish Torontonians have faced the largest number of religion-motivated hate crimes, taking up at least 80 percent of the crimes. The only other group that faced significant hate crimes were Muslims, who faced most of the remaining crimes. Up until 2022, the number of religion motivated hate crimes stayed largely the same, but 2023 saw an approximate 75% upswing in religion based hate crimes. This paper is not unfortunately able to point to the causal effects for these upswings, which will be discussed in @sec-limitations .
+@fig-5 provides the year breakdown of religion motivated hate crimes. Consistently throughout 2018 to 2023, Jewish Torontonians have faced the largest number of religion-motivated hate crimes, taking up at least 80 percent of the crimes. The only other group that faced significant hate crimes were Muslims, who faced most of the remaining crimes. Up until 2022, the number of religion motivated hate crimes stayed largely the same, but 2023 saw an approximate 75% upswing in religion based hate crimes. This paper is not unfortunately able to point to the causal effects for these upswings, which will be discussed in @sec-limitations .
 
 ```{r}
-#| label: fig-4
+#| label: fig-5
 #| fig-cap: Yearly Breakdown of Religion-Motivated Hate Crimes
 #| echo: false
+#| fig-pos: 'H'
+#| page-break-before: auto
 
 # Load the palette from RColorBrewer
 palette_colors <- RColorBrewer::brewer.pal(n = 10, name = "Set2")
@@ -282,23 +303,50 @@ ggplot(hate_crime_analysis_data %>% filter(religion_bias != "None"), aes(x = fac
   theme_minimal()
 ```
 
-# Discussion {#sec-discussion}
+# Discussion and Limitations {#sec-discussion-and-limitations}
 
-## First discussion point {#sec-first-point}
+The data provides information on the nature of hate crimes in Toronto. @fig-1 tells us that hate crimes have grown rapidly over time and particularly exploded in 2020 and 2023. @fig-2 tells us that the most common prejudices hate crime perpetrators have is against religion and race, and that religion based hate crime has grown over time. @fig-3 tells us that hate crimes can happen almost anywhere, and there isn't one universal place where they happen. @fig-4 and @fig-5 tell us that in the race and religion subgroups, it is Black and Jewish individuals who face the majority of the hate crimes. Overall, these trends tell us that hate crime is a growing issue in Toronto and policy needs to try and address it before if Toronto wants to maintain is multicultural and accepting status. Almost no kind of hate crime has decreased in Toronto since its explosion in 2020 (perhaps except Asian targeting hate crime), and this suggests that not enough is being done to tackle it.
 
-## Second discussion point
+While the paper does observe changes in the types of hate crimes and the quantity of hate crimes experienced over time, what it lacks is some causal analysis. I cannot determine what are the reasons for the the large upswings in Toronto in specific in 2020, 2021, and 2023, or why the 'average victim' changes over time. While due to the timing one may be able to guess that COVID played a role, nothing can be said for sure until a causal research design is conducted for Toronto in specific. These could be broken up into a few different studies – what are the determinants of the rise in East/Southeast Asian in 2021, but it's subsequent dissipation post 2021. Other areas of research could focus on why the breakdowns of hate crimes are the way they are, even if there were not huge changes over time. Why is it that Jewish and Black Torontonians take up the bulk of the hate crimes, and are there successful ways to stop the growth of attacks on these individuals?
 
-# Limitations {#sec-limitations}
+There are huge gaps in the literature to explore the mechanisms that drive hate crime variance over time and groups. Exploring the mechanisms could ultimately give us ways that hate crime could potentially be reduced by policy in the future.
 
-While the paper does observe changes in the types of hate crimes and the quantity of hate crimes experienced over time, what it lacks is some causal analysis. I cannot determine what are the reasons for the the large upswings in Toronto in specific in 2020, 2021, and 2023, or why the 'average victim' changes over time. While due to the timing one may be able to guess that COVID played a role, nothing can be said for sure until a causal research design is conducted for Toronto in specific. These could be broken up into a few different studies – what are the determinants of the rise in East/Southeast Asian in 2021, but it's subsequent dissipation post 2021.
+# Appendix {#appendix .appendix}
 
-Other areas of research could focus on why the breakdowns of hate crimes are the way they are, even if there were not huge changes over time. For example, are Jewish Torontonians the largest victims of hate crime because they are the most targeted, or because they report the most hate crimes compared to other groups? Similar questions could be asked for Black Torontonians.
+Some variables were altered in order to create more informative graphs, the appendix documents exactly how these variables were changed.
 
-\newpage
+## Race Share {.appendix}
+
+In order to reduce the number of categories, any biracial hate crime victims were identified by their primary race. A previous observation in the data would be "Black, Hispanic", the changes conducted in our data cleaning section would change it just Black. This prevented us from having upwards of 15 groups which would be hard to plot categorically.
+
+## Location Type {.appendix}
+
+Location type was changed for a similar reason: apartments and houses were combined into a singular category: residential. This would also be more informative since they serve the same purpose. Previously, there were two government building types: "Government Building", and "Government Building (Courthouse, Museum, Parliament etc, this edit combined them into a "Government Building".
+
+## Plot of Location Types In Bar Chart Form {.appendix}
+
+In @fig-6, we don't see much variation in the locations of hate crimes over time. The relative proportion stays rather constant, suggesting even the increase in hate crimes didn't change much where they happened. This further supports the idea of hate crimes being spur of the moment attacks.
 
 ```{r}
+#| label: fig-6
+#| fig-cap: Yearly Breakdown of Hate Crimes by Location Type
+#| echo: false
+#| fig-width: 10
+#| fig-pos: 'H'
 
+ggplot(hate_crime_analysis_data, aes(x = factor(year(occurrence_date)), fill = location_type)) +
+  geom_bar(position = "fill") +  # Group the bars by location type
+  labs(
+    title = "Hate Crimes by Location Type and Year",
+    x = "Year",
+    y = "Total Hate Crimes",
+    fill = "Location Type"
+  ) +
+  scale_fill_brewer(palette = "Set3") +  # Choose a color palette from RColorBrewer
+  theme_minimal()
 ```
+
+\newpage
 
 \newpage
 

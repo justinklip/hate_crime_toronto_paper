@@ -10,6 +10,7 @@
 #### Workspace setup ####
 library(tidyverse)
 library(janitor)
+library(dplyr)
 #### Clean data ####
 
 hate_crime_raw_data <- read_csv("data/raw_data/hate_crime_raw_data.csv")
@@ -40,14 +41,25 @@ df_with_na <- cleaned_hate_crime_data[rowSums(is.na(cleaned_hate_crime_data)) > 
 print(n = 37, df_with_na)
 
 #They all are specifically for location type, so we'll just rename to unspecified
-cleaned_hate_crime_data[is.na(cleaned_hate_crime_data)] <- "unspecified"
+cleaned_hate_crime_data[is.na(cleaned_hate_crime_data)] <- "Unspecified"
 
 #Also want a little less specificity due to the number of races, we will take their primary race indicated by being the first word typed.
 cleaned_hate_crime_data <- cleaned_hate_crime_data %>%
   mutate(race_bias = sub(",.*", "", race_bias))  # Extract the first word before the comma
 print(cleaned_hate_crime_data['race_bias'], n =200)
 
-#We want to narrow down the the location of the crime to more specific places, combine some categories.
+# Narrow down the location of the crime so we have more insightful analysis
+cleaned_hate_crime_data <- cleaned_hate_crime_data %>%
+  mutate(location_type = case_when(
+    grepl("Apartment Building|House", location_type) ~ "Residential",
+    grepl("Education Institution", location_type) ~ "Educational Institution",
+    grepl("Government Building", location_type) ~ "Government Building",
+    grepl("Medical Facility", location_type) ~ "Medical Facility",
+    TRUE ~ location_type  # Keep original value if no match
+  ))
+
+# View the updated dataframe
+head(cleaned_hate_crime_data)
 
 
 
