@@ -58,11 +58,11 @@ To download, clean, plot, and analyze the data, the statistical software R was u
 
 ## Observations {#sec-observations}
 
-A sample observation of the cleaned data is shown in @table-1a and @table-1b This table plots the variables of interest for our analysis. It can be seen that most observations are generally not biased to more than one group. Also, due to the categorical nature of the data, this is the best 'summary statistic' that can be shown, although other displays of the data that show all observations are plotted in the @sec-data-analysis section. This shows us that every variable of interest is documented rather nicely for analysis.
+A sample observation of the cleaned data is shown in @tbl-1a and @tbl-1b This table plots the variables of interest for our analysis. It can be seen that most observations are generally not biased to more than one group. Also, due to the categorical nature of the data, this is the best 'summary statistic' that can be shown, although other displays of the data that show all observations are plotted in the @sec-data-analysis-and-plots section. This shows us that every variable of interest is documented rather nicely for analysis.
 
 ```{r}
 #| echo: false
-#| label: table-1a
+#| label: tbl-1a
 
 # Set the seed for reproducibility
 set.seed(31459)
@@ -77,8 +77,9 @@ knitr::kable(random_sample_table_1,
              caption = "Random Sample of 5 Hate Crime Observations - Part 1", 
              col.names = c("Occurence Date", "Location Type", "Neighbourhood Number", "Race Bias", "Ethnicity Bias"))
 ```
+
 ```{r}
-#| label: table-1b
+#| label: tbl-1b
 #| echo: false
 
 #Use the same seed to ensure these are the same observations.
