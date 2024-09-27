@@ -1,4 +1,4 @@
-# Starter folder
+# Hate Crime Paper
 
 ## Overview
 
