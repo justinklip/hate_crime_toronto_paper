@@ -1,54 +1,58 @@
 #### Preamble ####
 # Purpose: Cleans the raw hate crime data downloaded from Open Data Toronto
-# Author: Justin Klip 
+# Author: Justin Klip
 # Date: 22 September 2024
-# Contact: justin.klip@mail.utoronto.ca 
+# Contact: justin.klip@mail.utoronto.ca
 # License: MIT
 # Pre-requisites: 01-download_data.R
-# Any other information needed? None
 
 #### Workspace setup ####
 library(tidyverse)
 library(janitor)
 library(dplyr)
+
 #### Clean data ####
 
+# Read raw data
 hate_crime_raw_data <- read_csv("data/raw_data/hate_crime_raw_data.csv")
 
-hate_crime_raw_data
+# Display raw data and a subset of columns
+head(hate_crime_raw_data)
 head(hate_crime_raw_data[7:12])
 
+# Drop unnecessary columns (HOOD_140, NEIGHBOURHOOD_140, REPORTED_* columns)
+unwanted_columns <- c("HOOD_140", "NEIGHBOURHOOD_140", "REPORTED_TIME",
+                      "REPORTED_YEAR", "REPORTED_DATE", "OCCURENCE_TIME")
 
-#Most of our variable names are pretty clear, except hood and neighborhood
-#For these, delete the old version which is 140 version, we already have updated 158 version
-#Also not really interested in time of event for this paper, or reported date, remove those too.
-cleaned_hate_crime_data <- hate_crime_raw_data[,!names(hate_crime_raw_data) %in% c("HOOD_140", "NEIGHBOURHOOD_140", "REPORTED_TIME", "REPORTED_YEAR", "REPORTED_DATE", "REPORTED_TIME", "OCCURENCE_TIME")]
-
-#Make the column names easier to type
+cleaned_hate_crime_data <- hate_crime_raw_data[,
+                                               !names(hate_crime_raw_data) %in%
+                                                 unwanted_columns]
+# Clean column names for easier typing
 cleaned_hate_crime_data <- clean_names(cleaned_hate_crime_data)
 
-#Examine the data
-cleaned_hate_crime_data
+# Check the cleaned data
+head(cleaned_hate_crime_data)
 
-#Confirm if there are any missing values
-is.na(cleaned_hate_crime_data)
+# Check for missing values
+missing_values <- is.na(cleaned_hate_crime_data)
+sum_missing_values <- sum(missing_values)
 
-#There appears to be one, sum to find out how many there are
-sum(is.na(cleaned_hate_crime_data))
+# Look at rows with missing values
+na_condition <- rowSums(is.na(cleaned_hate_crime_data)) > 0
+df_with_na <- cleaned_hate_crime_data[na_condition, ]
+print(df_with_na, n = 37)
 
-#Look at the rows in question
-df_with_na <- cleaned_hate_crime_data[rowSums(is.na(cleaned_hate_crime_data)) > 0, ]
-print(n = 37, df_with_na)
-
-#They all are specifically for location type, so we'll just rename to unspecified
+# Fill missing values in `location_type` column with "Unspecified"
 cleaned_hate_crime_data[is.na(cleaned_hate_crime_data)] <- "Unspecified"
 
-#Also want a little less specificity due to the number of races, we will take their primary race indicated by being the first word typed.
+# Simplify `race_bias` by taking the first word before any comma
 cleaned_hate_crime_data <- cleaned_hate_crime_data %>%
-  mutate(race_bias = sub(",.*", "", race_bias))  # Extract the first word before the comma
-print(cleaned_hate_crime_data['race_bias'], n =200)
+  mutate(race_bias = sub(",.*", "", race_bias))
 
-# Narrow down the location of the crime so we have more insightful analysis
+# Use tibble::print() to display the first 200 rows of the `race_bias` column
+print(cleaned_hate_crime_data["race_bias"])
+
+# Simplify the location type categories
 cleaned_hate_crime_data <- cleaned_hate_crime_data %>%
   mutate(location_type = case_when(
     grepl("Apartment Building|House", location_type) ~ "Residential",
@@ -61,7 +65,7 @@ cleaned_hate_crime_data <- cleaned_hate_crime_data %>%
 # View the updated dataframe
 head(cleaned_hate_crime_data)
 
-
-
 #### Save data ####
-write_csv(cleaned_hate_crime_data, "data/analysis_data/hate_crime_analysis_data.csv")
+file_path <- "data/analysis_data/hate_crime_analysis_data.csv"
+
+write_csv(cleaned_hate_crime_data, file_path)

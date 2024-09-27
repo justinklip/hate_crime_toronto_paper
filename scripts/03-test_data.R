@@ -2,7 +2,7 @@
 # Purpose: Tests the Data for to check if everything is order
 # Author: Justin Klip
 # Date: 22 September 2024 [...UPDATE THIS...]
-# Contact: justin.klip@mail.utoronto.ca 
+# Contact: justin.klip@mail.utoronto.ca
 # License: MIT
 # Pre-requisites: 02-data_cleaning.R
 # Any other information needed? None
@@ -12,7 +12,9 @@
 library(tidyverse)
 
 ### Data Acquisition ###
-hate_crime_analysis_data <- read_csv("data/analysis_data/hate_crime_analysis_data.csv")
+hate_crime_analysis_data <- read_csv(
+  "data/analysis_data/hate_crime_analysis_data.csv"
+)
 #### Test data ####
 
 # One: NA Test
